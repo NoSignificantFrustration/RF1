@@ -42,7 +42,7 @@ A munkát `Kurunczi Nándor` koordinálja.
 `A projekt csapat hetente tart megbeszélést. Megbeszélik a héten elkészült feladatokat, majd a jövő hét feladatait, valamint az esetleg felmerülő problémakat. Minden megbeszélést előre leegyeztetett időpontban bonyolítják le.`
 
 `1. megbeszélés:`
- - `Időpont: 2023.09.12.`
+ - `Időpont: 2023.09.28.`
  - `Hely: Otthon online - Erefegy discord szerver`
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
  - `Érintett témák: Ismerkedés, projektben használt technológiák kiválasztása, projektterv megírás feladatrészek szétosztása`
