@@ -106,45 +106,44 @@ Ennek a feladatnak az a célja, hogy a rendszerarchitektúrát, az adatbázist �
 Részfeladatai a következők:
 
 #### 8.2.1 Use Case diagram elkészítése
-Felelős:
+Felelős: Varga András
 Tartam: 2 nap
 Erőforrásigény: 3 személynap
 
 #### 8.2.2 Rendszerarchitektúra tervezése
-Felelős:
+Felelős: Kuruczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
 
 #### 8.2.3 Adatbázis tervek kidolgozása
-Felelős:
+Felelős: Kovács-Bodó Csenge
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
 
 #### 8.2.4 Képernyőtervek készítése
-Felelős:
+Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
 
-#### 8.2.5 Use Case diagram jóváhagyása és véglegesítése
-Felelős:
+#### 8.2.5 Use Case diagram jóváhagyása és véglegesítése, Class diagram készítése
+Felelős: Kacziba Zsolt
 Tartam: 1 nap
 Erőforrásigény: 0.5 személynap
 
-#### 8.2.6 Rendszerarchitektúra terve jóváhagyása és véglegesítése
-Felelős:
+#### 8.2.6 Rendszerarchitektúra terve jóváhagyása és véglegesítése, Sequence diagram készítése
+Felelős: Mackovic Márk 
 Tartam: 1 nap
 Erőforrásigény: 0.5 személynap
 
-#### 8.2.7 Adatbázis tervek jóváhagyása és véglegesítése
-Felelős:
-Tartam: 1nap
-Erőforrásigény: 0.5 személynap
-
-#### 8.2.8 Képernyőtervek jóváhagyása és véglegesítése
-Felelős:
+#### 8.2.7 Adatbázis tervek jóváhagyása és véglegesítése, E-K diagram készítése
+Felelős: Szilágyi Martin György
 Tartam: 1 nap
 Erőforrásigény: 0.5 személynap
 
+#### 8.2.8 Képernyőtervek jóváhagyása és véglegesítése, Package diagram készítése
+Felelős: Fekete István
+Tartam: 1 nap
+Erőforrásigény: 0.5 személynap
 
 ## 9. Részletes időbeosztás
 
