@@ -47,6 +47,12 @@ A munkát `Kurunczi Nándor` koordinálja.
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
  - `Érintett témák: Ismerkedés, projektben használt technológiák kiválasztása, projektterv megírás feladatrészek szétosztása`
 
+`2. megbeszélés:`
+ - `Időpont: 2023.10.05.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Git repo konvenciók, fejlesztési modell kiválasztása, első mérföldkő haladásának megbeszélése, második mérföldkő feladatainak megbeszélése
+
 ### 6.3. Minőségbiztosítás
 
 `A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak. Az alkalmazás elkészült részeinek követelményeknek való megfeleltségének ellenőrzése.`
