@@ -34,8 +34,7 @@ A projekt a következő munkaállomásokat fogja használni a munka során:
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során:
 
-- `Heroku platformszolgáltatás a webalkalmazás hosztolásához`
-- `Heroku által biztosított PostgreSQL adatbázisszerver`
+- `Google Firebase az alkalmazás üzemeltetésére`
 - `Node.js keretrendszer`
 - `Angular dinamikus tartalom megjelenítés a felhasználói felületen`
 - `IntelliJ IDE fejlesztőkörnyezet`
