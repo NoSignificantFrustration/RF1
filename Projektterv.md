@@ -39,7 +39,7 @@ A munkát `Kurunczi Nándor` koordinálja.
 
 ### 6.2. Csoportgyűlések
 
-`A projekt csapat hetente tart megbeszélést. Megbeszélik a héten elkészült feladatokat, majd a jövő hét feladatait, valamint az esetleg felmerülő problémakat. Minden megbeszélést előre leegyeztetett időpontban bonyolítják le.`
+`A projekt csapat hetente tart megbeszélést. Megbeszélik a héten elkészült feladatokat, majd a jövő hét feladatait, valamint az esetleg felmerülő problémákat. Minden megbeszélést előre leegyeztetett időpontban bonyolítják le.`
 
 `1. megbeszélés:`
  - `Időpont: 2023.09.28.`
@@ -49,11 +49,10 @@ A munkát `Kurunczi Nándor` koordinálja.
 
 ### 6.3. Minőségbiztosítás
 
-`A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése, estleges unit tesztek írása olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak.Az alkalmazás elkészült részeinek követelményeknek való megfeleltégének ellenőrzése.`
+`A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak. Az alkalmazás elkészült részeinek követelményeknek való megfeleltségének ellenőrzése.`
 
 - `Specifikáció és tervek ismerete, betartása`
 - `Code review`
-- `Automatizált tesztek`
 
 ### 6.4. Átadás, eredmények elfogadása
 
