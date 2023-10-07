@@ -2,9 +2,15 @@
 
 ## 1. Összefoglaló 
 
+`Az áruvásárlás élményének javítása és a felhasználók számára kényelmes megoldások biztosítása a fő célunk ebben a projektben. Webshopunk lehetővé teszi a vásárlók számára, hogy gyorsan és egyszerűen böngésszenek, vásároljanak, értékeljenek termékeket, valamint saját áruikat is feltehessék az oldalra. Egy felhasználóbarát felülettel és rugalmas funkciókkal segítünk megteremteni a zökkenőmentes online vásárlási élményt.`
+
 ## 2. A projekt bemutatása
 
+`Ez a projektterv a Szallítmányozás projektet mutatja be, amely 2021-09-21-től 2021-11-30-ig tart, azaz összesen 70 napon keresztül fog futni. A projekten nyolc fejlesztő fog dolgozni, az elvégzett feladatokat pedig négy alkalommal fogjuk prezentálni a megrendelőnek, annak érdekében, hogy biztosítsuk a projekt folyamatos előrehaladását.`
+
 ### 2.1. Rendszerspecifikáció
+
+`A webes alkalmazás képes lesz regisztrált felhasználók vásárlásinak lebonyolítására, ezeknek a tranzakcióknak a visszatekintésére később. A vásárlók értékelhetik a termékeket kommentekben és egy 5 pontos értékelő rendszerben is, mely értékelés látható lesz a termék oldalán minden későbbi vásárló számára. Felhansználók kereshetnek termékeket tag-ek alapján, a keresőt használva, vagy szimplán a kezdőoldalt böngészve. Eladó jogosultságú felhasználók tudnak hirdetéseket létrehozni saját termékeiknek, megadhatják mennyi termék van készleten, és elláthatják termékeiket tag-ekkel. Eladók a saját hirdetéseiket bármikor szerkezthetik és törölhetik, illetve a termékére adott értékeléseket moderálhatják. A adminisztrátor jogosultsággal bármilyen a weboldalon szereplő termék hirdetést ki lehet törölni, illetve az összes kommentet lehet moderálni.`
 
 ### 2.2. Funkcionális követelmények
 
