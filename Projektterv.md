@@ -12,11 +12,14 @@
  - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
  - `A termékek csoportosítása (CRUD)`
  - `Árukészletek kezelése (CRUD)`
- - `Kezdőoldal az akciós és a legtöbbet vásárolt termekkel (CRUD)`
+ - `Kezdőoldal az akciós és a legtöbbet vásárolt termekkel`
  - `Szállítási és fizetési funkciók. (CRUD)`
- - `Email-es kiértesítés a friss vásárlásról és a kosárban maradt termékekről`
  - `A termék kiszállítsanak a lépései kimutatása a megvásárolt termék szállítmányozásánál`
- - `Biztonsági mentés automatikus létrehozása`
+ - `Előző vásárlások megtekintése` 
+ - `Termékek értékelésének kezelése (CRUD)`
+ - `Tagek alapú keresés`
+ - `Eladó termékeinek kezelése (CRUD)`
+
 
 
 ### 2.3. Nem funkcionális követelmények
