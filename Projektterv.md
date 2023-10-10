@@ -233,7 +233,7 @@ Részfeladatai a következők:
 #### 8.2.1 Use Case diagram elkészítése
 Felelős: Varga András
 Tartam: 2 nap
-Erőforrásigény: 3 személynap
+Erőforrásigény: 2 személynap
 
 #### 8.2.2 Rendszerarchitektúra tervezése
 Felelős: Kuruczi Nándor
