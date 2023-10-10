@@ -1,0 +1,13 @@
+Vállalásaim a mérföldkőben:
+
+
+Projektterv 7.1-7.2 kitöltése
+
+A feladathoz tartozó issue(k):
+
+#10
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+6a1516fa
