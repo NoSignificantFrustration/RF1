@@ -275,3 +275,46 @@ Erőforrásigény: 0.5 személynap
 ## 9. Részletes időbeosztás
 
 ## 10. Projekt költségvetés
+
+### 10.1. Részletes erőforrásigény (személynap)
+
+
+| Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
+|--------------|-------|-------|------|-------|----------|
+| Fekete István          | | | | | |
+| Kacziba Zsolt          | | | | | |
+| Kovács-Bodó Csenge     | | | | | |
+| Kurunczi Nándor        | | | | | |
+| Mackovic Mark          | | | | | |
+| Márton István          | | | | | |
+| Szilágyi Martin György | | | | | |
+| Varga András Bendegúz  | | | | | |
+
+
+### 10.2. Részletes feladatszámok
+
+| Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
+|--------------|-------|-------|------|-------|----------|
+| Fekete István          | | | | | |
+| Kacziba Zsolt          | | | | | |
+| Kovács-Bodó Csenge     | | | | | |
+| Kurunczi Nándor        | | | | | |
+| Mackovic Mark          | | | | | |
+| Márton István          | | | | | |
+| Szilágyi Martin György | | | | | |
+| Varga András Bendegúz  | | | | | |
+
+### 10.3. Részletes költségvetés
+
+| Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
+|--------------|-------|-------|------|-------|----------|
+| Fekete István          | | | | | |
+| Kacziba Zsolt          | | | | | |
+| Kovács-Bodó Csenge     | | | | | |
+| Kurunczi Nándor        | | | | | |
+| Mackovic Mark          | | | | | |
+| Márton István          | | | | | |
+| Szilágyi Martin György | | | | | |
+| Varga András Bendegúz  | | | | | |
+
+Szeged, `2023-10-11`.
