@@ -353,62 +353,70 @@ Ennek a feladatnak az a célja, hogy az előző mérföldkő hiányzó funkciói
 
 Részfeladatai a következők:
 
-#### 8.4.1 Egyéb kimaradt funkciók megvalósítása
-Felelős: Varga András
+#### 8.4.1 Meglévő funkciók összevetése a funkciók listájával
+Felelős: Kuruczi Nándor
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
+#### 8.4.1 Kimaradt funkciók megvalósítása
+Felelős: Kovács-Bodó Csenge
 Tartam: 4 nap
 Erőforrásigény: 3 személynap
 #### 8.4.2 Nem elvárásoknak megfelelően működő funkciók javítása
-Felelős: Szilágyi Martin György
-Tartam: 5 nap
+Felelős: Fekete István
+Tartam: 4 nap
 Erőforrásigény: 3 személynap
 #### 8.4.3 Regisztráció tesztelése
-Felelős: Fekete István
+Felelős: Mackovic Márk
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.4 Login tesztelése
-Felelős: Fekete István
+Felelős: Kuruczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.5 Kosárba helyezés tesztelése
-Felelős: Szilágyi Martin György
+Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.6 Megrendelés tesztelése
-Felelős: Szilágyi Martin György
+Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.7 Felhasználó adatainak szerkesztésének tesztelése
-Felelős: 
-Tartam: 
-Erőforrásigény: 
+Felelős: Kacziba Zsolt
+Tartam: 2 nap
+Erőforrásigény: 1 személynap 
 #### 8.4.8 Admin: Felhasználó szerepkörének módosításának tesztelése
 Felelős: Kovács-Bodó Csenge
-Tartam: 2 nap
+Tartam: 1 nap
 Erőforrásigény: 1 személynap
 #### 8.4.9 Admin: Felhasználó törlésének tesztelése
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.10 Komment létrehozásának tesztelése
-Felelős: Fekete István
+Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.11 Komment törlésének tesztelése
-Felelős: Márton István
+Felelős: Mackovic Márk
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.12 Termék hozzáadás tesztelése
-Felelős: Márton István
+Felelős: Fekete István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.13 Termék módosítás tesztelése
-Felelős: 
+Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.14 Termék törlés tesztelése
-Felelős: 
+Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
+#### 8.4.16 Adatbázis tesztelése
+Felelős: Szilágyi Martin György
+Tartam: 3 nap
+Erőforrásigény: 2 személynap 
 
 ## 9. Részletes időbeosztás
 
