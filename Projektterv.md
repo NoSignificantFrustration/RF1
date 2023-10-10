@@ -125,10 +125,28 @@ Az elfogadás feltételeire és beadás formájára vonatkozó részletes leír�
 Minden mérföldkő leadásnál a projekten dolgozók jelentést tesznek a mérföldkőben végzett munkájukról a megadott sablon alapján. A gyakorlatvezetővel folytatott csapatmegbeszéléseken a csapat áttekintik és felmérik az eredményeket és teendőket. Továbbá gazdálkodnak az erőforrásokkal és szükség esetén a megrendelővel egyeztetnek a projektterv módosításáról.
 
 ## 7. A munka tartalma
-
 ### 7.1. Tervezett szoftverfolyamat modell és architektúra
 
+Csapatunk az agilis szoftverfejlesztési módszertant alkalmazza a projekt során. Az agilis megközelítés lehetővé teszi számunkra, hogy gyorsan reagáljunk a változó igényekre. Folyamatosan kommunikálunk a csapattagok között, hogy biztosítsuk a projektfolyamat gördülékenységét és sikerét.
+
+A webalkalmazásunk egy modern MVC (Modell-View-Controller) architektúrát követ. Ez a felépítés hatékonyan szervezi meg a kódunkat, és segít elkülöníteni a különböző feladatokat a rendszerünkben. A "Modell" réteg felelős az üzleti logika és az adatelérés megvalósításáért. A "View" réteg a felhasználói felületet kezeli és jeleníti meg, míg a "Controller" réteg vezérli a felhasználói interakciókat és irányítja a működést.
+
 ### 7.2. Átadandók és határidők
+
+A főbb átadandók és határidők a projekt időtartama alatt a következők:
+
+
+| Szállítandó |                 Neve                                                        |    Határideje   |
+|:-----------:|:---------------------------------------------------------------------------:|:---------------:|
+|      D1     |      Projektterv, Gantt diagram, egyéni jelentés                            | **2023-10-11**  |
+|      D2     |      UML, adatbázistervek, képernyőtervek, egyéni jelentés                  | **2023-10-25**  |
+|    P1+D3    |      Prototípus I. és tesztelési dokumentáció                               | **2023-11-15**  |
+|    P2+D4    |      Prototípus II. és frissített tesztelési dokumentáció, egyéni jelentés  | **2023-12-06**  |
+
+```
+D - dokumentáció, P - prototípus
+```
+
 
 ## 8. Feladatlista
 
