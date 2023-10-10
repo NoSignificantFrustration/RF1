@@ -253,6 +253,139 @@ Felelős: Fekete István
 Tartam: 1 nap
 Erőforrásigény: 0.5 személynap
 
+#### 8.3
+8.3.1 Alap projekt fájlok létrehozása
+Varga András
+3 nap
+2 személynap
+8.3.2 Adatbázis táblák megvalósítása, ki exportálása
+Kovács-Bodó Csenge
+2 nap
+1 személynap
+8.3.3 Express szerver beüzemelése
+Kovács-Bodó Csenge
+3 nap
+2 személynap
+8.3.4 Login oldal létrehozása (CR)
+Kurunczi Nándor
+4 nap
+3 személynap
+8.3.5 Áruház oldal létrehozása (R)
+Kurunzci Nándor
+3 nap
+2 személynap
+8.3.6 Kosár oldal létrehozása (kosár cookie)
+Kacziba Zsolt
+3 nap
+2 személynap
+8.3.7 Megrendelés oldal létrehozása
+Kacziba Zsolt
+3 nap
+1 személynap
+8.3.8 Megrendelés elküldése (kosár cookie kezelése, C)
+Kurunzci Nándor
+3 nap
+2 személynap
+8.3.9 Megrendelés törlése (D)
+Kacziba Zsolt
+2 nap
+1 személynap
+8.3.10 Megrendelések megtekintése (R)
+Kacziba Zsolt
+2 nap
+1 személynap
+8.3.11 Admin oldal létrehozása
+Mackovic Márk
+3 nap
+2 személynap
+8.3.12 Admin oldal felhasználók megtekintése (R)
+Mackovic Márk
+4 nap
+2 személynap
+8.3.13 Admin oldal felhasználók kezelése (CRUD)
+Kurunzci Nándor
+3 nap
+2 személynap
+8.3.14 Termék információ oldal létrehozása (R)
+Mackovic Márk
+5 nap
+3 személynap
+8.3.15 Kommentek megvalósítása (CRUD)
+Mackovic Márk
+3 nao
+2 személynap
+8.3.16 kommentek kezelése (RD)
+Varga András
+3 nap
+2 személynap
+8.3.17 Termékek kezelése oldal létrehozása (CRUD)
+Varga András
+4 nap
+3 személynap
+8.3.18 Új termék hozzáadása (C)
+Fekete István
+4 nap
+3 személynap
+8.3.19 Termék módosítása (RU)
+Kovács-Bodó Csenge
+3 nap
+2 személynap
+8.3.20 Termék törlése (D)
+Kovács-Bodó Csenge
+2 nap
+1 személynap
+
+#### 8.4.1 Egyéb kimaradt funkciók megvalósítása
+Varga András
+4 nap
+3 személynap
+8.4.2 Nem elvárásoknak megfelelően működő funkciók javítása
+Szilágyi Martin György
+5 nap
+3 személynap
+8.4.3 Regisztráció tesztelése
+Fekete István
+2 nap
+1 személynap
+8.4.4 Login tesztelése
+Fekete István
+2 nap
+1személynap
+8.4.5 Kosárba helyezés tesztelése
+Szilágyi Martin György
+2 nap
+1 személynap
+8.4.6 Megrendelés tesztelése
+Szilágyi Martin György
+2 nap
+1 személynap
+8.4.7 Admin:  felhasználó szerepkörének módosításának tesztelése
+Kovács-Bodó Csenge
+2 nap
+1 személynap
+8.4.8 Admin:  felhasználó törlésének tesztelése
+Szilágyi Martin György
+2 nap
+1 személynap
+8.4.9 Komment létrehozásának tesztelése
+Fekete István
+2 nap
+1 személynap
+8.4.10 Komment törlésének tesztelése
+Márton István
+2 nap
+1 személynap
+8.4.11 Termék hozzáadás tesztelése
+Márton István
+2 nap
+1 személynap
+8.4.12 Termék módosítás tesztelése
+2 nap
+1 személynap
+8.4.12 Termék törlés tesztelése
+2 nap
+1 személynap
+
 ## 9. Részletes időbeosztás
 
 ## 10. Projekt költségvetés
