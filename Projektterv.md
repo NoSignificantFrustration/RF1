@@ -255,22 +255,22 @@ Erőforrásigény: 2 személynap
 #### 8.2.5 Use Case diagram jóváhagyása és véglegesítése, Class diagram készítése
 Felelős: Kacziba Zsolt
 Tartam: 1 nap
-Erőforrásigény: 0.5 személynap
+Erőforrásigény: 1 személynap
 
 #### 8.2.6 Rendszerarchitektúra terve jóváhagyása és véglegesítése, Sequence diagram készítése
 Felelős: Mackovic Márk 
 Tartam: 1 nap
-Erőforrásigény: 0.5 személynap
+Erőforrásigény: 1 személynap
 
 #### 8.2.7 Adatbázis tervek jóváhagyása és véglegesítése, E-K diagram készítése
 Felelős: Szilágyi Martin György
 Tartam: 1 nap
-Erőforrásigény: 0.5 személynap
+Erőforrásigény: 1 személynap
 
 #### 8.2.8 Képernyőtervek jóváhagyása és véglegesítése, Package diagram készítése
 Felelős: Fekete István
 Tartam: 1 nap
-Erőforrásigény: 0.5 személynap
+Erőforrásigény: 1 személynap
 
 ## 9. Részletes időbeosztás
 
