@@ -2,25 +2,97 @@
 
 ## 1. Összefoglaló 
 
+`Az áruvásárlás élményének javítása és a felhasználók számára kényelmes megoldások biztosítása a fő célunk ebben a projektben. Webshopunk lehetővé teszi a vásárlók számára, hogy gyorsan és egyszerűen böngésszenek, vásároljanak, értékeljenek termékeket, valamint saját áruikat is feltehessék az oldalra. Egy felhasználóbarát felülettel és rugalmas funkciókkal segítünk megteremteni a zökkenőmentes online vásárlási élményt.`
+
 ## 2. A projekt bemutatása
+
+`Ez a projektterv a Szallítmányozás projektet mutatja be, amely 2021-09-21-től 2021-11-30-ig tart, azaz összesen 70 napon keresztül fog futni. A projekten nyolc fejlesztő fog dolgozni, az elvégzett feladatokat pedig négy alkalommal fogjuk prezentálni a megrendelőnek, annak érdekében, hogy biztosítsuk a projekt folyamatos előrehaladását.`
 
 ### 2.1. Rendszerspecifikáció
 
+`A webes alkalmazás képes lesz regisztrált felhasználók vásárlásinak lebonyolítására, ezeknek a tranzakcióknak a visszatekintésére később. A vásárlók értékelhetik a termékeket kommentekben és egy 5 pontos értékelő rendszerben is, mely értékelés látható lesz a termék oldalán minden későbbi vásárló számára. Felhansználók kereshetnek termékeket tag-ek alapján, a keresőt használva, vagy szimplán a kezdőoldalt böngészve. Eladó jogosultságú felhasználók tudnak hirdetéseket létrehozni saját termékeiknek, megadhatják mennyi termék van készleten, és elláthatják termékeiket tag-ekkel. Eladók a saját hirdetéseiket bármikor szerkezthetik és törölhetik, illetve a termékére adott értékeléseket moderálhatják. A adminisztrátor jogosultsággal bármilyen a weboldalon szereplő termék hirdetést ki lehet törölni, illetve az összes kommentet lehet moderálni, és az árukészleteket is lehet kezelni.`
+
 ### 2.2. Funkcionális követelmények
+
+ - `Felhasználók kezelése (admin, vevő, kosár, személyes adatok) (CRUD)`
+ - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
+ - `A termékek csoportosítása (CRUD)`
+ - `Árukészletek kezelése (CRUD)`
+ - `Szállítási és fizetési funkciók. (CRUD)`
+ - `Előző vásárlások megtekintése` 
+ - `Termékek értékelésének kezelése (CRUD)`
+ - `Tagek alapú keresés`
+ - `Eladó termékeinek kezelése (CRUD)`
+
+
 
 ### 2.3. Nem funkcionális követelmények
 
+ - `A kliens oldal böngészőfüggetlen legyen`
+ - `Reszponzív megjelenés`
+ - `Az érzékeny adatokat biztonságosan tároljuk`
+ - `A legfrissebb technológiákat használja a rendszer`
+
 ## 3. Költség- és erőforrás-szükségletek
-
+Az erőforrásigényünk összesen `57` személynap, átlagosan `19` személynap/fő.
+A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 ## 4. Szervezeti felépítés és felelősségmegosztás
+A projekt megrendelője Dr. Pflanzner Tamás. A Webshop projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található tapasztalt és pályakezdő webprogramozó is, A tapasztalt projekttag több éve dolgozik az iparban.
 
+- `Fekete István: nem rendelkezik ipari tapasztalattal`
+- `Kacziba Zsolt: nem rendelkezik ipari tapasztalattal`
+- `Kovács-Bodó Csenge: 2 és fél hónap full stack szoftverfelesztés( spring boot, node.js, angular, tesztelés, postgres adatbáziskezelés)`
+- `Kurunczi Nándor: nem rendelkezik ipari tapasztalattal`
+- `Mackovic Mark: nem rendelkezik ipari tapasztalattal`
+- `Márton István: nem rendelkezik ipari tapasztalattal`
+- `Szilágyi Martin György: nem rendelkezik ipari tapasztalattal`
+- `Varga András Bendegúz: nem rendelkezik ipari tapasztalattal`
 ### 4.1 Projektcsapat
-
+A projekt a következő emberekből áll:
+| Név                    | Pozíció          | E-mail cím (stud-os)     |
+|------------------------|------------------|--------------------------|
+| Fekete István          | Projekt tag      | h157500@stud.u-szeged.hu |
+| Kacziba Zsolt          | Projekt tag      | h159351@stud.u-szeged.hu |
+| Kovács-Bodó Csenge     | Projekt tag      | h160431@stud.u-szeged.hu |
+| Kurunczi Nándor        | Projektmenedzser | h160624@stud.u-szeged.hu |
+| Mackovic Mark          | Projekt tag      | h161221@stud.u-szeged.hu |
+| Márton István          | Projekt tag      | h161882@stud.u-szeged.hu |
+| Szilágyi Martin György | Projekt tag      | h269583@stud.u-szeged.hu |
+| Varga András Bendegúz  | Projekt tag      | h270432@stud.u-szeged.hu |
 ## 5. A munka feltételei
 
 ### 5.1. Munkakörnyezet
 
+A projekt a következő munkaállomásokat fogja használni a munka során:
+
+- `Munkaállomások: 8 db, Windows 10-es operációs rendszerrel`
+- `ASUS TUF Gaming F17 2021(CPU: i5 11400H, RAM: 8 GB, GPU: Nvidia GeForce RTX 3050Ti)`
+- `Laptop(CPU: i7 8700, RAM: 32 GB, GPU: Nvidia GTX 1080)`
+- `Asztali számítógép(CPU: Ryzen 3 2200G, RAM:16GB, GPU: GTX1050Ti)`
+- `Asztali számítógép(CPU: i7-3770, RAM:16GB, GPU: GTX1050Ti)`
+- `Laptop(CPU: i7-9750H, RAM: 16GB, GPU: GTX 1650)`
+- `Laptop(CPU: i5-8250U, RAM: 12GB, GPU: GTX1050)`
+- `Asztali számítógép (CPU: Ryzen 3 1200, RAM:32GB, GPU: GTX1050Ti)`
+- `Asztali számítógép (CPU: Intel  i7-7700 ,Ram: 16, GPU: GTX1060Ti)`
+
+A projekt a következő technológiákat/szoftvereket fogja használni a munka során:
+
+- `Google Firebase az alkalmazás üzemeltetésére`
+- `Node.js keretrendszer`
+- `Angular dinamikus tartalom megjelenítés a felhasználói felületen`
+- `IntelliJ IDE fejlesztőkörnyezet`
+- `Git verziókövető (GitLab)`
+
 ### 5.2. Rizikómenedzsment
+
+| Kockázat                                    | Leírás                                                                                                                                                                                                                 | Valószínűség | Hatás  | 
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
+| `Betegség`                                  | `Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása.`                                   | `nagy`       | `erős` | 
+| `Kommunikációs fennakadás a csapattagokkal` | `A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések.`                            | `kis`        | `erős` |
+| `Fejlesztői program hiba`                   | `A használt szoftvereket valamilyen hiba miatt nem tudja a hallgató haszmálni. Megoldás: szoftver újratelepítése, más hallgatótól segítség kérése.`                                                                    | `közepes`    | `erős` |
+| `Nehéz feladat`                             | `A hallgató elakad a feladatban, mert nem érti, vagy nem tudja a megoldást. Megoldás: segítségkérés a csapattársaktól.`                                                                                                | `nagy`       | `erős` |
+| `Nem megfelelő időmenedzsment`              | `A projekt időbeosztása nem megfelelően lett definiálva, ezért túrterheltség, határidők betartásásnak a hiánya lép fel. Megoldás: az időbeosztás rugalmasan kell megtervezni, érdemes rövidtávú célokat meghatározni.` | `közepes`    | `erős` |
+
 
 ## 6. Jelentések
 
@@ -76,10 +148,28 @@ Az elfogadás feltételeire és beadás formájára vonatkozó részletes leír�
 Minden mérföldkő leadásnál a projekten dolgozók jelentést tesznek a mérföldkőben végzett munkájukról a megadott sablon alapján. A gyakorlatvezetővel folytatott csapatmegbeszéléseken a csapat áttekintik és felmérik az eredményeket és teendőket. Továbbá gazdálkodnak az erőforrásokkal és szükség esetén a megrendelővel egyeztetnek a projektterv módosításáról.
 
 ## 7. A munka tartalma
-
 ### 7.1. Tervezett szoftverfolyamat modell és architektúra
 
+Csapatunk az agilis szoftverfejlesztési módszertant alkalmazza a projekt során. Az agilis megközelítés lehetővé teszi számunkra, hogy gyorsan reagáljunk a változó igényekre. Folyamatosan kommunikálunk a csapattagok között, hogy biztosítsuk a projektfolyamat gördülékenységét és sikerét.
+
+A webalkalmazásunk egy modern MVC (Modell-View-Controller) architektúrát követ. Ez a felépítés hatékonyan szervezi meg a kódunkat, és segít elkülöníteni a különböző feladatokat a rendszerünkben. A "Modell" réteg felelős az üzleti logika és az adatelérés megvalósításáért. A "View" réteg a felhasználói felületet kezeli és jeleníti meg, míg a "Controller" réteg vezérli a felhasználói interakciókat és irányítja a működést.
+
 ### 7.2. Átadandók és határidők
+
+A főbb átadandók és határidők a projekt időtartama alatt a következők:
+
+
+| Szállítandó |                 Neve                                                        |    Határideje   |
+|:-----------:|:---------------------------------------------------------------------------:|:---------------:|
+|      D1     |      Projektterv, Gantt diagram, egyéni jelentés                            | **2023-10-11**  |
+|      D2     |      UML, adatbázistervek, képernyőtervek, egyéni jelentés                  | **2023-10-25**  |
+|    P1+D3    |      Prototípus I. és tesztelési dokumentáció                               | **2023-11-15**  |
+|    P2+D4    |      Prototípus II. és frissített tesztelési dokumentáció, egyéni jelentés  | **2023-12-06**  |
+
+```
+D - dokumentáció, P - prototípus
+```
+
 
 ## 8. Feladatlista
 
