@@ -281,14 +281,14 @@ Erőforrásigény: 0.5 személynap
 
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
-| Fekete István          | | | | | |
-| Kacziba Zsolt          | | | | | |
-| Kovács-Bodó Csenge     | | | | | |
-| Kurunczi Nándor        | | | | | |
-| Mackovic Mark          | | | | | |
-| Márton István          | | | | | |
-| Szilágyi Martin György | | | | | |
-| Varga András Bendegúz  | | | | | |
+| Fekete István          | 1 | 1 | 6 | | |
+| Kacziba Zsolt          | 1 | 1 | 5 | | |
+| Kovács-Bodó Csenge     | 2 | 2 | 5 | | |
+| Kurunczi Nándor        | 1 | 2 | 5 | | |
+| Mackovic Mark          | 1 | 1 | 5 | | |
+| Márton István          | 2 | 2 | 6 | | |
+| Szilágyi Martin György | 1 | 1 | 5 | | |
+| Varga András Bendegúz  | 3 | 2 | 5 | | |
 
 
 ### 10.2. Részletes feladatszámok
