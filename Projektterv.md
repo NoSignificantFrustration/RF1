@@ -259,24 +259,32 @@ Ennek a feladatnak az a célja, hogy egy működő prototípust hozzunk létre, 
 Részfeladatai a következők:
 
 #### 8.3.1 Alap projekt fájlok létrehozása
-Felelős: Varga András
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
+Felelős: Kurunzci Nándor
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
 #### 8.3.2 Adatbázis táblák megvalósítása, ki exportálása
 Felelős: Kovács-Bodó Csenge
-Tartam: 2 nap
+Tartam: 1 nap
 Erőforrásigény: 1 személynap
 #### 8.3.3 Express szerver beüzemelése
-Felelős: Kovács-Bodó Csenge
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
+Felelős: Varga András
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
 #### 8.3.4 Login oldal létrehozása (CR)
 Felelős: Kurunczi Nándor
-Tartam: 4 nap
-Erőforrásigény: 3 személynap
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.3.4 Login oldal létrehozása 
+Felelős: Márton István
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
 #### 8.3.5 Áruház oldal létrehozása (R)
-Felelős: Kurunzci Nándor
-Tartam: 3 nap
+Felelős: Kovács-Bodó Csenge
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.5 Áruház oldal létrehozása 
+Felelős: Márton István
+Tartam: 2 nap
 Erőforrásigény: 2 személynap
 #### 8.3.6 Kosár oldal létrehozása (kosár cookie)
 Felelős: Kacziba Zsolt
@@ -284,18 +292,14 @@ Tartam: 3 nap
 Erőforrásigény: 2 személynap
 #### 8.3.7 Megrendelés oldal létrehozása
 Felelős: Kacziba Zsolt
-Tartam: 3 nap
-Erőforrásigény: 1 személynap
-#### 8.3.8 Megrendelés elküldése (kosár cookie kezelése, C)
-Felelős: Kurunzci Nándor
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
-#### 8.3.9 Megrendelés törlése (D)
-Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
+#### 8.3.8 Megrendelés elküldése (kosár cookie kezelése, C)
+Felelős: Fekete István
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.10 Megrendelések megtekintése (R)
-Felelős: Kacziba Zsolt
+Felelős: Kurunczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.3.11 Admin oldal létrehozása
@@ -304,40 +308,44 @@ Tartam: 3 nap
 Erőforrásigény: 2 személynap
 #### 8.3.12 Admin oldal felhasználók megtekintése (R)
 Felelős: Mackovic Márk
-Tartam: 4 nap
+Tartam: 2 nap
 Erőforrásigény: 2 személynap
 #### 8.3.13 Admin oldal felhasználók kezelése (CRUD)
-Felelős: Kurunzci Nándor
+Felelős: Kovács-Bodó Csenge
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
 #### 8.3.14 Termék információ oldal létrehozása (R)
-Felelős: Mackovic Márk
-Tartam: 5 nap
+Felelős: Szilágyi Martin
+Tartam: 3 nap
 Erőforrásigény: 3 személynap
+#### 8.3.15 Kommentek megvalósítása 
+Felelős: Szilágyi Martin
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
 #### 8.3.15 Kommentek megvalósítása (CRUD)
-Felelős: Mackovic Márk
+Felelős: Varga András Bendegúz
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.16 kommentek kezelése (RD)
-Felelős: Varga András
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
-#### 8.3.17 Termékek kezelése oldal létrehozása (CRUD)
-Felelős: Varga András
+#### 8.3.16 Kommentek kezelése (UD)
+Felelős: Varga András Bendegúz
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.3.17 Termékek kezelése oldal létrehozása
+Felelős: Márton István
 Tartam: 4 nap
 Erőforrásigény: 3 személynap
 #### 8.3.18 Új termék hozzáadása (C)
 Felelős: Fekete István
-Tartam: 4 nap
-Erőforrásigény: 3 személynap
-#### 8.3.19 Termék módosítása (RU)
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+#### 8.3.19 Termék módosítása (U)
 Felelős: Kovács-Bodó Csenge
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
 #### 8.3.20 Termék törlése (D)
-Felelős: Kovács-Bodó Csenge
-Tartam: 2 nap
-Erőforrásigény: 1 személynap
+Felelős: Fekete István
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 
 ### 8.4 Prototípus II. (4. mérföldkő)
 
