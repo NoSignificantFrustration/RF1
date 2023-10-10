@@ -276,8 +276,8 @@ Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.3.5 Login oldal létrehozása 
 Felelős: Márton István
-Tartam: 1 nap
-Erőforrásigény: 1 személynap
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
 #### 8.3.6 Áruház oldal létrehozása (R)
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
@@ -301,7 +301,7 @@ Erőforrásigény: 2 személynap
 #### 8.3.11 Megrendelések megtekintése (R)
 Felelős: Kurunczi Nándor
 Tartam: 2 nap
-Erőforrásigény: 1 személynap
+Erőforrásigény: 2 személynap
 #### 8.3.12 Admin oldal létrehozása
 Felelős: Mackovic Márk
 Tartam: 3 nap
@@ -369,10 +369,6 @@ Erőforrásigény: 1 személynap
 Felelős: Fekete István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.4 Login tesztelése
-Felelős: Fekete István
-Tartam: 2 nap
-Erőforrásigény: 1 személynap
 #### 8.4.5 Kosárba helyezés tesztelése
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
@@ -381,6 +377,10 @@ Erőforrásigény: 1 személynap
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
+#### 6.4.x Felhasználó adatainak szerkesztésének tesztelése
+Felelős: 
+Tartam: 
+Erőforrásigény: 
 #### 8.4.7 Admin: Felhasználó szerepkörének módosításának tesztelése
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
