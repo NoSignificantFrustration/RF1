@@ -305,7 +305,7 @@ Erőforrásigény: 2 személynap
 #### 8.3.12 Admin oldal létrehozása
 Felelős: Mackovic Márk
 Tartam: 3 nap
-Erőforrásigény: 2 személynap
+Erőforrásigény: 3 személynap
 #### 8.3.13 Admin oldal felhasználók megtekintése (R)
 Felelős: Mackovic Márk
 Tartam: 2 nap
@@ -329,7 +329,7 @@ Erőforrásigény: 2 személynap
 #### 8.3.18 Kommentek kezelése (UD)
 Felelős: Varga András Bendegúz
 Tartam: 2 nap
-Erőforrásigény: 1 személynap
+Erőforrásigény: 2 személynap
 #### 8.3.19 Termékek kezelése oldal létrehozása
 Felelős: Márton István
 Tartam: 4 nap
