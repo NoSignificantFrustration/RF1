@@ -17,11 +17,31 @@
 ### 2.3. Nem funkcionális követelmények
 
 ## 3. Költség- és erőforrás-szükségletek
-
+Az erőforrásigényünk összesen `57` személynap, átlagosan `19` személynap/fő.
+A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 ## 4. Szervezeti felépítés és felelősségmegosztás
+A projekt megrendelője Dr. Pflanzner Tamás. A Webshop projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található tapasztalt és pályakezdő webprogramozó is, A tapasztalt projekttag több éve dolgozik az iparban.
 
+- `Fekete István: nem rendelkezik ipari tapasztalattal`
+- `Kacziba Zsolt: nem rendelkezik ipari tapasztalattal`
+- `Kovács-Bodó Csenge: 2 és fél hónap full stack szoftverfelesztés( spring boot, node.js, angular, tesztelés, postgres adatbáziskezelés)`
+- `Kurunczi Nándor: nem rendelkezik ipari tapasztalattal`
+- `Mackovic Mark: nem rendelkezik ipari tapasztalattal`
+- `Márton István: nem rendelkezik ipari tapasztalattal`
+- `Szilágyi Martin György: nem rendelkezik ipari tapasztalattal`
+- `Varga András Bendegúz: nem rendelkezik ipari tapasztalattal`
 ### 4.1 Projektcsapat
-
+A projekt a következő emberekből áll:
+| Név                    | Pozíció          | E-mail cím (stud-os)     |
+|------------------------|------------------|--------------------------|
+| Fekete István          | Projekt tag      | h157500@stud.u-szeged.hu |
+| Kacziba Zsolt          | Projekt tag      | h159351@stud.u-szeged.hu |
+| Kovács-Bodó Csenge     | Projekt tag      | h160431@stud.u-szeged.hu |
+| Kurunczi Nándor        | Projektmenedzser | h160624@stud.u-szeged.hu |
+| Mackovic Mark          | Projekt tag      | h161221@stud.u-szeged.hu |
+| Márton István          | Projekt tag      | h161882@stud.u-szeged.hu |
+| Szilágyi Martin György | Projekt tag      | h269583@stud.u-szeged.hu |
+| Varga András Bendegúz  | Projekt tag      | h270432@stud.u-szeged.hu |
 ## 5. A munka feltételei
 
 ### 5.1. Munkakörnyezet
