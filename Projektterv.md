@@ -281,28 +281,28 @@ Erőforrásigény: 0.5 személynap
 
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
-| Fekete István          | 1 | 1 | 6 | | |
-| Kacziba Zsolt          | 1 | 1 | 5 | | |
-| Kovács-Bodó Csenge     | 2 | 2 | 5 | | |
-| Kurunczi Nándor        | 1 | 2 | 5 | | |
-| Mackovic Mark          | 1 | 1 | 5 | | |
-| Márton István          | 2 | 2 | 6 | | |
-| Szilágyi Martin György | 1 | 1 | 5 | | |
-| Varga András Bendegúz  | 3 | 2 | 5 | | |
+| Fekete István          | 1 | 1 | 6 | 4 | 12 |
+| Kacziba Zsolt          | 1 | 1 | 5 | 2 | 9 |
+| Kovács-Bodó Csenge     | 2 | 2 | 5 | 4 | 13 |
+| Kurunczi Nándor        | 1 | 2 | 5 | 2 | 10 |
+| Mackovic Mark          | 1 | 1 | 5 | 2 | 9 |
+| Márton István          | 2 | 2 | 6 | 2 | 12 |
+| Szilágyi Martin György | 1 | 1 | 5 | 3 | 10 |
+| Varga András Bendegúz  | 3 | 2 | 5 | 2 | 12 |
 
 
 ### 10.2. Részletes feladatszámok
 
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
-| Fekete István          | 1 | 1 | 3 | | |
-| Kacziba Zsolt          | 1 | 1 | 3 | | |
-| Kovács-Bodó Csenge     | 2 | 1 | 3 | | |
-| Kurunczi Nándor        | 1 | 1 | 3 | | |
-| Mackovic Mark          | 1 | 1 | 2 | | |
-| Márton István          | 2 | 1 | 3 | | |
-| Szilágyi Martin György | 1 | 1 | 2 | | |
-| Varga András Bendegúz  | 2 | 1 | 3 | | |
+| Fekete István          | 1 | 1 | 3 | 2 | 7 |
+| Kacziba Zsolt          | 1 | 1 | 3 | 2 | 7 |
+| Kovács-Bodó Csenge     | 2 | 1 | 3 | 2 | 8 |
+| Kurunczi Nándor        | 1 | 1 | 3 | 2 | 7 |
+| Mackovic Mark          | 1 | 1 | 2 | 2 | 6 |
+| Márton István          | 2 | 1 | 3 | 2 | 8 |
+| Szilágyi Martin György | 1 | 1 | 2 | 2 | 6 |
+| Varga András Bendegúz  | 2 | 1 | 3 | 2 | 8 |
 
 ### 10.3. Részletes költségvetés
 
