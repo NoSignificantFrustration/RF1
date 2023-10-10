@@ -14,7 +14,26 @@
 
 ### 2.2. Funkcionális követelmények
 
+ - `Felhasználók kezelése (admin, vevő, kosár, személyes adatok) (CRUD)`
+ - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
+ - `A termékek csoportosítása (CRUD)`
+ - `Árukészletek kezelése (CRUD)`
+ - `Kezdőoldal az akciós és a legtöbbet vásárolt termekkel`
+ - `Szállítási és fizetési funkciók. (CRUD)`
+ - `A termék kiszállítsanak a lépései kimutatása a megvásárolt termék szállítmányozásánál`
+ - `Előző vásárlások megtekintése` 
+ - `Termékek értékelésének kezelése (CRUD)`
+ - `Tagek alapú keresés`
+ - `Eladó termékeinek kezelése (CRUD)`
+
+
+
 ### 2.3. Nem funkcionális követelmények
+
+ - `A kliens oldal böngészőfüggetlen legyen`
+ - `Reszponzív megjelenés`
+ - `Az érzékeny adatokat biztonságosan tároljuk`
+ - `A legfrissebb technológiákat használja a rendszer`
 
 ## 3. Költség- és erőforrás-szükségletek
 Az erőforrásigényünk összesen `57` személynap, átlagosan `19` személynap/fő.
