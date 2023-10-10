@@ -222,7 +222,7 @@ Tartam:  2 nap
 Erőforrásigény:  2 személynap
 
 #### 8.1.11. Projektterv 10. pontjának kitöltése
-Felelős: Fekete István
+Felelős: Márton István
 Tartam:  1 nap
 Erőforrásigény:  1 személynap
 
