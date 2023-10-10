@@ -1,7 +1,7 @@
 Vállalásaim a mérföldkőben:
 
 
-Projektterv 8.1-8.2 kitöltése
+Projektterv 8.1-8.2 kitöltése, 10-1-2 kitöltése, mergek átnézése
 
 A feladathoz tartozó issue(k):
 
@@ -10,8 +10,15 @@ A feladathoz tartozó issue(k):
 
 A feladat elvégzését alátámasztó commit(ok):
 
-
-ca47d04e
-
 931447d0
-
+ca47d04e
+d6e51af2
+f57b19bb
+be402727
+15ad4db4
+5aa2b406
+79479b65
+118ecd56
+66743ae4
+74be778a
+c7d36ca7
