@@ -253,7 +253,10 @@ Felelős: Fekete István
 Tartam: 1 nap
 Erőforrásigény: 0.5 személynap
 
-### 8.3
+### 8.3 Prototípus I. (3. mérföldkő)
+
+Ennek a feladatnak az a célja, hogy egy működő prototípust hozzunk létre, ahol a vállalt funkcionális követelmények nagy része már prezentálható állapotban van.
+Részfeladatai a következők:
 
 #### 8.3.1 Alap projekt fájlok létrehozása
 Felelős: Varga András
@@ -335,6 +338,12 @@ Felelős: Kovács-Bodó Csenge
 Felelős: Kovács-Bodó Csenge
 2 nap
 1 személynap
+
+### 8.4 Prototípus II. (4. mérföldkő)
+
+Ennek a feladatnak az a célja, hogy az előző mérföldkő hiányzó funkcióit pótoljuk, illetve a hibásan működő funkciókat és az esetlegesen felmerülő új funkciókat megvalósítsuk. Továbbá az alkalmazás alapos tesztelése is a mérföldkőben történik az előző mérföldkőben összeállított tesztesetek alapján.
+
+Részfeladatai a következők:
 
 #### 8.4.1 Egyéb kimaradt funkciók megvalósítása
 Felelős: Varga András
