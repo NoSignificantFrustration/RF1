@@ -270,6 +270,171 @@ Felelős: Fekete István
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
 
+### 8.3 Prototípus I. (3. mérföldkő)
+
+Ennek a feladatnak az a célja, hogy egy működő prototípust hozzunk létre, ahol a vállalt funkcionális követelmények nagy része már prezentálható állapotban van.
+Részfeladatai a következők:
+
+#### 8.3.1 Alap projekt fájlok létrehozása
+Felelős: Kurunzci Nándor
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
+#### 8.3.2 Adatbázis táblák megvalósítása, ki exportálása
+Felelős: Kovács-Bodó Csenge
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
+#### 8.3.3 Express szerver beüzemelése
+Felelős: Varga András
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.3.4 Login oldal létrehozása (CR)
+Felelős: Kurunczi Nándor
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.3.5 Login oldal létrehozása 
+Felelős: Márton István
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.6 Áruház oldal létrehozása (R)
+Felelős: Kovács-Bodó Csenge
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.7 Áruház oldal létrehozása 
+Felelős: Márton István
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.8 Kosár oldal létrehozása (kosár cookie)
+Felelős: Kacziba Zsolt
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+#### 8.3.9 Megrendelés oldal létrehozása
+Felelős: Kacziba Zsolt
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.3.10 Megrendelés elküldése (kosár cookie kezelése, C)
+Felelős: Fekete István
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+#### 8.3.11 Megrendelések megtekintése (R)
+Felelős: Kurunczi Nándor
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.12 Admin oldal létrehozása
+Felelős: Mackovic Márk
+Tartam: 3 nap
+Erőforrásigény: 3 személynap
+#### 8.3.13 Admin oldal felhasználók megtekintése (R)
+Felelős: Mackovic Márk
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.14 Admin oldal felhasználók kezelése (CRUD)
+Felelős: Kovács-Bodó Csenge
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+#### 8.3.15 Termék információ oldal létrehozása (R)
+Felelős: Szilágyi Martin
+Tartam: 3 nap
+Erőforrásigény: 3 személynap
+#### 8.3.16 Kommentek megvalósítása 
+Felelős: Szilágyi Martin
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.17 Kommentek megvalósítása (CRUD)
+Felelős: Varga András Bendegúz
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+#### 8.3.18 Kommentek kezelése (UD)
+Felelős: Varga András Bendegúz
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.19 Termékek kezelése oldal létrehozása
+Felelős: Márton István
+Tartam: 4 nap
+Erőforrásigény: 3 személynap
+#### 8.3.20 Új termék hozzáadása (C)
+Felelős: Fekete István
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+#### 8.3.21 Termék módosítása (U)
+Felelős: Kacziba Zsolt
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+#### 8.3.22 Termék törlése (D)
+Felelős: Fekete István
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
+
+### 8.4 Prototípus II. (4. mérföldkő)
+
+Ennek a feladatnak az a célja, hogy az előző mérföldkő hiányzó funkcióit pótoljuk, illetve a hibásan működő funkciókat és az esetlegesen felmerülő új funkciókat megvalósítsuk. Továbbá az alkalmazás alapos tesztelése is a mérföldkőben történik az előző mérföldkőben összeállított tesztesetek alapján.
+
+Részfeladatai a következők:
+
+#### 8.4.1 Meglévő funkciók összevetése a funkciók listájával
+Felelős: Kuruczi Nándor
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
+#### 8.4.2 Kimaradt funkciók megvalósítása
+Felelős: Kovács-Bodó Csenge
+Tartam: 4 nap
+Erőforrásigény: 3 személynap
+#### 8.4.3 Nem elvárásoknak megfelelően működő funkciók javítása
+Felelős: Fekete István
+Tartam: 4 nap
+Erőforrásigény: 3 személynap
+#### 8.4.4 Regisztráció tesztelése
+Felelős: Mackovic Márk
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.5 Login tesztelése
+Felelős: Kuruczi Nándor
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.6 Kosárba helyezés tesztelése
+Felelős: Márton István
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.7 Megrendelés tesztelése
+Felelős: Márton István
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.8 Felhasználó adatainak szerkesztésének tesztelése
+Felelős: Kacziba Zsolt
+Tartam: 2 nap
+Erőforrásigény: 1 személynap 
+#### 8.4.9 Admin: Felhasználó szerepkörének módosításának tesztelése
+Felelős: Kovács-Bodó Csenge
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
+#### 8.4.10 Admin: Felhasználó törlésének tesztelése
+Felelős: Szilágyi Martin György
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.11 Komment létrehozásának tesztelése
+Felelős: Kacziba Zsolt
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.12 Komment törlésének tesztelése
+Felelős: Mackovic Márk
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.13 Termék hozzáadás tesztelése
+Felelős: Fekete István
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.14 Termék módosítás tesztelése
+Felelős: Varga András Bendegúz
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.15 Termék törlés tesztelése
+Felelős: Varga András Bendegúz
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.4.16 Adatbázis tesztelése
+Felelős: Szilágyi Martin György
+Tartam: 3 nap
+Erőforrásigény: 2 személynap 
+
 ## 9. Részletes időbeosztás
 
 ## 10. Projekt költségvetés
