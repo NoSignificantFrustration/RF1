@@ -377,35 +377,35 @@ Erőforrásigény: 1 személynap
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 6.4.x Felhasználó adatainak szerkesztésének tesztelése
+#### 8.4.7 Felhasználó adatainak szerkesztésének tesztelése
 Felelős: 
 Tartam: 
 Erőforrásigény: 
-#### 8.4.7 Admin: Felhasználó szerepkörének módosításának tesztelése
+#### 8.4.8 Admin: Felhasználó szerepkörének módosításának tesztelése
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.8 Admin: Felhasználó törlésének tesztelése
+#### 8.4.9 Admin: Felhasználó törlésének tesztelése
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.9 Komment létrehozásának tesztelése
+#### 8.4.10 Komment létrehozásának tesztelése
 Felelős: Fekete István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.10 Komment törlésének tesztelése
+#### 8.4.11 Komment törlésének tesztelése
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.11 Termék hozzáadás tesztelése
+#### 8.4.12 Termék hozzáadás tesztelése
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.12 Termék módosítás tesztelése
+#### 8.4.13 Termék módosítás tesztelése
 Felelős: 
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.12 Termék törlés tesztelése
+#### 8.4.14 Termék törlés tesztelése
 Felelős: 
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
