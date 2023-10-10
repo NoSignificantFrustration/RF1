@@ -260,84 +260,84 @@ Részfeladatai a következők:
 
 #### 8.3.1 Alap projekt fájlok létrehozása
 Felelős: Varga András
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.2 Adatbázis táblák megvalósítása, ki exportálása
 Felelős: Kovács-Bodó Csenge
-2 nap
-1 személynap
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
 #### 8.3.3 Express szerver beüzemelése
 Felelős: Kovács-Bodó Csenge
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.4 Login oldal létrehozása (CR)
 Felelős: Kurunczi Nándor
-4 nap
-3 személynap
+Tartam: 4 nap
+Erőforrásigény: 3 személynap
 #### 8.3.5 Áruház oldal létrehozása (R)
 Felelős: Kurunzci Nándor
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.6 Kosár oldal létrehozása (kosár cookie)
 Felelős: Kacziba Zsolt
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.7 Megrendelés oldal létrehozása
 Felelős: Kacziba Zsolt
-3 nap
-1 személynap
+Tartam: 3 nap
+Erőforrásigény: 1 személynap
 #### 8.3.8 Megrendelés elküldése (kosár cookie kezelése, C)
 Felelős: Kurunzci Nándor
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.9 Megrendelés törlése (D)
 Felelős: Kacziba Zsolt
-2 nap
-1 személynap
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
 #### 8.3.10 Megrendelések megtekintése (R)
 Felelős: Kacziba Zsolt
-2 nap
-1 személynap
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
 #### 8.3.11 Admin oldal létrehozása
 Felelős: Mackovic Márk
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.12 Admin oldal felhasználók megtekintése (R)
 Felelős: Mackovic Márk
-4 nap
-2 személynap
+Tartam: 4 nap
+Erőforrásigény: 2 személynap
 #### 8.3.13 Admin oldal felhasználók kezelése (CRUD)
 Felelős: Kurunzci Nándor
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.14 Termék információ oldal létrehozása (R)
 Felelős: Mackovic Márk
-5 nap
-3 személynap
+Tartam: 5 nap
+Erőforrásigény: 3 személynap
 #### 8.3.15 Kommentek megvalósítása (CRUD)
 Felelős: Mackovic Márk
-3 nao
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.16 kommentek kezelése (RD)
 Felelős: Varga András
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.17 Termékek kezelése oldal létrehozása (CRUD)
 Felelős: Varga András
-4 nap
-3 személynap
+Tartam: 4 nap
+Erőforrásigény: 3 személynap
 #### 8.3.18 Új termék hozzáadása (C)
 Felelős: Fekete István
-4 nap
-3 személynap
+Tartam: 4 nap
+Erőforrásigény: 3 személynap
 #### 8.3.19 Termék módosítása (RU)
 Felelős: Kovács-Bodó Csenge
-3 nap
-2 személynap
+Tartam: 3 nap
+Erőforrásigény: 2 személynap
 #### 8.3.20 Termék törlése (D)
 Felelős: Kovács-Bodó Csenge
-2 nap
-1 személynap
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
 
 ### 8.4 Prototípus II. (4. mérföldkő)
 
@@ -347,55 +347,55 @@ Részfeladatai a következők:
 
 #### 8.4.1 Egyéb kimaradt funkciók megvalósítása
 Felelős: Varga András
-4 nap
+Tartam: 4 nap
 3 személynap
 #### 8.4.2 Nem elvárásoknak megfelelően működő funkciók javítása
 Felelős: Szilágyi Martin György
-5 nap
+Tartam: 5 nap
 3 személynap
 #### 8.4.3 Regisztráció tesztelése
 Felelős: Fekete István
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.4 Login tesztelése
 Felelős: Fekete István
-2 nap
+Tartam: 2 nap
 1személynap
 #### 8.4.5 Kosárba helyezés tesztelése
 Felelős: Szilágyi Martin György
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.6 Megrendelés tesztelése
 Felelős: Szilágyi Martin György
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.7 Admin:  felhasználó szerepkörének módosításának tesztelése
 Felelős: Kovács-Bodó Csenge
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.8 Admin:  felhasználó törlésének tesztelése
 Felelős: Szilágyi Martin György
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.9 Komment létrehozásának tesztelése
 Felelős: Fekete István
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.10 Komment törlésének tesztelése
 Felelős: Márton István
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.11 Termék hozzáadás tesztelése
 Felelős: Márton István
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.12 Termék módosítás tesztelése
 Felelős: 
-2 nap
+Tartam: 2 nap
 1 személynap
 #### 8.4.12 Termék törlés tesztelése
 Felelős: 
-2 nap
+Tartam: 2 nap
 1 személynap
 
 ## 9. Részletes időbeosztás
