@@ -274,75 +274,75 @@ Erőforrásigény: 1 személynap
 Felelős: Kurunczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.3.4 Login oldal létrehozása 
+#### 8.3.5 Login oldal létrehozása 
 Felelős: Márton István
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
-#### 8.3.5 Áruház oldal létrehozása (R)
+#### 8.3.6 Áruház oldal létrehozása (R)
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.5 Áruház oldal létrehozása 
+#### 8.3.7 Áruház oldal létrehozása 
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.6 Kosár oldal létrehozása (kosár cookie)
+#### 8.3.8 Kosár oldal létrehozása (kosár cookie)
 Felelős: Kacziba Zsolt
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.7 Megrendelés oldal létrehozása
+#### 8.3.9 Megrendelés oldal létrehozása
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.3.8 Megrendelés elküldése (kosár cookie kezelése, C)
+#### 8.3.10 Megrendelés elküldése (kosár cookie kezelése, C)
 Felelős: Fekete István
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.10 Megrendelések megtekintése (R)
+#### 8.3.11 Megrendelések megtekintése (R)
 Felelős: Kurunczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.3.11 Admin oldal létrehozása
+#### 8.3.12 Admin oldal létrehozása
 Felelős: Mackovic Márk
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.12 Admin oldal felhasználók megtekintése (R)
+#### 8.3.13 Admin oldal felhasználók megtekintése (R)
 Felelős: Mackovic Márk
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.13 Admin oldal felhasználók kezelése (CRUD)
+#### 8.3.14 Admin oldal felhasználók kezelése (CRUD)
 Felelős: Kovács-Bodó Csenge
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.14 Termék információ oldal létrehozása (R)
+#### 8.3.15 Termék információ oldal létrehozása (R)
 Felelős: Szilágyi Martin
 Tartam: 3 nap
 Erőforrásigény: 3 személynap
-#### 8.3.15 Kommentek megvalósítása 
+#### 8.3.16 Kommentek megvalósítása 
 Felelős: Szilágyi Martin
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.15 Kommentek megvalósítása (CRUD)
+#### 8.3.17 Kommentek megvalósítása (CRUD)
 Felelős: Varga András Bendegúz
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.16 Kommentek kezelése (UD)
+#### 8.3.18 Kommentek kezelése (UD)
 Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.3.17 Termékek kezelése oldal létrehozása
+#### 8.3.19 Termékek kezelése oldal létrehozása
 Felelős: Márton István
 Tartam: 4 nap
 Erőforrásigény: 3 személynap
-#### 8.3.18 Új termék hozzáadása (C)
+#### 8.3.20 Új termék hozzáadása (C)
 Felelős: Fekete István
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.19 Termék módosítása (U)
-Felelős: Kovács-Bodó Csenge
+#### 8.3.21 Termék módosítása (U)
+Felelős: Kacziba Zsolt
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.20 Termék törlése (D)
+#### 8.3.22 Termék törlése (D)
 Felelős: Fekete István
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
@@ -356,55 +356,59 @@ Részfeladatai a következők:
 #### 8.4.1 Egyéb kimaradt funkciók megvalósítása
 Felelős: Varga András
 Tartam: 4 nap
-3 személynap
+Erőforrásigény: 3 személynap
 #### 8.4.2 Nem elvárásoknak megfelelően működő funkciók javítása
 Felelős: Szilágyi Martin György
 Tartam: 5 nap
-3 személynap
+Erőforrásigény: 3 személynap
 #### 8.4.3 Regisztráció tesztelése
 Felelős: Fekete István
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 #### 8.4.4 Login tesztelése
 Felelős: Fekete István
 Tartam: 2 nap
-1személynap
+Erőforrásigény: 1 személynap
+#### 8.4.4 Login tesztelése
+Felelős: Fekete István
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
 #### 8.4.5 Kosárba helyezés tesztelése
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 #### 8.4.6 Megrendelés tesztelése
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
-1 személynap
-#### 8.4.7 Admin:  felhasználó szerepkörének módosításának tesztelése
+Erőforrásigény: 1 személynap
+#### 8.4.7 Admin: Felhasználó szerepkörének módosításának tesztelése
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
-1 személynap
-#### 8.4.8 Admin:  felhasználó törlésének tesztelése
+Erőforrásigény: 1 személynap
+#### 8.4.8 Admin: Felhasználó törlésének tesztelése
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 #### 8.4.9 Komment létrehozásának tesztelése
 Felelős: Fekete István
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 #### 8.4.10 Komment törlésének tesztelése
 Felelős: Márton István
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 #### 8.4.11 Termék hozzáadás tesztelése
 Felelős: Márton István
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 #### 8.4.12 Termék módosítás tesztelése
 Felelős: 
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 #### 8.4.12 Termék törlés tesztelése
 Felelős: 
 Tartam: 2 nap
-1 személynap
+Erőforrásigény: 1 személynap
 
 ## 9. Részletes időbeosztás
 
