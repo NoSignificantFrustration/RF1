@@ -442,6 +442,7 @@ Tartam: 3 nap
 Erőforrásigény: 2 személynap 
 
 ## 9. Részletes időbeosztás
+![Alt text](image.png)
 
 ## 10. Projekt költségvetés
 
