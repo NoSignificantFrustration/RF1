@@ -475,15 +475,16 @@ Erőforrásigény: 2 személynap
 
 ### 10.3. Részletes költségvetés
 
-| Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
-|--------------|-------|-------|------|-------|----------|
-| Fekete István          | | | | | |
-| Kacziba Zsolt          | | | | | |
-| Kovács-Bodó Csenge     | | | | | |
-| Kurunczi Nándor        | | | | | |
-| Mackovic Mark          | | | | | |
-| Márton István          | | | | | |
-| Szilágyi Martin György | | | | | |
-| Varga András Bendegúz  | | | | | |
+| Név                            | M1  | M2   | M3   | M4   | Összesen  |
+|--------------------------------|-----|------|------|------|-----------|
+| Maximálisan megszerezhető pont | (7) | (28) | (35) | (28) | 100% (70) |
+| Fekete István                  | 5   | 20   | 23   | 22   | 70        |
+| Kacziba Zsolt                  | 6   | 20   | 23   | 21   | 70        |
+| Kovács-Bodó Csenge             | 7   | 22   | 22   | 21   | 70        |
+| Kurunczi Nándor                | 7   | 22   | 20   | 19   | 70        |
+| Mackovic Mark                  | 6   | 20   | 20   | 24   | 70        |
+| Márton István                  | 7   | 22   | 23   | 18   | 70        |
+| Szilágyi Martin György         | 6   | 20   | 24   | 20   | 70        |
+| Varga András Bendegúz          | 7   | 21   | 20   | 20   | 70        |
 
 Szeged, `2023-10-11`.

@@ -1,0 +1,64 @@
+Index: Elso_merfoldko_jelentes_KB_Csenge.md
+===================================================================
+diff --git a/Elso_merfoldko_jelentes_KB_Csenge.md b/Elso_merfoldko_jelentes_KB_Csenge.md
+deleted file mode 100644
+--- a/Elso_merfoldko_jelentes_KB_Csenge.md	(revision b857626fd5fda7e2540d3567c7def5d02793f7d6)
++++ /dev/null	(revision b857626fd5fda7e2540d3567c7def5d02793f7d6)
+@@ -1,26 +0,0 @@
+-### Összefoglaló az `1.` mérföldkőben végzett munkáról
+-
+-### Projekt tag: `Kovács-Bodó Csenge`
+-
+-___
+-
+-#### Vállalásaim a mérföldkőben:
+-
+-- 5.1.-2. Projektterv kitöltése
+-
+-  ##### A feladathoz tartozó issue(k):
+-
+-    - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/issues/8
+-
+-    - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/issues/16
+-
+-
+-  ##### A feladat elvégzését alátámasztó commit(ok):
+-
+-   - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/3531c770f03bb841f6cb9b4d7f1f028752332566
+-
+-   - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/72f7ef98ad9cfa7f72951c1348e9c2b7d141fbb8
+-
+-   - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/d5fe0ea5d40b7275e51e9eab635cc83bc523db5c
+-
+-   `+ egyéni jelentés commitja`
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"65be065a-b483-4a9b-aee5-a4a35dd4eda9\" name=\"Changes\" comment=\"egyéni jelentés\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"development\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2WM77ObqPhRlft3rHbxYX1L7I9N\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\uni\\2023_ib153i-11_b\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"2023_ib153i-11_b\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"2023_ib153i-11_b\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"65be065a-b483-4a9b-aee5-a4a35dd4eda9\" name=\"Changes\" comment=\"\" />\r\n      <created>1696530430937</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1696530430937</updated>\r\n      <workItem from=\"1696530432619\" duration=\"1120000\" />\r\n      <workItem from=\"1696532988572\" duration=\"1045000\" />\r\n      <workItem from=\"1696961798168\" duration=\"882000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696530730584</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696530730584</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696533285498</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696533285498</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696533373506</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696533373506</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696533671807</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696533671807</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Firebase Heroku helyett\">\r\n      <created>1696961864523</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696961864524</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"egyéni jelentés\">\r\n      <created>1696962679832</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696962679832</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"Munka_menete\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Projektterv 5. pontjának kidolgozása, 8. issue\" />\r\n    <MESSAGE value=\"Firebase Heroku helyett\" />\r\n    <MESSAGE value=\"egyéni jelentés\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"egyéni jelentés\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b857626fd5fda7e2540d3567c7def5d02793f7d6)
++++ b/.idea/workspace.xml	(date 1696972655564)
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="65be065a-b483-4a9b-aee5-a4a35dd4eda9" name="Changes" comment="egyéni jelentés" />
++    <list default="true" id="65be065a-b483-4a9b-aee5-a4a35dd4eda9" name="Changes" comment="typo">
++      <change beforePath="$PROJECT_DIR$/Elso_merfoldko_jelentes_KB_Csenge.md" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -13,7 +15,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="development" />
++        <entry key="$PROJECT_DIR$" value="14-10" />
+       </map>
+     </option>
+   </component>
