@@ -13,3 +13,5 @@ A feladat elvégzését alátámasztó commit(ok):
 4f1e6ed0
 
 fae528c7
+
++(egyéni jelentés)
