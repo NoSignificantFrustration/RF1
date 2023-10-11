@@ -1,0 +1,17 @@
+Vállalásaim a mérföldkőben:
+
+
+Projektterv 8.1-8.2 kitöltése
+
+A feladathoz tartozó issue(k):
+
+#11
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+
+ca47d04e
+
+931447d0
+
