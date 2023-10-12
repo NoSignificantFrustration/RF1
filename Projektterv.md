@@ -6,7 +6,7 @@
 
 ## 2. A projekt bemutatása
 
-`Ez a projektterv a Szallítmányozás projektet mutatja be, amely 2021-09-21-től 2021-11-30-ig tart, azaz összesen 70 napon keresztül fog futni. A projekten nyolc fejlesztő fog dolgozni, az elvégzett feladatokat pedig négy alkalommal fogjuk prezentálni a megrendelőnek, annak érdekében, hogy biztosítsuk a projekt folyamatos előrehaladását.`
+`Ez a projektterv a Webshop projektet mutatja be, amely 2021-09-21-től 2021-11-30-ig tart, azaz összesen 70 napon keresztül fog futni. A projekten nyolc fejlesztő fog dolgozni, az elvégzett feladatokat pedig négy alkalommal fogjuk prezentálni a megrendelőnek, annak érdekében, hogy biztosítsuk a projekt folyamatos előrehaladását.`
 
 ### 2.1. Rendszerspecifikáció
 
