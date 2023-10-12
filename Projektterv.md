@@ -129,7 +129,13 @@ A munkát `Kurunczi Nándor` koordinálja.
  - `Időpont: 2023.10.10.`
  - `Hely: Otthon online - Erefegy discord szerver`
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
- - `Érintett témák: Projektterv 8.3-4 pontok megbeszélése, feladatok szétosztása
+ - `Érintett témák: Projektterv 8.3-4 pontok megbeszélése, feladatok szétosztása`
+
+`4. megbeszélés:`
+ - `Időpont: 2023.10.12.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Projektterv költség és erőforrás szükségletek, és egyéb hiányosságok átbeszélése`
 
 ### 6.3. Minőségbiztosítás
 
