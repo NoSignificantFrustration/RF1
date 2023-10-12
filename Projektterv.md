@@ -34,7 +34,7 @@
  - `A legfrissebb technológiákat használja a rendszer`
 
 ## 3. Költség- és erőforrás-szükségletek
-Az erőforrásigényünk összesen `57` személynap, átlagosan `19` személynap/fő.
+Az erőforrásigényünk összesen `87` személynap, átlagosan `11` személynap/fő.
 A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 ## 4. Szervezeti felépítés és felelősségmegosztás
 A projekt megrendelője Dr. Pflanzner Tamás. A Webshop projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található tapasztalt és pályakezdő webprogramozó is, A tapasztalt projekttag több éve dolgozik az iparban.
