@@ -1,0 +1,17 @@
+Vállalásaim a mérföldkőben:
+
+
+Projektterv 8.3-8.4 kitöltése
+
+A feladathoz tartozó issue(k):
+
+#13
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+4f1e6ed0
+
+fae528c7
+
++(egyéni jelentés)
