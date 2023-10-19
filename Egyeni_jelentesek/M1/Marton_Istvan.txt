@@ -1,6 +1,7 @@
 Vállalásaim a mérföldkőben:
 
 
+
 Projektterv 8.1-8.2 kitöltése, 10-1-2 kitöltése, mergek átnézése
 
 A feladathoz tartozó issue(k):
