@@ -15,6 +15,7 @@ ___
   ##### A feladat elvégzését alátámasztó commit(ok):
   
     https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/1e769c8ff60447ecd87b412d5c77c0379f5ca85c
+    
     https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/2ae2ae5243b9266aedde6b086a11ceeef510ee36
 
 
