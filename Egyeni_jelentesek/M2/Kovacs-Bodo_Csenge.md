@@ -20,7 +20,7 @@ ___
 
     https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/f46a7eaf6f41152e6f3bce1ea380454a66853b80
     
-    https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/2b35b9418300caf5fab1eddca9311e3ed5f49786
+    https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/25b7adbbdb378385a964f5bf233496186f7de147
 
 
 
