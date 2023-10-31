@@ -1,4 +1,4 @@
-Vállalásaim az első mérföldkőben:
+Vállalásaim a mérföldkőben:
 
 Projektterv 8.1-8.2 kitöltése, 10-1-2 kitöltése, mergek átnézése
 
@@ -23,19 +23,3 @@ be402727
 74be778a
 c7d36ca7
 066b5b4b
-
-Vállalásaim az második mérföldkőben:
-
-8.2.4 Képernyőtervek készítése, login sequence diagram elkészítése
-
-A feladathoz tartozó issue(k):
-
-#21
-#26
-
-A feladat elvégzését alátámasztó commit(ok):
-
-bb81d089
-2ba663d6
-bef33e5a
-c2f11f6b
