@@ -1,5 +1,6 @@
 #Obsidian setting files
 .obsidian/*
+*.obsidian
 
 vscode/*
 !.vscode/settings.json
