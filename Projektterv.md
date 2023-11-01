@@ -143,6 +143,19 @@ A munkát `Kurunczi Nándor` koordinálja.
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
  - `Érintett témák: Projektterv hiányosságok, következő feladatok megbeszélése`
 
+
+`6. megbeszélés:`
+ - `Időpont: 2023.10.26.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Szekvencia diagram feladatok szétosztása`
+
+
+`7. megbeszélés:`
+ - `Időpont: 2023.10.31.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Diagramok véglegesítése, projekt követelmények átbeszélése`
 ### 6.3. Minőségbiztosítás
 
 `A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak. Az alkalmazás elkészült részeinek követelményeknek való megfeleltségének ellenőrzése.`
