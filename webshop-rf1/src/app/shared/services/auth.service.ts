@@ -22,4 +22,8 @@ export class AuthService {
     isUserLoggedIn() {
       return this.auth.user;
     }
+
+    signup(email: string, password: string){
+      return this.auth.createUserWithEmailAndPassword(email, password);
+    }
 }
