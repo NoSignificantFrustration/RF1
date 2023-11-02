@@ -312,13 +312,13 @@ Részfeladatai a következők:
 Felelős: Márton István
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
-#### 8.3.1 Modellek tervezése
-Felelős: -
+#### 8.3.2 Modellek megvalósításának jóváhagyása
+Felelős: Kurunczi Nándor
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
-#### 8.3.2 Adatbázis táblák megvalósítása, ki exportálása
-Felelős: Kovács-Bodó Csenge
-Tartam: 1 nap
+#### 8.3.3 Navigációs sáv
+Felelős: Fekete István
+Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.3.4 Login/Regisztráció oldal létrehozása
 Felelős: Kurunczi Nándor
@@ -328,23 +328,23 @@ Erőforrásigény: 1 személynap
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.7 Főoldal létrehozása 
+#### 8.3.6 Főoldal létrehozása 
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.6 Főoldal: Termékek listázása (R)
+#### 8.3.7 Főoldal: Termékek listázása (R)
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.6 Főoldal: Tag keresés (R)
+#### 8.3.8 Főoldal: Tag keresés (R)
 Felelős: Szilágyi Martin
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.6 Főoldal: Keresősáv megvalósítása (R)
+#### 8.3.9 Főoldal: Keresősáv megvalósítása (R)
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.11 Fiók: Felhasználói adatok módosítása (U)
+#### 8.3.10 Fiók: Felhasználói adatok módosítása (U)
 Felelős: Kurunczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
@@ -352,15 +352,15 @@ Erőforrásigény: 2 személynap
 Felelős: Kurunczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.8 Kosár oldal létrehozása (cookie)
+#### 8.3.12 Kosár oldal létrehozása (cookie)
 Felelős: Kacziba Zsolt
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.9 Kosár: Tartalom módosítása (CD)
+#### 8.3.13 Kosár: Tartalom módosítása (CD)
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.3.9 Kosár: Rendelés leadása
+#### 8.3.14 Kosár: Rendelés leadása
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
@@ -368,7 +368,7 @@ Erőforrásigény: 1 személynap
 Felelős: Szilágyi Martin
 Tartam: 3 nap
 Erőforrásigény: 3 személynap
-#### 8.3.10 Termék: Kosárba helyezés (cookie, C)
+#### 8.3.16 Termék: Kosárba helyezés (cookie, C)
 Felelős: Fekete István
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
@@ -380,14 +380,18 @@ Erőforrásigény: 2 személynap
 Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.13 Admin: Listázások (Felhasználó/Termék/Tag) (R)
+#### 8.3.19 Admin: Listázások (Felhasználó/Termék/Tag) (R)
 Felelős: Mackovic Márk
 Tartam: 5 nap
 Erőforrásigény: 5 személynap
-#### 8.3.14 Admin: Táblák backend (CRUD)
+#### 8.3.20 Admin: Táblák backend (CRUD)
 Felelős: Kovács-Bodó Csenge
 Tartam: 4 nap
 Erőforrásigény: 4 személynap
+#### 8.3.21 Deploy
+Felelős: Varga András Bendegúz
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
 
 ### 8.4 Prototípus II. (4. mérföldkő)
 
