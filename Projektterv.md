@@ -14,17 +14,19 @@
 
 ### 2.2. Funkcionális követelmények
 
- - `Felhasználók kezelése (admin, vevő, kosár, személyes adatok) (CRUD)`
  - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
- - `A termékek csoportosítása (CRUD)`
- - `Árukészletek kezelése (CRUD)`
- - `Szállítási és fizetési funkciók. (CRUD)`
+ - `Felhasználók kezelése (Regisztráció/Belépés)`
+ - `Fizetési funkciók. (CRUD)`
  - `Előző vásárlások megtekintése` 
+ - `Termékek értékelése (Comment+Rating) (CRUD)`
  - `Termékek értékelésének kezelése (CRUD)`
+ - `Kosár funkció`
  - `Tagek alapú keresés`
- - `Eladó termékeinek kezelése (CRUD)`
-
-
+ - `Termék Név/Leírás/Tag alapú keresés (Kereső sáv)`
+ - `Felhasználói adatok frissítése`
+ - `Admin: Árukészletek kezelése (CRUD)`
+ - `Admin: Tagek kezelése (CRUD)`
+ - `Admin: Felhasználók kezelése (CRUD)`
 
 ### 2.3. Nem funkcionális követelmények
 
@@ -307,93 +309,85 @@ Ennek a feladatnak az a célja, hogy egy működő prototípust hozzunk létre, 
 Részfeladatai a következők:
 
 #### 8.3.1 Alap projekt fájlok létrehozása
-Felelős: Kurunzci Nándor
+Felelős: Márton István
+Tartam: 1 nap
+Erőforrásigény: 1 személynap
+#### 8.3.1 Modellek tervezése
+Felelős: -
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
 #### 8.3.2 Adatbázis táblák megvalósítása, ki exportálása
 Felelős: Kovács-Bodó Csenge
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
-#### 8.3.3 Express szerver beüzemelése
-Felelős: Varga András
-Tartam: 2 nap
-Erőforrásigény: 1 személynap
-#### 8.3.4 Login oldal létrehozása (CR)
+#### 8.3.4 Login/Regisztráció oldal létrehozása
 Felelős: Kurunczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.3.5 Login oldal létrehozása 
+#### 8.3.5 Login/Regisztráció oldal backend (CR)
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.6 Áruház oldal létrehozása (R)
+#### 8.3.7 Főoldal létrehozása 
+Felelős: Márton István
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.6 Főoldal: Termékek listázása (R)
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.7 Áruház oldal létrehozása 
+#### 8.3.6 Főoldal: Tag keresés (R)
+Felelős: Szilágyi Martin
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.6 Főoldal: Keresősáv megvalósítása (R)
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.8 Kosár oldal létrehozása (kosár cookie)
+#### 8.3.11 Fiók: Felhasználói adatok módosítása (U)
+Felelős: Kurunczi Nándor
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.11 Fiók: Megrendelések listázása (R)
+Felelős: Kurunczi Nándor
+Tartam: 2 nap
+Erőforrásigény: 2 személynap
+#### 8.3.8 Kosár oldal létrehozása (cookie)
 Felelős: Kacziba Zsolt
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.9 Megrendelés oldal létrehozása
+#### 8.3.9 Kosár: Tartalom módosítása (CD)
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.3.10 Megrendelés elküldése (kosár cookie kezelése, C)
+#### 8.3.9 Kosár: Rendelés leadása
+Felelős: Kacziba Zsolt
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
+#### 8.3.15 Termék oldal létrehozása + Kommentek (R)
+Felelős: Szilágyi Martin
+Tartam: 3 nap
+Erőforrásigény: 3 személynap
+#### 8.3.10 Termék: Kosárba helyezés (cookie, C)
 Felelős: Fekete István
 Tartam: 3 nap
 Erőforrásigény: 2 személynap
-#### 8.3.11 Megrendelések megtekintése (R)
-Felelős: Kurunczi Nándor
-Tartam: 2 nap
-Erőforrásigény: 2 személynap
-#### 8.3.12 Admin oldal létrehozása
-Felelős: Mackovic Márk
+#### 8.3.17 Termék: Kommentek megvalósítása (CRUD)
+Felelős: Varga András Bendegúz
 Tartam: 3 nap
-Erőforrásigény: 3 személynap
-#### 8.3.13 Admin oldal felhasználók megtekintése (R)
-Felelős: Mackovic Márk
+Erőforrásigény: 2 személynap
+#### 8.3.18 Termék: Kommentek kezelése (Admin) (UD)
+Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 2 személynap
-#### 8.3.14 Admin oldal felhasználók kezelése (CRUD)
+#### 8.3.13 Admin: Listázások (Felhasználó/Termék/Tag) (R)
+Felelős: Mackovic Márk
+Tartam: 5 nap
+Erőforrásigény: 5 személynap
+#### 8.3.14 Admin: Táblák backend (CRUD)
 Felelős: Kovács-Bodó Csenge
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
-#### 8.3.15 Termék információ oldal létrehozása (R)
-Felelős: Szilágyi Martin
-Tartam: 3 nap
-Erőforrásigény: 3 személynap
-#### 8.3.16 Kommentek megvalósítása 
-Felelős: Szilágyi Martin
-Tartam: 2 nap
-Erőforrásigény: 2 személynap
-#### 8.3.17 Kommentek megvalósítása (CRUD)
-Felelős: Varga András Bendegúz
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
-#### 8.3.18 Kommentek kezelése (UD)
-Felelős: Varga András Bendegúz
-Tartam: 2 nap
-Erőforrásigény: 2 személynap
-#### 8.3.19 Termékek kezelése oldal létrehozása
-Felelős: Márton István
 Tartam: 4 nap
-Erőforrásigény: 3 személynap
-#### 8.3.20 Új termék hozzáadása (C)
-Felelős: Fekete István
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
-#### 8.3.21 Termék módosítása (U)
-Felelős: Kacziba Zsolt
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
-#### 8.3.22 Termék törlése (D)
-Felelős: Fekete István
-Tartam: 3 nap
-Erőforrásigény: 2 személynap
+Erőforrásigény: 4 személynap
 
 ### 8.4 Prototípus II. (4. mérföldkő)
 
