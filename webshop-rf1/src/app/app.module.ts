@@ -11,13 +11,22 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { LoginComponent } from './pages/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { SignupComponent } from './pages/signup/signup.component';
+import { HomeComponent } from './pages/home/home.component';
+import { SearchComponent } from './pages/home/search/search.component';
+import { TagsComponent } from './pages/home/tags/tags.component';
+import { MatCardModule } from '@angular/material/card';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent,
+    SearchComponent,
+    TagsComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +37,7 @@ import { SignupComponent } from './pages/signup/signup.component';
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
+    MatCardModule
 
   ],
   providers: [],

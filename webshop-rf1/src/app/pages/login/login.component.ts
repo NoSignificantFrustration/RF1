@@ -3,6 +3,7 @@ import { FormControl } from '@angular/forms';
 
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/shared/services/auth.service';
+import { UserService } from 'src/app/shared/services/user.service';
 
 @Component({
   selector: 'app-login',
@@ -17,7 +18,7 @@ export class LoginComponent {
   isLoggedIn = false;
   loggedInUser?: firebase.default.User | null;
 
-  constructor(private router: Router, private authService: AuthService){}
+  constructor(private router: Router, private authService: AuthService, private userService: UserService){}
 
   async login(){
     if (this.email && this.password) {
@@ -29,6 +30,17 @@ export class LoginComponent {
         this.isLoggedIn = true;
         console.log(userCredential);
         this.errorMessage = '';
+
+        if (userCredential.user) {
+          this.userService.getUserById(userCredential.user.uid).subscribe(user => {
+            if (user && user.isAdmin) {
+              // User is an admin, store this information in localStorage
+              localStorage.setItem('isAdmin', 'true');
+            } else {
+              localStorage.removeItem('isAdmin');
+            }
+          });
+        }
       } catch (error) {
         // Handle login errors
         console.error('Unknown error:', error);
@@ -45,9 +57,10 @@ export class LoginComponent {
       console.error(error);
     })
     }
+  }
 
-
-
+  logout(){
+    this.authService.logout()
   }
 
 }
