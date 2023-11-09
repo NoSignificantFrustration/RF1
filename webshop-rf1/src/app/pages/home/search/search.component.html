@@ -1,1 +1,5 @@
-<p>search works!</p>
+<div>
+    <input type="text" placeholder="Search Garden Tools" [(ngModel)]="searchTerm" (change)="search()">
+    <button (click)="search()"><mat-icon>search</mat-icon>
+    </button>
+</div>

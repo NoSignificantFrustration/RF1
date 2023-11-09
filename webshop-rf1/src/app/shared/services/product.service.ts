@@ -27,8 +27,32 @@ export class ProductService {
     return this.products;
   }
 
-  getToolImageUrl(imageUrl: string): Observable<string> {
+  getProductImageUrl(imageUrl: string): Observable<string> {
     const storageRef = this.storage.ref(imageUrl);
     return storageRef.getDownloadURL();
   }
+
+  createProduct(product: Product) {
+    return this.afs.collection<Product>('Products').add(product);
+  }
+
+  capitalizeFirstLetter(str: string): string {
+    const  word = str.charAt(0).toUpperCase() + str.slice(1)
+    return word;
+  
+
+  }
+  getAllProductBySearchTerm(searchTerm: string): Observable<Product[]> {
+    const capitalizedSearchTerm = this.capitalizeFirstLetter(searchTerm);
+    const startAt = capitalizedSearchTerm;
+    const endAt = capitalizedSearchTerm + '\uf8ff';
+  
+    return this.afs.collection<Product>('Products', ref =>
+      ref.where('productName', '>=', startAt)
+         .where('productName', '<=', endAt)
+         .orderBy('productName')
+         .limit(5)
+    ).valueChanges({ idField: 'productId' });
+  }
+
 }

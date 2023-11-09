@@ -15,6 +15,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { SearchComponent } from './pages/home/search/search.component';
 import { TagsComponent } from './pages/home/tags/tags.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+
 
 
 
@@ -37,7 +39,8 @@ import { MatCardModule } from '@angular/material/card';
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
-    MatCardModule
+    MatCardModule,
+    MatIconModule
 
   ],
   providers: [],
