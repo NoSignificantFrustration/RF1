@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+import { User } from 'src/app/shared/models/User';
 import { AuthService } from 'src/app/shared/services/auth.service';
+import { UserService } from 'src/app/shared/services/user.service';
 
 @Component({
   selector: 'app-signup',
@@ -12,22 +14,29 @@ export class SignupComponent {
   password: string = '';
   errorMessage: string = '';
 
-  constructor(private authService: AuthService) {}
+  constructor(private authService: AuthService,  private userSevice : UserService) {}
 
-  async signup() {
-    try {
-      const userCredential = await this.authService.signup(
-        this.email,
-        this.password
-      );
+  signUp() {
+      this.authService.signup( this.email,this.password).then(cred =>{
+          const user: User = {
+          userId: cred.user?.uid as string,
+          email: this.email,
+          isAdmin: false,
+          }
+          this.userSevice.create(user).then(_ =>{
+            console.log('User added succesfully.')
+          }). catch(error => {
+            console.error(error); 
+          });
+        }).catch(error => {
+          console.error(error);
+          this.errorMessage = 'An unknown error occurred.';
+
+        });
+      
       // User successfully signed up
-      console.log(userCredential);
-      this.errorMessage = '';
-    } catch (error) {
-      // Handle signup errors
-      console.error('Unknown error:', error);
-      this.errorMessage = 'An unknown error occurred.';
-    }
+
+
   }
 
 }
