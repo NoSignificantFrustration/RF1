@@ -1,0 +1,25 @@
+Vállalásaim a mérföldkőben:
+
+8.3.1 Alap projekt fájlok létrehozása
+8.3.5 Login/Regisztráció oldal backend (CR)
+8.3.6 Főoldal létrehozása
+8.3.9 Főoldal: Keresősáv megvalósítása (R)
+
+
+A feladathoz tartozó issue(k):
+
+ Issue#37
+ Issue#34 
+ Issue#33
+ Issue#28
+
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+05848644
+e65dc1bf
+3a47a88c
+7362163b
+6014c6a9
+45cc3aa2
