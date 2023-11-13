@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65be065a-b483-4a9b-aee5-a4a35dd4eda9" name="Changes" comment="customers tábla backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webshop-rf1/Backup/Products_backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/webshop-rf1/Backup/Products_backup.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
       <workItem from="1697041192202" duration="1521000" />
       <workItem from="1699732621923" duration="6263000" />
       <workItem from="1699816822721" duration="3509000" />
+      <workItem from="1699902046766" duration="6785000" />
     </task>
     <task id="LOCAL-00001" summary="Projektterv 5. pontjának kidolgozása, 8. issue">
       <created>1696530730584</created>
