@@ -1,0 +1,17 @@
+Vállalásaim a mérföldkőben:
+
+Admin: Táblák backend (CRUD)
+Admin: Listázások()Felhasználó/Termék/Tag)(R)
+
+A feladathoz tartozó issue(k):
+
+#47
+#48
+A feladat elvégzését alátámasztó commit(ok):
+
+cf74c122
+3476f41f
+2b55ab4a
+ad9d63f6
+81ee8d5a
+Egyéni jelentés
