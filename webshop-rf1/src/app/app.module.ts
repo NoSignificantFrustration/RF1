@@ -19,6 +19,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { AdminComponent } from './pages/admin/admin.component';
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { CustomerComponent } from './pages/admin/customer/customer.component';
+import { CategoriesComponent } from './pages/admin/categories/categories.component';
 
 
 
@@ -34,7 +35,8 @@ import { CustomerComponent } from './pages/admin/customer/customer.component';
     TagsComponent,
     AdminComponent,
     ProductsComponent,
-    CustomerComponent
+    CustomerComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,

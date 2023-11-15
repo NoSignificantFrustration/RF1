@@ -1,0 +1,15 @@
+<h2>Categories</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Modify</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let category of categories">
+      <td>{{ category }}</td>
+      <td><button type="button">Delete</button></td>
+    </tr>
+  </tbody>
+</table>
