@@ -10,6 +10,7 @@ import { ProductService } from 'src/app/shared/services/product.service';
 export class ProductsComponent implements OnInit {
   products: Product[] = [];
   constructor (private productService: ProductService){}
+  
   ngOnInit(): void {
     this.productService.getAllProducts().subscribe(products => {
       this.products = products;
