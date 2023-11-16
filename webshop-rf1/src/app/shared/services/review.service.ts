@@ -18,17 +18,15 @@ export class ReviewService{
 
     
     constructor(
-        private afs: AngularFirestore,
-        private product: ProductService
+        private afs: AngularFirestore
         ) {
         this.reviewCollection = afs.collection<Review>('Reviews');
-        this.reviews = this.reviewCollection.valueChanges({ idField: 'productId' });
-        this.product = product;
+        this.reviews = this.reviewCollection.valueChanges({ idField: 'ID' });
       }
     
 
-    getAllReviews(): Observable<Review[]>{
-        return this.reviews;
+    getReviews(productID:string): Observable<Comment[]>{
+        return this.afs.collection<Comment>('reviews', ref => ref.where('productID', '==', String(productID))).valueChanges({idField: 'ID'});
     }
 
     addReview(review:Review){
@@ -36,14 +34,14 @@ export class ReviewService{
     }
 
 
-    deleteReview(review:Review){
-        return this.reviewCollection.doc(String(review.ID)).delete();
+    deleteReview(reviewID:string){
+        return this.reviewCollection.doc(String(reviewID)).delete();
     }
 
     updateReview(review:Review){
         return this.reviewCollection.doc(String(review.ID)).update({
-            "Points":  review.Points,
-            "Comment": review.Comment
+            "rating":  review.rating,
+            "comment": review.comment
         });
     }
 

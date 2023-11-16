@@ -1,9 +1,11 @@
 export interface Review{
-    ID: number;
-    UserID: number;
-    ProductID: number;
-    Points: number;
-    Comment: string;
+    
+    ID: string;
+    comment: string;
+    customerId: string;
+    productId: string;
+    rating: number;
+    
 
     /*constructor(UserID: number, ProductID: number, Points: number, Comment: string){
         this.UserID = UserID;
