@@ -40,7 +40,7 @@ import { MatIconModule } from '@angular/material/icon';
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
     MatCardModule,
-    MatIconModule
+    MatIconModule,
 
   ],
   providers: [],
