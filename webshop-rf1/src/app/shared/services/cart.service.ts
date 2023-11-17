@@ -6,12 +6,13 @@ import { Product } from 'src/app/shared/models/Product';
 @Injectable({
   providedIn: 'root'
 })
+
 export class CartService {
   private cart: Cart = new Cart();
   constructor() { }
 
   addToCart(product: Product): void{
-    let cartItem = this.cart.items.find(item => item.tool.productId === product.productId);
+    let cartItem = this.cart.items.find(item => item.product.productId === product.productId);
     if(cartItem){
       this.changeQuantity(product.productId, cartItem.quantity + 1);
       return;
@@ -19,18 +20,22 @@ export class CartService {
     this.cart.items.push(new CartItem(product));
   }
 
-  removeFromCart(toolId: number): void{
+  removeFromCart(productId: number): void{
     this.cart.items =
-    this.cart.items.filter(item => item.tool.productId != toolId);
+    this.cart.items.filter(item => item.product.productId != productId);
   }
 
-  changeQuantity(toolId:number, quantity: number){
-    let cartItem = this.cart.items.find(item => item.tool.productId === toolId);
+  changeQuantity(productId:number, quantity: number){
+    let cartItem = this.cart.items.find(item => item.product.productId === productId);
     if(!cartItem) return;
     cartItem.quantity = quantity;
   }
 
   getCart():Cart{
     return this.cart;
+  }
+
+  addToCookie(){
+
   }
 }

@@ -2,14 +2,14 @@ import { Product } from "./Product";
 
 export class CartItem{
     constructor(product: Product){
-        this.tool = product;
+        this.product = product;
     }
     cardId: number = 1;
-    tool: Product;
+    product: Product;
     quantity: number = 1;
 
     get price():number{
-        return this.tool.price * this.quantity;
+        return this.product.price * this.quantity;
     }
 
 }
