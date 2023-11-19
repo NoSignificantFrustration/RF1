@@ -92,4 +92,12 @@ export class CartService {
       this.alredyRun = true;
     }
   }
+
+  removeAllCart() {
+    this.cart.items.length =0;
+    this.cookieService.delete("Id")
+    this.cookieService.delete("ToolId")
+    this.cookieService.delete("quantity")
+
+  }
 }

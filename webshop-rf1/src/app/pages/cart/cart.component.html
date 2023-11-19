@@ -1,18 +1,13 @@
-<app-not-found [visible]="!cart || cart.items.length <=0"
-notFoundMessage="Cart Page is empty"
-resetLinkText="Go to Home Page"
->
 
-</app-not-found>
 <div *ngIf="cart && cart.items.length > 0" class="container">
     <ul>
         <li *ngFor="let cartItem of cart.items">
             <div>
-                <img [src]="cartItem.product.imageUrl" [alt]="cartItem.product.name">
+                <img [src]="cartItem.product.imageUrl" [alt]="cartItem.product.productName">
             </div>
             <div>
                 <a routerLink="{{cartItem.product.productId}}">
-                    {{cartItem.product.name}}
+                    {{cartItem.product.productName}}
                 </a>
 
             </div>
@@ -28,7 +23,7 @@ resetLinkText="Go to Home Page"
                 </select>
             </div>
             <div>
-                {{cartItem.product.price | priceHUF}}
+                {{cartItem.product.price}}
             </div>
             <div>
                 <button class="remove-button" (click)="removeFromCart(cartItem)">
@@ -41,7 +36,7 @@ resetLinkText="Go to Home Page"
     <div class="checkout">
         <div>
             <div class="product-count">{{cart.totalCount}}</div>
-            <div class="total-price">{{cart.totalPrice | priceHUF}} </div>
+            <div class="total-price">{{cart.totalPrice}} </div>
           <div><button class="checkout-button,checkout" (click)="checkout()"><mat-icon>mat-raised-button</mat-icon> Rendelés</button></div>
         </div>
     </div>
