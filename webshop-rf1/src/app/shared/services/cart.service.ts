@@ -44,15 +44,15 @@ export class CartService {
   addCookie() {
     this.cookieService.deleteAll();
     let id = "";
-    let toolid = "";
+    let productid = "";
     let quantity = "";
     for (let i = 0; i < this.cart.items.length; i++) {
       id += this.cart.items[i].cardId + ";"
-      toolid += this.cart.items[i].product.productId + ";"
+      productid += this.cart.items[i].product.productId + ";"
       quantity += this.cart.items[i].quantity + ";"
     }
     this.cookieService.set("Id", id);
-    this.cookieService.set("ToolId", toolid);
+    this.cookieService.set("productId", productid);
     this.cookieService.set("quantity", quantity);
 
 
@@ -61,23 +61,23 @@ export class CartService {
   reloedCookie(items: Product[]) {
     if (!this.alredyRun) {
       let id = this.cookieService.get("Id");
-      let productId = this.cookieService.get("ToolId");
+      let productId = this.cookieService.get("productId");
       let quantity = this.cookieService.get("quantity");
       let idt = id.split(";");
       let productidt = productId.split(";")
       let quantityt = quantity.split(";")
       for (let i = 0; i < idt.length; i++) {
-        let tool = items.find(item => item.productId == Number(productidt[i]));
+        let product = items.find(item => item.productId == Number(productidt[i]));
         /*
         console.log(idt[i])
         console.log(productidt[i])
         console.log(quantityt[i])
-        console.log(tool?.id.toString() + "," + tool?.imageUrl)
+        console.log(product?.id.toString() + "," + product?.imageUrl)
          */
         let item
-        if (tool) {
+        if (product) {
           //console.log("ifben")
-          item = new CartItem(tool);
+          item = new CartItem(product);
           item.quantity = Number(quantityt[i]);
           item.cardId = Number(idt[i])
           this.cart.items.push(item)
