@@ -7,7 +7,6 @@
     justify-content: center;
     height: 100vh;
     margin: 0;
-    /* Remove default body margin */
 }
 
 .login-form {
@@ -25,21 +24,19 @@
 
     h1 {
         font-family: 'Noto Serif Balinese', sans-serif;
-        font-size: 50pt;
+        font-size: 40pt;
         margin-top: 20%;
         margin-bottom: 20%;
     }
 
     .form {
         width: 80%;
-        // Styles for .form inside .login-form
 
         .form-group {
             display: flex;
             flex-flow: column;
             align-items: center;
             width: 100%;
-            // Styles for .form-group inside .form
 
             label {
                 width: 100%;
@@ -94,6 +91,6 @@
     }
 
     .error-message {
-        // Styles for .error-message inside .login-form
+        
     }
 }
