@@ -2,17 +2,17 @@
   <h1>Login</h1>
   <div class="form">
     <div class="form-group">
-      <label for="email">Email:</label>
       <input type="email" [(ngModel)]="email" />
+      <label for="email">e-mail</label>
     </div>
     <div class="form-group">
-      <label for="password">Password:</label>
       <input type="password" [(ngModel)]="password" />
+      <label for="password">Password</label>
     </div>
     <div class="form-actions">
       <button (click)="login()">Login</button>
+      <button class="logout" (click)="logout()">Log out</button>
     </div>
   </div>
   <p class="error-message" *ngIf="errorMessage">{{ errorMessage }}</p>
 </div>
-<button (click)="logout()">logout</button>
