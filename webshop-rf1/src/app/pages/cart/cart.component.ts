@@ -32,8 +32,11 @@ export class CartComponent {
     this.cart = this.cartService.getCart();
   }
   checkout(){
-    this.cartService.removeAllCart();
-    this.setCart()
+    if (confirm("Véglegesíted a rendelést") == true) {
+      this.cartService.removeAllCart();
+      this.setCart()
+    } else {
+    }
     console.log(this.cart); // log the cart object to the console
     console.log(this.cart.items);
     console.log()
