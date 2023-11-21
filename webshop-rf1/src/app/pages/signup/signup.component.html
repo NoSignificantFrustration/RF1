@@ -3,15 +3,16 @@
   <h1>Sign Up</h1>
   <div class="form">
     <div class="form-group">
-      <label for="email">Email:</label>
       <input type="email" [(ngModel)]="email" />
+      <label for="email">Email</label>
     </div>
     <div class="form-group">
-      <label for="password">Password:</label>
       <input type="password" [(ngModel)]="password" />
+      <label for="password">Password</label>
     </div>
     <div class="form-actions">
       <button (click)="signUp()">Sign Up</button>
+      <button class="login" (click)="toLogin()">Log In</button>
     </div>
   </div>
   <p class="error-message" *ngIf="errorMessage">{{ errorMessage }}</p>

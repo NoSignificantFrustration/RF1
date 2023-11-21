@@ -62,5 +62,8 @@ export class LoginComponent {
   logout(){
     this.authService.logout()
   }
+  signup(){
+    this.router.navigate(["/signup"]);
+  }
 
 }
