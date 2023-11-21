@@ -16,7 +16,7 @@ import { SearchComponent } from './pages/home/search/search.component';
 import { TagsComponent } from './pages/home/tags/tags.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
-
+import { HeaderComponent} from './shared/header/header.component';
 
 
 
@@ -28,7 +28,8 @@ import { MatIconModule } from '@angular/material/icon';
     SignupComponent,
     HomeComponent,
     SearchComponent,
-    TagsComponent
+    TagsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
