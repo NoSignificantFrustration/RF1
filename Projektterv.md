@@ -392,6 +392,10 @@ Erőforrásigény: 4 személynap
 Felelős: Varga András Bendegúz
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
+#### 8.3.22 Firestore adatbázis teltöltés
+Felelős: Kovács-Bodó Csenge
+Tartam: 3 nap
+Erőforrásigény: 3 személynap
 
 ### 8.4 Prototípus II. (4. mérföldkő)
 
