@@ -16,6 +16,10 @@ import { SearchComponent } from './pages/home/search/search.component';
 import { TagsComponent } from './pages/home/tags/tags.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { AdminComponent } from './pages/admin/admin.component';
+import { ProductsComponent } from './pages/admin/products/products.component';
+import { CustomerComponent } from './pages/admin/customer/customer.component';
+import { CategoriesComponent } from './pages/admin/categories/categories.component';
 import { ProductComponent } from './pages/product/product.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { CartComponent } from './pages/cart/cart.component';
@@ -31,6 +35,10 @@ import { HeaderComponent} from './shared/header/header.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
+    AdminComponent,
+    ProductsComponent,
+    CustomerComponent,
+    CategoriesComponent,
     HeaderComponent,
     ProductComponent,
     ProfileComponent,
