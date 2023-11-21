@@ -9,7 +9,7 @@ import { provideStorage, getStorage } from '@angular/fire/storage';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { LoginComponent } from './pages/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignupComponent } from './pages/signup/signup.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SearchComponent } from './pages/home/search/search.component';
@@ -25,7 +25,7 @@ import { CustomerComponent } from './pages/admin/customer/customer.component';
 import { CategoriesComponent } from './pages/admin/categories/categories.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
-import { DialogConfig } from '@angular/cdk/dialog';
+import { NewProductDialogComponent } from './pages/admin/products/new-product-dialog/new-product-dialog.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +39,7 @@ import { DialogConfig } from '@angular/cdk/dialog';
     ProductsComponent,
     CustomerComponent,
     CategoriesComponent,
+    NewProductDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,6 +55,7 @@ import { DialogConfig } from '@angular/cdk/dialog';
     MatDialogModule,
     MatButtonModule,
     ConfirmDialog,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

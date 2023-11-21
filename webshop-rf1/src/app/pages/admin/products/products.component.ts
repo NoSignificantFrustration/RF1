@@ -7,6 +7,7 @@ import {
 } from '@angular/material/dialog';
 import { Product } from 'src/app/shared/models/Product';
 import { ProductService } from 'src/app/shared/services/product.service';
+import { NewProductDialogComponent } from './new-product-dialog/new-product-dialog.component';
 
 @Component({
   selector: 'app-products',
@@ -34,6 +35,10 @@ export class ProductsComponent implements OnInit {
       imageUrl: 'products_image/iphone_15.jpg',
     };
     //this.productService.createProduct(prod);
+  }
+
+  openNewProductDialog() {
+    const dialogRef = this.dialog.open(NewProductDialogComponent);
   }
 
   openDialog(product: Product) {
