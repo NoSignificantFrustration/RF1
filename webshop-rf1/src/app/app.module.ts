@@ -19,8 +19,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { ProductComponent } from './pages/product/product.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { CartComponent } from './pages/cart/cart.component';
-
-
+import { HeaderComponent} from './shared/header/header.component';
 
 
 
@@ -32,6 +31,7 @@ import { CartComponent } from './pages/cart/cart.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
+    HeaderComponent,
     ProductComponent,
     ProfileComponent,
     CartComponent
@@ -46,7 +46,7 @@ import { CartComponent } from './pages/cart/cart.component';
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
     MatCardModule,
-    MatIconModule
+    MatIconModule,
 
   ],
   providers: [],
