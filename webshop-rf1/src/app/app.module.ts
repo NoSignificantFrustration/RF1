@@ -16,9 +16,9 @@ import { SearchComponent } from './pages/home/search/search.component';
 import { TagsComponent } from './pages/home/tags/tags.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { ProductComponent } from './pages/product/product.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { CartComponent } from './pages/cart/cart.component';
-
 
 
 
@@ -32,6 +32,7 @@ import { CartComponent } from './pages/cart/cart.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
+    ProductComponent,
     ProfileComponent,
     CartComponent
   ],
