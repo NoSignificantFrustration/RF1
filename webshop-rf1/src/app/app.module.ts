@@ -26,6 +26,12 @@ import { CategoriesComponent } from './pages/admin/categories/categories.compone
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { NewProductDialogComponent } from './pages/admin/products/new-product-dialog/new-product-dialog.component';
+import { ProductComponent } from './pages/product/product.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { HeaderComponent} from './shared/header/header.component';
+
+
 
 @NgModule({
   declarations: [
@@ -40,6 +46,10 @@ import { NewProductDialogComponent } from './pages/admin/products/new-product-di
     CustomerComponent,
     CategoriesComponent,
     NewProductDialogComponent,
+    HeaderComponent,
+    ProductComponent,
+    ProfileComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
@@ -56,6 +66,7 @@ import { NewProductDialogComponent } from './pages/admin/products/new-product-di
     MatButtonModule,
     ConfirmDialog,
     ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
