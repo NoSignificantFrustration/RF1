@@ -1,0 +1,21 @@
+Vállalásaim a mérföldkőben:
+
+Navigációs bár létrehozása
+Kosárba helyezés megvalósítása
+
+
+Issues:
+
+#31
+#44
+
+
+Commits:
+
+d1ce98c8
+ab38152d
+f655f6d9
+a4faa6ef
+398bfd89
+
+Egyéni jelentés
