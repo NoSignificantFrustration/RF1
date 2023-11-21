@@ -31,7 +31,12 @@ export class ProductService {
     const storageRef = this.storage.ref(imageUrl);
     return storageRef.getDownloadURL();
   }
+  getProductById(id:string): Observable<Product | undefined>{
 
+    return this.afs.collection<Product>("Products").doc(id).valueChanges({idField: 'productId'});
+
+  }
+  
   createProduct(product: Product) {
     return this.afs.collection<Product>('Products').add(product);
   }

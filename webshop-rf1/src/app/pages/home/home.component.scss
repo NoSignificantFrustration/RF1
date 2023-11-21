@@ -16,8 +16,9 @@ ul li a{
     flex-direction: column;
     overflow: hidden;
     color: #bb00cc;
+    background: rgba(0, 0, 0, 0.75);
 }
-ul li img{
+ul li{
     margin-bottom: 15px;
     max-width: 100%;
     max-height: 65%;
@@ -30,7 +31,6 @@ li a:hover{
 .content{
     padding: .5rem 1rem;
     position: relative;
-    color: black;
     font-size: medium;
     display: flex;
     justify-content: space-between;
@@ -43,4 +43,13 @@ li a:hover{
 .name{
     float: right;
 }
+
+img{
+  width: 320px;
+  height: 320px;
+}
+ mat-card-content{
+   background: transparent;
+ }
+
 

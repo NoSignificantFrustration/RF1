@@ -20,8 +20,10 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { CustomerComponent } from './pages/admin/customer/customer.component';
 import { CategoriesComponent } from './pages/admin/categories/categories.component';
-
-
+import { ProductComponent } from './pages/product/product.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { HeaderComponent} from './shared/header/header.component';
 
 
 
@@ -36,7 +38,11 @@ import { CategoriesComponent } from './pages/admin/categories/categories.compone
     AdminComponent,
     ProductsComponent,
     CustomerComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    HeaderComponent,
+    ProductComponent,
+    ProfileComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +54,7 @@ import { CategoriesComponent } from './pages/admin/categories/categories.compone
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
     MatCardModule,
-    MatIconModule
+    MatIconModule,
 
   ],
   providers: [],

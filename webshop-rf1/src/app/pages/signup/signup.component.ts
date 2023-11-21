@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { User } from 'src/app/shared/models/User';
 import { AuthService } from 'src/app/shared/services/auth.service';
 import { UserService } from 'src/app/shared/services/user.service';
@@ -14,7 +15,7 @@ export class SignupComponent {
   password: string = '';
   errorMessage: string = '';
 
-  constructor(private authService: AuthService,  private userSevice : UserService) {}
+  constructor(private authService: AuthService,  private userSevice : UserService, private router: Router) {}
 
   signUp() {
       this.authService.signup( this.email,this.password).then(cred =>{
@@ -37,6 +38,9 @@ export class SignupComponent {
       // User successfully signed up
 
 
+  }
+  toLogin(){
+    this.router.navigate(["/login"]);
   }
 
 }
