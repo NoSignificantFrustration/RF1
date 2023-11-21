@@ -1,0 +1,38 @@
+{
+  "howsdkH26BGkCEQgJguu":
+  {
+    "cartId": 1,
+    "customerId": 2,
+    "productI": [3,4]
+  },
+  "O0c36M7biqbbjjRrfv2m":
+  {
+    "cartId": 2,
+    "customerId": 8,
+    "productI": [10,3]
+  },
+  "LdekYrhHdN85tzMcTvsN":
+  {
+    "cartId": 3,
+    "customerId": 6,
+    "productI": [4,5]
+  },
+  "dVDl5xKrM0MTMFxyu3KH":
+  {
+    "cartId": 4,
+    "customerId": 9,
+    "productI": [7,9]
+  },
+  "PAtzHKqVrXHc6uFkc5lQ":
+  {
+    "cartId": 5,
+    "customerId": 1,
+    "productI": [10,6]
+  },
+  "PhCjspVDPuIXVg3NnwCK":
+  {
+    "cartId": 6,
+    "customerId": 4,
+    "productI": [3,5]
+  }
+}
