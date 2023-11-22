@@ -1,4 +1,6 @@
 ul {
+  display: flex;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,18 +8,21 @@ ul {
   background-color: #333;
 }
 
-li {
-  float: right;
-}
 
 li a {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 li a:hover {
   background-color: green;
+}
+.loggedin{
+  display: flex;
+  justify-content: flex-end;
 }

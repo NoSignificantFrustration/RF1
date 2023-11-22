@@ -11,7 +11,7 @@ export class PurchaseService {
 
   constructor(private afs: AngularFirestore) {}
 
-  getAllProducts(customerId: string): Observable<Purchase[]> {
+  getPurchasesByCustomerId(customerId: string): Observable<Purchase[]> {
     return this.afs.collection<Purchase>('Purchases', ref=>ref.where("customerId","==",customerId)).valueChanges();
   }
 }
