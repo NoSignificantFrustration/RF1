@@ -15,3 +15,5 @@ vscode/*
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+/node_modules
