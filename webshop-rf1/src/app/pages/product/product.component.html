@@ -19,8 +19,8 @@
     </tr>
     </table>
     <app-comment-form></app-comment-form>
-    <li *ngFor = "let review of reviews">
-        <app-comment [comment]="review"></app-comment>
-    </li>
+    <div class = "commentContainer" >
+        <app-comment *ngFor = "let review of reviews" [comment]="review"></app-comment>
+    </div>
     </div>
     

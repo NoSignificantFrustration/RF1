@@ -1,2 +1,7 @@
-<ul>Értékelés: {{comment?.rating}}</ul><br>
-<p>{{comment?.comment}}</p>
+<div class = "commentBox">
+    {{username}}<br>
+    Értékelés: {{comment?.rating}}<br>
+    <p>{{comment?.comment}}</p>
+    <button type="button" *ngIf = "isAdmin" (click)="deleteComment()">Admin: Törlés</button>
+</div>
+
