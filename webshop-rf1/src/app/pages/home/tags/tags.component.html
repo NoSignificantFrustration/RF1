@@ -1,5 +1,2 @@
-<form>
-<select >
-    <option *ngFor="let tag of tags" [value]="tag.tagName"  (selectionChange)="getProductByTag(tag.tagId,tag.tagName)" >{{tag.tagName}}</option>
- </select>
-</form>
+
+<li *ngFor="let tag of tags" [value]=tag.tagId (click)="onSaveSelectedTag(tag.tagId)">{{tag.tagName}}</li>

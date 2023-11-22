@@ -28,21 +28,21 @@ export class HomeComponent implements OnInit{
           });
           this.products = products;
         });
-      }else if(params["tags"]){
-        this.productService.getAllProducts().subscribe(products => {
-     
-          const filteredProducts = products.filter(product => product.tags && product.tags.includes(tagId));
-    
-          filteredProducts.forEach(product => {
-            this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
-              product.imageUrl = url;
-            });
-          });
-      
-         
-          this.products = filteredProducts;
-    
-        });
+      // }else if(params["tags"]){
+      //   // this.productService.getAllProducts().subscribe(products => {
+      //   //
+      //   //   const filteredProducts = products.filter(product => product.tags && product.tags.includes());
+      //   //
+      //   //   filteredProducts.forEach(product => {
+      //   //     this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
+      //   //       product.imageUrl = url;
+      //   //     });
+      //   //   });
+      //   //
+      //
+      //     // this.products = filteredProducts;
+      //
+      //   });
       }else(
         this.productService.getAllProducts().subscribe(products => {
           products.forEach(product => {
