@@ -1,2 +1,3 @@
-
-<li *ngFor="let tag of tags" [value]=tag.tagId (click)="onSaveSelectedTag(tag.tagId)">{{tag.tagName}}</li>
+<div class="tagWrapper">
+    <li *ngFor="let tag of tags" [value]=tag.tagId (click)="onSaveSelectedTag(tag.tagId)">{{tag.tagName}}</li>
+</div>

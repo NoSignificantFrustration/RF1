@@ -1,4 +1,14 @@
 li{
-  font-size: 25px;
+  display: inline-block;
+  font-size: 17px;
   padding: 10px;
+  margin: 10px;
+  background-color: #e9e1e1;
+  border-radius: 10px;
+}
+.tagWrapper{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  left: 200;
 }
