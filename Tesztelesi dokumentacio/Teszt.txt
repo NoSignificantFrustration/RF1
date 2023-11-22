@@ -1,0 +1,64 @@
+# Tesztjegyzőkönyv - Termék funkciók
+
+Az alábbi tesztdokumentum a Webshop projekthez tartozó 8.3. funkcióihoz készült. Felelőse: 
+
+
+## 1. Teszteljárások (TP)
+
+#### 1.1 Regisztrálás
+
+  1. lépés: Nyissuk meg a megfelelő weblapunkat
+  2. lépés: Válasszuk ki a Sign Up menüpontot
+  3. lépés: Írjuk be adatainkat
+  4. lépés: Kattintsunk a Sign Up gombra
+  5. lépés: Visszakerülés a főoldalra
+
+#### 1.2 Üres inputtal való tesztelés 
+  
+   0. lépés: Van regisztrációs gomb
+   1. lépés: Üresek a beviteli mezők
+   2. lépés: Nyomjuk meg az entert
+   3. lépés: Hibaüzenetet kapunk
+
+
+## 2. Teszesetek (TC)
+
+### 2.1. 
+
+#### 2.1.1. TC-01
+- TP: TP-01
+- Leírás: Ha üres inputtal akarunk regisztrálni, nem engedi és hibával térünk vissza
+- Bemenet: Üres
+- Művelet: üresen hagyjuk a beviteli mezőket és megnyomjuk az entert 
+- Elvárt kimenet: Hibaüzenet
+
+### 2.2. 
+
+#### 2.2.1. TC-01
+- TP: TP-02
+- Leírás: Regisztrálunk az adataink megadásával
+- Bemenet: Kattintással és billentyűzettel
+- Művelet: Megnyomjuk utána az entert
+- Elvárt kimenet: Sikeres regisztrálás főoldalra való visszakerülés
+
+## 3. Tesztriportok (TR)
+
+### 3.1. 
+
+#### 3.1.1. TR-01 (TC-01)
+- TP: TP-01
+  1. lépés: Megnyitottam a deployolt weboldalt
+  2. lépés: Rámentem a regisztrálásra
+  3. lépés: Üresen hagytam az inputokat
+  4. lépés: Megnyomtam az entert
+  5. lépés: Error ✔
+
+
+### 3.2. 
+
+#### 3.2.1. TR-01 (TC-01)
+- TP: TP-02
+  0. lépés: Beléptem a regisztráláshoz
+  1. lépés: Kitöltöttem az adatokat
+  2. lépés: Megnyomtam az entert
+  3. lépés: A fiók létrejött, főoldara nincs átirányítás
