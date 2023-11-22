@@ -158,6 +158,24 @@ A munkát `Kurunczi Nándor` koordinálja.
  - `Hely: Otthon online - Erefegy discord szerver`
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
  - `Érintett témák: Diagramok véglegesítése, projekt követelmények átbeszélése`
+
+`8. megbeszélés:`
+ - `Időpont: 2023.11.02.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György
+ - `Érintett témák: Harmadik mérföldkő feladatainak megbeszélése, firebase projekt létrehozása`
+
+`9. megbeszélés:`
+ - `Időpont: 2023.11.10.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Projekt feladatok haldásának megbeszélése, eetleges elakadt feladatokkal segítség nyújtás`
+
+`10. megbeszélés:`
+ - `Időpont: 2023.11.16.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Egymás feladatainak átnézés, jóváhagyása, firebase adatbáziskezelés áttekintése`
 ### 6.3. Minőségbiztosítás
 
 `A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak. Az alkalmazás elkészült részeinek követelményeknek való megfeleltségének ellenőrzése.`
