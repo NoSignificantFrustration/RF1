@@ -1,0 +1,64 @@
+# Tesztjegyzőkönyv - Termék funkciók
+
+Az alábbi tesztdokumentum a Webshop projekthez tartozó 8.3.9 funkcióihoz készült. Felelőse: Márton István
+
+
+## 1. Teszteljárások (TP)
+
+#### 1.1 Termék név szerinti keresése
+
+  1. lépés: Nyissuk meg a megfelelő weblapunkat
+  2. lépés: Kattinstunk a serchbarba
+  3. lépés: Írjuk be kivánt termék nevét
+  4. lépés: Nyomjunkrá a nagyítóra vagy nyomjunk egy entert
+  5. lépés: Megjelenek a termékek amik jók a szűrésre.
+
+#### 1.2 Termék név szerinti keresésének megszüntetése
+  
+   0. lépés: Van aktív keresési szűrés
+   1. lépés: Üritsük ki a searchbart
+   2. lépés: Nyomjuk meg a nagyító gombot vagy nyomjunk egy entert
+   3. lépés: Az összes termék megjelenik
+
+
+## 2. Teszesetek (TC)
+
+### 2.1. Termék név szerinti keresése
+
+#### 2.1.1. TC-01
+- TP: TP-01
+- Leírás: Ha a főoldalon szeretnénk egy vagy több terméket megtalálni név szerint akkor rá tudunk keresni
+- Bemenet: kattintás és írás billenytűvel
+- Művelet: nyomjunk a searchbarba és írjuk be a termék nevét
+- Elvárt kimenet: A beírt termék lesz csak látható az oldalon
+
+### 2.2. Termék név szerinti keresésének megszüntetése
+
+#### 2.2.1. TC-01
+- TP: TP-02
+- Leírás: A termék név alapján való szűrés megszüntetése.
+- Bemenet: kattintás és Delete gomb
+- Művelet: nyomjunk a searchbarba és töröljük a tartalmát
+- Elvárt kimenet: Az összes termék látható lesz
+
+## 3. Tesztriportok (TR)
+
+### 3.1. Termék név szerinti keresése
+
+#### 3.1.1. TR-01 (TC-01)
+- TP: TP-01
+  1. lépés: megnyitottam a deployolt weboldalt
+  2. lépés: beírtam egy termék nevét
+  3. lépés: rákattintottam a nagyítóra
+  4. lépés: megtörtént a szűrés
+  5. lépés: csak a szűrt termék látszik
+
+
+### 3.2. Termék név szerinti keresésének megszüntetése
+
+#### 3.2.1. TR-01 (TC-01)
+- TP: TP-02
+  0. lépés: rányomtam a searchbarra
+  1. lépés: kitöröltem a tartalmát
+  2. lépés: rákatintottam a nyagító gombra
+  3. lépés: minden termék látszik megint

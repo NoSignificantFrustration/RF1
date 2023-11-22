@@ -1,0 +1,22 @@
+Vállalásaim a mérföldkőben:
+
+
+Use Case diagram jóváhagyása és véglegesítése, Class diagram készítése, Termékek kilistázása sequence diagram elkészítése
+
+A feladathoz tartozó issue(k):
+
+#40
+#41
+#42
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+c1f77e9f
+447db1d8
+6e24715b
+4b1015f9
+66f1d1bd
+bdd2ef2f
+1d8f584a
+f606f792
