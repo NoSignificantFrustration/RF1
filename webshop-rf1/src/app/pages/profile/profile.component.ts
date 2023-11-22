@@ -30,6 +30,7 @@ export class ProfileComponent {
       this.user = user;
     });
     if (this.user) {
+      // Itt gecire user ID alapjan kérem le a customer ID helyett xd na maaaaajd
       this.purchaseService.getPurchasesByCustomerId(this.user.uid).subscribe(purchases => this.purchases = purchases);
     }
     this.purchases.forEach(purchase => {
