@@ -17,6 +17,8 @@ import { TagsComponent } from './pages/home/tags/tags.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { CartComponent } from './pages/cart/cart.component';
+
 
 
 
@@ -30,7 +32,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
-    ProfileComponent
+    ProfileComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
