@@ -28,19 +28,32 @@ export class HomeComponent implements OnInit{
           });
           this.products = products;
         });
-      }else{
-          this.productService.getAllProducts().subscribe(products => {
-            products.forEach(product => {
-              this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
-                product.imageUrl = url;
-              });
+      // }else if(params["tags"]){
+      //   // this.productService.getAllProducts().subscribe(products => {
+      //   //
+      //   //   const filteredProducts = products.filter(product => product.tags && product.tags.includes());
+      //   //
+      //   //   filteredProducts.forEach(product => {
+      //   //     this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
+      //   //       product.imageUrl = url;
+      //   //     });
+      //   //   });
+      //   //
+      //
+      //     // this.products = filteredProducts;
+      //
+      //   });
+      }else(
+        this.productService.getAllProducts().subscribe(products => {
+          products.forEach(product => {
+            this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
+              product.imageUrl = url;
             });
-            this.products = products;
-            this.cartServive.reloedCookie(this.products);
           });
-
-          // this.productService.createProduct(prod)
-    }
-    });
+          this.products = products;
+          this.cartServive.reloedCookie(this.products);
+        }));
+      }
+    )
   }
 }
