@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/shared/models/Product';
 import { ProductService } from 'src/app/shared/services/product.service';
 import { ActivatedRoute } from '@angular/router';
+import { CartService } from 'src/app/shared/services/cart.service';
 
 
 @Component({
@@ -13,7 +14,7 @@ export class HomeComponent implements OnInit{
 
   products: Product[] = [];
 
-  constructor (private productService: ProductService, private route:ActivatedRoute){}
+  constructor (private productService: ProductService, private route:ActivatedRoute, private cartServive: CartService){}
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
@@ -35,6 +36,7 @@ export class HomeComponent implements OnInit{
               });
             });
             this.products = products;
+            this.cartServive.reloedCookie(this.products);
           });
 
           // this.productService.createProduct(prod)

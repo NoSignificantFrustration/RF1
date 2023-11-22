@@ -1,0 +1,21 @@
+<h2>Products</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Modify</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.productName }}</td>
+      <td>{{ product.price }}</td>
+      <td><button (click)="openDialog(product)">Delete</button></td>
+    </tr>
+  </tbody>
+</table>
+<button (click)="openNewProductDialog()" type="button" class="add-btn">
+  Add new product
+</button>
