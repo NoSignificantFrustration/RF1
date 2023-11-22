@@ -1,6 +1,6 @@
 # Tesztjegyzőkönyv - Termék funkciók
 
-Az alábbi tesztdokumentum a Webshop projekthez tartozó 8.3. funkcióihoz készült. Felelőse: 
+Az alábbi tesztdokumentum a Webshop projekthez tartozó 8.3.5 funkcióihoz készült. Felelőse: Márton István
 
 
 ## 1. Teszteljárások (TP)
