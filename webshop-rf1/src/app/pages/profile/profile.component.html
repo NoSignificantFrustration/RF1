@@ -1,10 +1,5 @@
 <div class="wrapper">
-    <div class="update-form">
-        <div class="form-group">
-            <input type="name"/>
-            <label for="name">Name</label>
-        </div>
-    </div>
+    <label>My Purchases:</label>
     <div class="purchases">
         <table>
             <thead>
@@ -15,12 +10,12 @@
                 </tr>
             </thead>
             <tbody>
-                <!--
-                <tr *ngFor="let purchase of purchases">
+                
+                <tr *ngFor="let purchase of purchasedProducts">
+                    <td><img [src]="purchase.imageUrl" alt=""></td>
                     <td>{{ purchase.productName }}</td>
-                    <td>{{ purchase.price }}</td>
-                    <td><button type="button">Delete</button></td>
-                </tr>-->
+                    <td>{{ purchase.date}}</td>
+                </tr>
             </tbody>
         </table>
 

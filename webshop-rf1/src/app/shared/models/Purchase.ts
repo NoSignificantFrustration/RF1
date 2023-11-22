@@ -1,5 +1,5 @@
 export class Purchase{
-    productId!:number;
+    productId!:string;
     customerId!:string;
     date!:Date;
 }
