@@ -1,0 +1,33 @@
+Index: webshop-rf1/src/app/pages/home/tags/tags.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><p>tags works!</p>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/webshop-rf1/src/app/pages/home/tags/tags.component.html b/webshop-rf1/src/app/pages/home/tags/tags.component.html
+--- a/webshop-rf1/src/app/pages/home/tags/tags.component.html	
++++ b/webshop-rf1/src/app/pages/home/tags/tags.component.html	
+@@ -1,1 +1,1 @@
+-<p>tags works!</p>
++
+Index: webshop-rf1/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"name\": \"webshop-rf1\",\r\n  \"version\": \"0.0.0\",\r\n  \"scripts\": {\r\n    \"ng\": \"ng\",\r\n    \"start\": \"ng serve\",\r\n    \"build\": \"ng build\",\r\n    \"watch\": \"ng build --watch --configuration development\",\r\n    \"test\": \"ng test\"\r\n  },\r\n  \"private\": true,\r\n  \"dependencies\": {\r\n    \"@angular/animations\": \"^16.2.0\",\r\n    \"@angular/cdk\": \"^16.2.12\",\r\n    \"@angular/common\": \"^16.2.0\",\r\n    \"@angular/compiler\": \"^16.2.0\",\r\n    \"@angular/core\": \"^16.2.0\",\r\n    \"@angular/fire\": \"^16.0.0\",\r\n    \"@angular/forms\": \"^16.2.0\",\r\n    \"@angular/material\": \"^16.2.12\",\r\n    \"@angular/platform-browser\": \"^16.2.0\",\r\n    \"@angular/platform-browser-dynamic\": \"^16.2.0\",\r\n    \"@angular/router\": \"^16.2.0\",\r\n    \"ngx-cookie-service\": \"^16.1.0\",\r\n    \"firebase\": \"^10.5.2\",\r\n    \"rxjs\": \"~7.8.0\",\r\n    \"tslib\": \"^2.3.0\",\r\n    \"zone.js\": \"~0.13.0\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"@angular-devkit/build-angular\": \"^16.2.10\",\r\n    \"@angular/cli\": \"^16.2.0\",\r\n    \"@angular/compiler-cli\": \"^16.2.0\",\r\n    \"@types/jasmine\": \"~4.3.0\",\r\n    \"jasmine-core\": \"~4.6.0\",\r\n    \"karma\": \"~6.4.0\",\r\n    \"karma-chrome-launcher\": \"~3.2.0\",\r\n    \"karma-coverage\": \"~2.2.0\",\r\n    \"karma-jasmine\": \"~5.1.0\",\r\n    \"karma-jasmine-html-reporter\": \"~2.1.0\",\r\n    \"typescript\": \"~5.1.3\"\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/webshop-rf1/package.json b/webshop-rf1/package.json
+--- a/webshop-rf1/package.json	
++++ b/webshop-rf1/package.json	
+@@ -21,8 +21,8 @@
+     "@angular/platform-browser": "^16.2.0",
+     "@angular/platform-browser-dynamic": "^16.2.0",
+     "@angular/router": "^16.2.0",
+-    "ngx-cookie-service": "^16.1.0",
+     "firebase": "^10.5.2",
++    "ngx-cookie-service": "^16.1.0",
+     "rxjs": "~7.8.0",
+     "tslib": "^2.3.0",
+     "zone.js": "~0.13.0"

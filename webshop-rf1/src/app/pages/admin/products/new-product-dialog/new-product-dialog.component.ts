@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Product } from 'src/app/shared/models/Product';
 import { ProductService } from 'src/app/shared/services/product.service';
 
@@ -9,6 +10,7 @@ import { ProductService } from 'src/app/shared/services/product.service';
   styleUrls: ['./new-product-dialog.component.scss'],
 })
 export class NewProductDialogComponent implements OnInit {
+  edit: string = 'default';
   productForm: FormGroup = this.fb.group({
     productId: [null],
     productName: ['', Validators.required],
@@ -20,8 +22,11 @@ export class NewProductDialogComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private productService: ProductService
-  ) {}
+    private productService: ProductService,
+    @Inject(MAT_DIALOG_DATA) public initialedit: string
+  ) {
+    this.edit = initialedit;
+  }
 
   ngOnInit(): void {}
 

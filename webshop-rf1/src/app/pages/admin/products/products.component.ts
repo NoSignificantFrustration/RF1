@@ -37,8 +37,10 @@ export class ProductsComponent implements OnInit {
     //this.productService.createProduct(prod);
   }
 
-  openNewProductDialog() {
-    const dialogRef = this.dialog.open(NewProductDialogComponent);
+  openNewProductDialog(initialedit: string) {
+    const dialogRef = this.dialog.open(NewProductDialogComponent, {
+      data: initialedit,
+    });
   }
 
   openDialog(product: Product) {

@@ -4,10 +4,9 @@ import { Customer } from '../models/Customer';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CustomerService {
-
   collectionName = 'Customers';
   private CustomerCollection: AngularFirestoreCollection<Customer>;
 
@@ -20,6 +19,12 @@ export class CustomerService {
   }
 
   getAllCustomers(): Observable<Customer[]> {
-    return this.afs.collection<Customer>(this.collectionName).valueChanges();
+    return this.afs
+      .collection<Customer>(this.collectionName)
+      .valueChanges({ idField: 'customerId' });
+  }
+
+  async deleteCustomerById(customerId: string) {
+    return await this.afs.doc(`Customers/${customerId}`).delete();
   }
 }
