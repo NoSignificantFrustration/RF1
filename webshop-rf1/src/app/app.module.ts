@@ -30,6 +30,8 @@ import { ProductComponent } from './pages/product/product.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { HeaderComponent} from './shared/header/header.component';
+import { CommentFormComponent } from './pages/product/comment-form/comment-form.component';
+import { CommentComponent } from './pages/product/comment/comment.component';
 
 
 
@@ -49,7 +51,9 @@ import { HeaderComponent} from './shared/header/header.component';
     HeaderComponent,
     ProductComponent,
     ProfileComponent,
-    CartComponent
+    CartComponent,
+    CommentFormComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule,

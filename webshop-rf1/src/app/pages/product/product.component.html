@@ -18,4 +18,9 @@
         <td><input type="submit" value="Kosárba"/></td>
     </tr>
     </table>
+    <app-comment-form></app-comment-form>
+    <li *ngFor = "let review of reviews">
+        <app-comment [comment]="review"></app-comment>
+    </li>
     </div>
+    

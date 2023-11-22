@@ -20,8 +20,13 @@ export class ReviewService{
       }
     
 
-    getReviews(productID: string): Observable<Review[]>{
-        return this.afs.collection<Review>('reviews', ref => ref.where('productID', '==', String(productID))).valueChanges({idField: 'id'});
+     getReviews(productID: string): Observable<Review[]>{
+        console.log("id: " + productID);
+        let asd = this.afs.collectionGroup<Review>('Reviews', ref => ref.where('productID', '==', productID)).valueChanges({idField: 'id'});
+        
+        return asd;
+        //return this.afs.collection<Review>('Reviews', ref => ref.where('productID', '==', productID)).valueChanges({idField: 'id'});
+
     }
 
     addReview(review: Review){

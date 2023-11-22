@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/shared/models/Product';
 import { ProductService } from 'src/app/shared/services/product.service';
-import { ReviewService } from 'src/app/shared/services/review.service.ts.service';
 import { ActivatedRoute } from '@angular/router';
+import { ReviewService } from 'src/app/shared/services/review.service.ts.service';
+import { Review } from 'src/app/shared/models/Review';
 
 @Component({
   selector: 'app-product',
@@ -13,8 +14,10 @@ export class ProductComponent implements OnInit{
 
 
   products: Product[] = [];
+  reviews: Review[] = []
+
   public product:Product | undefined;
-  constructor (private productService: ProductService, private route:ActivatedRoute){
+  constructor (private productService: ProductService, private route:ActivatedRoute, private reviewService:ReviewService){
     let id:string = this.route.snapshot.paramMap.get('productId')|| "";
     if(id != ""){
       this.productService.getProductById(id).subscribe(
@@ -24,15 +27,17 @@ export class ProductComponent implements OnInit{
             productService.getProductImageUrl(product.imageUrl).subscribe(url=>{product.imageUrl = url});
           }
         });
+        this.reviewService.getReviews(id).subscribe(reviews => {
+          this.reviews = reviews;
+          console.log(reviews);
+        });
+        
     }
+
+    
+    
   }
 
-  getProductData():Product | undefined{
-    let data:(Product | undefined);
-    this.productService.getProductById("").subscribe(res => data = res);
-
-    return data;
-  }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
