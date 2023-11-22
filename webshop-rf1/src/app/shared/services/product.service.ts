@@ -33,12 +33,13 @@ export class ProductService {
     const storageRef = this.storage.ref(imageUrl);
     return storageRef.getDownloadURL();
   }
-  getProductById(id:string): Observable<Product | undefined>{
-
-    return this.afs.collection<Product>("Products").doc(id).valueChanges({idField: 'productId'});
-
+  getProductById(id: string): Observable<Product | undefined> {
+    return this.afs
+      .collection<Product>('Products')
+      .doc(id)
+      .valueChanges({ idField: 'productId' });
   }
-  
+
   createProduct(product: Product) {
     return this.afs.collection<Product>('Products').add(product);
   }
@@ -66,4 +67,6 @@ export class ProductService {
   async deleteProductById(productId: number) {
     return await this.afs.doc(`Products/${productId}`).delete();
   }
+
+  editProductById(productId: number, product: Product) {}
 }

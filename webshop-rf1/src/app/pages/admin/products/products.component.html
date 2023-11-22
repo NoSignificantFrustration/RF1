@@ -12,10 +12,17 @@
     <tr *ngFor="let product of products">
       <td>{{ product.productName }}</td>
       <td>{{ product.price }}</td>
-      <td><button (click)="openDialog(product)">Delete</button></td>
+      <td>
+        <mat-icon class="modify_img" (click)="openDialog(product)"
+          >delete_forever</mat-icon
+        >
+        <mat-icon class="modify_img" (click)="openNewProductDialog('edit')"
+          >edit</mat-icon
+        >
+      </td>
     </tr>
   </tbody>
 </table>
-<button (click)="openNewProductDialog()" type="button" class="add-btn">
+<button (click)="openNewProductDialog('new')" type="button" class="add-btn">
   Add new product
 </button>
