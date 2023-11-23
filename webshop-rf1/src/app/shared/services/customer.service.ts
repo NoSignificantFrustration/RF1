@@ -1,17 +1,30 @@
 import { Injectable } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/compat/firestore';
 import { Customer } from '../models/Customer';
+import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CustomerService {
-
   collectionName = 'Customers';
+  private CustomerCollection: AngularFirestoreCollection<Customer>;
 
-  constructor(private afs: AngularFirestore) { }
+  constructor(private afs: AngularFirestore) {
+    this.CustomerCollection = afs.collection<Customer>('Customers');
+  }
 
-  create( customer: Customer){
+  create(customer: Customer) {
     return this.afs.collection<Customer>(this.collectionName).doc(customer.customerId).set(customer);
+  }
+
+  getAllCustomers(): Observable<Customer[]> {
+    return this.afs
+      .collection<Customer>(this.collectionName)
+      .valueChanges({ idField: 'customerId' });
+  }
+
+  async deleteCustomerById(customerId: string) {
+    return await this.afs.doc(`Customers/${customerId}`).delete();
   }
 }

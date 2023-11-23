@@ -15,7 +15,7 @@ export class LoginComponent {
   email: string = '';
   password: string = '';
   errorMessage: string = '';
-  isLoggedIn = false;
+  isLoggedIn: boolean = false;
   loggedInUser?: firebase.default.User | null;
 
   constructor(private router: Router, private authService: AuthService, private userService: UserService){}
@@ -61,6 +61,9 @@ export class LoginComponent {
 
   logout(){
     this.authService.logout()
+  }
+  signup(){
+    this.router.navigate(["/signup"]);
   }
 
 }
