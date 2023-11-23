@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023__11__22__19_33__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023__11__22__19_33__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webshop-rf1/src/app/pages/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webshop-rf1/src/app/pages/home/home.component.ts" afterDir="false" />
     </list>
+    <list default="true" id="65be065a-b483-4a9b-aee5-a4a35dd4eda9" name="Changes" comment="teszt dokumentáció" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +43,19 @@
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Csenge/Downloads/racetrack-10-30/game_engine&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,6 +82,7 @@
       <workItem from="1700085166545" duration="2657000" />
       <workItem from="1700165350616" duration="3147000" />
       <workItem from="1700678218589" duration="3436000" />
+
     </task>
     <task id="LOCAL-00001" summary="Projektterv 5. pontjának kidolgozása, 8. issue">
       <created>1696530730584</created>
@@ -153,7 +168,22 @@
       <option name="project" value="LOCAL" />
       <updated>1700087659660</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+
+    <task id="LOCAL-00013" summary="Cart kivéve">
+      <created>1700599338482</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700599338483</updated>
+    </task>
+    <task id="LOCAL-00014" summary="teszt dokumentáció">
+      <created>1700685422993</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700685422993</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +200,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/angular" />
+
                       </list>
                     </value>
                   </entry>
@@ -198,6 +228,7 @@
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+
                   <option value="8.3.7_termeklista" />
                 </option>
               </RecentGroup>
@@ -218,5 +249,8 @@
     <MESSAGE value="Cart tábla feltöltve" />
     <MESSAGE value="Purchases tábla feltöltve" />
     <option name="LAST_COMMIT_MESSAGE" value="Purchases tábla feltöltve" />
+    <MESSAGE value="Cart kivéve" />
+    <MESSAGE value="teszt dokumentáció" />
+    <option name="LAST_COMMIT_MESSAGE" value="teszt dokumentáció" />
   </component>
 </project>

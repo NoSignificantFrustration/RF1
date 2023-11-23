@@ -1,0 +1,22 @@
+Vállalásaim a mérföldkőben:
+
+Diagramok át írása angolra
+8.3.15 Termék oldal létrehozása (R)
+8.3.8 Főoldal: Tag keresés (R)
+8.3.9 Tesztelése
+
+A feladathoz tartozó issue(k):
+
+ Issue#43
+ Issue#36 
+
+
+A feladat elvégzését alátámasztó commit(ok):
+aaf4ed0c
+1524dc5e
+80c978d2
+b83e524d
+e71c7237
+45103c55
+a5b3480e
+89e595da
