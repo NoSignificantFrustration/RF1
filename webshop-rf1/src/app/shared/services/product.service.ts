@@ -6,6 +6,8 @@ import {
 import { AngularFireStorage } from '@angular/fire/compat/storage';
 import { Product } from '../models/Product';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+
 
 @Injectable({
   providedIn: 'root',
@@ -63,6 +65,20 @@ export class ProductService {
       )
       .valueChanges({ idField: 'productId' });
   }
+
+  getAllProductByTag(tag:string):Observable<Product[]> {
+    return this.afs
+      .collection<Product>('Products')
+      .valueChanges({ idField: 'productId' })
+      .pipe(
+        map((products: Product[]) =>
+          products.filter((product) =>
+            tag === 'All' ? true : product.tags?.includes(tag)
+          )
+        )
+        );
+  }
+
 
   async deleteProductById(productId: number) {
     return await this.afs.doc(`Products/${productId}`).delete();

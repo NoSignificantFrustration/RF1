@@ -28,7 +28,18 @@ export class HomeComponent implements OnInit{
           });
           this.products = products;
         });
-      }else(
+      } else if(params['tag']){
+        const tag = params['tag'];
+        this.productService.getAllProductByTag(tag).subscribe(products => {
+          products.forEach(product => {
+            this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
+              product.imageUrl = url;
+            });
+          });
+          this.products = products;
+        });
+      }else{
+              (
         this.productService.getAllProducts().subscribe(products => {
           products.forEach(product => {
             this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
@@ -38,6 +49,8 @@ export class HomeComponent implements OnInit{
           this.products = products;
           this.cartServive.reloedCookie(this.products);
         }));
+      }
+
       }
     )
   }

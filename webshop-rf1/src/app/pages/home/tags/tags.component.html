@@ -1,3 +1,6 @@
 <div class="tagWrapper">
-    <li *ngFor="let tag of tags" [value]=tag.tagId (click)="onSaveSelectedTag(tag.tagId)">{{tag.tagName}}</li>
+    <a *ngFor="let tag of tags" routerLink="/tag/{{tag.tagName}}">
+        {{tag.tagName}}
+        </a>
+    <!-- <li *ngFor="let tag of tags" [value]=tag.tagId (click)="onSaveSelectedTag(tag.tagId)">{{tag.tagName}}</li> -->
 </div>
