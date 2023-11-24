@@ -19,6 +19,11 @@ export class ProfileComponent {
   purchasedProducts: PurchasedProduct[] = [];
   user: firebase.default.User | null = null;
 
+  firstName: string = '';
+  lastName: string = '';
+  homeAddress: string = '';
+  phoneNumber: string = '';
+
   constructor(private userService: UserService,
     private purchaseService: PurchaseService,
     private authService: AuthService,
@@ -50,5 +55,7 @@ export class ProfileComponent {
       })
     });
   }
-
+  becomeCustomer():void{
+    console.log(this.firstName, this.lastName, this.homeAddress, this.phoneNumber)
+  }
 }
