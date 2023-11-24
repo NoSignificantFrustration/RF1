@@ -1,0 +1,15 @@
+Vállalásaim a mérföldkőben:
+
+
+Rendszerarchitektúra terve jóváhagyása és véglegesítése
+Tag alapú keresés Sequence diagram készítése
+
+A feladathoz tartozó issue(k):
+
+#23
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+e789e886
+Egyéni jelentés

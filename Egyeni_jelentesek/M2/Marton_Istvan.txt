@@ -1,0 +1,15 @@
+Vállalásaim a mérföldkőben:
+
+8.2.4 Képernyőtervek készítése, login sequence diagram elkészítése
+
+A feladathoz tartozó issue(k):
+
+#21
+#26
+
+A feladat elvégzését alátámasztó commit(ok):
+
+bb81d089
+2ba663d6
+bef33e5a
+c2f11f6b

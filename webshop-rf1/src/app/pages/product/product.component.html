@@ -1,0 +1,26 @@
+ <div routerLink="/product/{{product?.productId}}">
+    <table>
+        <tr>
+            <th rowspan="6"> <img [src]="product?.imageUrl" alt=""></th>
+            <th><h1>{{product?.productName}}</h1></th>
+        </tr>
+       <tr>
+
+        <td class="leiras"><p>Termék leírása: </p><br><p>{{product?.description}}</p></td>
+       </tr>
+       <tr>
+        <td><p>Price: {{product?.price}} Ft</p></td>
+      </tr>
+       <tr>
+        <td><p>Kategóriák: {{product?.tags}}</p></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Kosárba"/></td>
+    </tr>
+    </table>
+    <app-comment-form></app-comment-form>
+    <div class = "commentContainer" >
+        <app-comment *ngFor = "let review of reviews" [comment]="review"></app-comment>
+    </div>
+    </div>
+    

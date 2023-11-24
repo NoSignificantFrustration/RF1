@@ -1,6 +1,7 @@
 #Obsidian setting files
 .obsidian/*
 *.obsidian
+.obsidian/
 
 vscode/*
 !.vscode/settings.json
@@ -12,5 +13,9 @@ vscode/*
 # Local History for Visual Studio Code
 .history/
 
+./node_modules
+
 # Built Visual Studio Code Extensions
 *.vsix
+
+/node_modules
