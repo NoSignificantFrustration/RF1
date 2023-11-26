@@ -1,26 +1,27 @@
- <div routerLink="/product/{{product?.productId}}">
-    <table>
-        <tr>
-            <th rowspan="6"> <img [src]="product?.imageUrl" alt=""></th>
-            <th><h1>{{product?.productName}}</h1></th>
-        </tr>
-       <tr>
-
-        <td class="leiras"><p>Termék leírása: </p><br><p>{{product?.description}}</p></td>
-       </tr>
-       <tr>
-        <td><p>Price: {{product?.price}} Ft</p></td>
-      </tr>
-       <tr>
-        <td><p>Kategóriák: {{product?.tags}}</p></td>
-    </tr>
-    <tr>
-        <td><input type="submit" value="Kosárba"/></td>
-    </tr>
-    </table>
-    <app-comment-form></app-comment-form>
-    <div class = "commentContainer" >
-        <app-comment *ngFor = "let review of reviews" [comment]="review"></app-comment>
+<div id="host" routerLink="/product/{{product?.productId}}">
+    <div id="wrapper">
+        <div id="left">
+            <img [src]="product?.imageUrl" alt="">
+            <label id="name">{{product?.productName}}</label>
+        </div>
+        <div id="right">
+            <div id="description-div">
+                <div id="description-tags-div">
+                    <label id="description-label">Description</label>
+                    <label id="tags">{{product?.tags}}</label>
+                </div>
+                <p id="description">{{product?.description}}</p>
+            </div>
+            <div id="buy-div">
+                <input id="cart-button" type="submit" value="Add to cart" />
+                <label id="price">{{product?.price}}.00 Ft</label>
+            </div>
+            <div id="comments">
+                <app-comment-form></app-comment-form>
+                <div class="commentContainer">
+                    <app-comment *ngFor="let review of reviews" [comment]="review"></app-comment>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-    
+</div>
