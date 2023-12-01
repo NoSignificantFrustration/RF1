@@ -488,6 +488,7 @@ Erőforrásigény: 2 személynap
 #### 8.4.17 Projektterv, programdokumentációk karbantartása
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
+Erőforrásigény: 1 személynap 
 
 ## 9. Részletes időbeosztás
 ![Alt text](image.png)
