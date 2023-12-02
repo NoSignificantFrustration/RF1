@@ -1,4 +1,10 @@
-<div class="container">
+<app-empty-cart [visible]="!cart || cart.items.length <=0"
+                emptyCart="Cart Page is empty"
+                resetLinkText="Go to Home Page">
+
+</app-empty-cart>
+
+<div *ngIf="cart && cart.items.length > 0" class="container">
     <ul>
         <li *ngFor="let cartItem of cart.items">
             <div>

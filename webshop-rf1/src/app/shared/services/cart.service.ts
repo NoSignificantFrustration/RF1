@@ -78,27 +78,14 @@ export class CartService {
       let quantityt = quantity.split(";")
       for (let i = 0; i < idt.length; i++) {
         let product = items.find(item => item.productId == Number(productidt[i]));
-        /*
-        console.log(idt[i])
-        console.log(productidt[i])
-        console.log(quantityt[i])
-        console.log(product?.id.toString() + "," + product?.imageUrl)
-         */
         let item
         if (product) {
-          //console.log("ifben")
           item = new CartItem(product);
           item.quantity = Number(quantityt[i]);
           item.cardId = Number(idt[i])
           this.cart.items.push(item)
         }
       }
-      /*
-      console.log("after")
-      console.log(id)
-      console.log(productId)
-      console.log(quantity)
-       */
       this.alredyRun = true;
     }
   }

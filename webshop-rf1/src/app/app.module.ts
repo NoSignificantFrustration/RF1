@@ -32,6 +32,7 @@ import { CartComponent } from './pages/cart/cart.component';
 import { HeaderComponent} from './shared/header/header.component';
 import { CommentFormComponent } from './pages/product/comment-form/comment-form.component';
 import { CommentComponent } from './pages/product/comment/comment.component';
+import { EmptyCartComponent } from './pages/cart/empty-cart/empty-cart.component';
 
 
 
@@ -53,7 +54,8 @@ import { CommentComponent } from './pages/product/comment/comment.component';
     ProfileComponent,
     CartComponent,
     CommentFormComponent,
-    CommentComponent
+    CommentComponent,
+    EmptyCartComponent
   ],
   imports: [
     BrowserModule,
