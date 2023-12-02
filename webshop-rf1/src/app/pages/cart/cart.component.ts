@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {CartService} from "../../shared/services/cart.service";
 import {Cart} from "../../shared/models/Cart";
 import {CartItem} from "../../shared/models/CartItem";
+import {AngularFireAuth} from "@angular/fire/compat/auth";
 
 @Component({
   selector: 'app-cart',
@@ -11,9 +12,17 @@ import {CartItem} from "../../shared/models/CartItem";
 
 export class CartComponent {
   cart!:Cart;
-  constructor(private cartService: CartService){
+  fuser: firebase.default.User | null = null;
+
+  constructor(private cartService: CartService,private afAuth: AngularFireAuth){
     this.setCart();
   }
+  ngOnInit(): void {
+    this.afAuth.authState.subscribe(user => {
+      this.fuser = user;
+    });
+  }
+
 
   removeFromCart(cartItem:CartItem){
     this.cartService.removeFromCart(cartItem.product.productId);
@@ -33,12 +42,17 @@ export class CartComponent {
   }
   checkout(){
     if (confirm("Véglegesíted a rendelést") == true) {
+      this.cartService.createProduct(this.fuser);
+      /*
       this.cartService.removeAllCart();
       this.setCart()
+
+       */
     } else {
     }
     console.log(this.cart); // log the cart object to the console
     console.log(this.cart.items);
     console.log()
   }
+
 }

@@ -3,6 +3,12 @@ import { Cart } from 'src/app/shared/models/Cart';
 import { CartItem } from 'src/app/shared/models/CartItem';
 import { Product } from 'src/app/shared/models/Product';
 import {CookieService} from "ngx-cookie-service";
+import {
+  AngularFirestore,
+  AngularFirestoreCollection,
+} from '@angular/fire/compat/firestore';
+import {Purchase} from "../models/Purchase";
+
 
 @Injectable({
   providedIn: 'root'
@@ -12,10 +18,14 @@ export class CartService {
   private cart: Cart = new Cart();
   private alredyRun: boolean = false;
 
-  constructor(private cookieService: CookieService) {
+
+  constructor(private cookieService: CookieService, private firestore: AngularFirestore) {
   }
 
-  addToCart(product: Product): void {
+  addToCart(product: Product|undefined): void {
+    if(product==undefined){
+      return;
+    }
     let cartItem = this.cart.items.find(item => item.product.productId === product.productId);
     if (cartItem) {
       this.changeQuantity(product.productId, cartItem.quantity + 1);
@@ -99,5 +109,17 @@ export class CartService {
     this.cookieService.delete("ToolId")
     this.cookieService.delete("quantity")
 
+  }
+  createProduct(user:firebase.default.User | null) {
+    if(user==null){
+      return;
+    }
+    for (let i = 0; i < this.cart.items.length; i++) {
+      for (let j = 0; j <this.cart.items[i].quantity; j++) {
+        this.firestore.collection<Purchase>('Purchases').add(
+          {...new Purchase(user.uid,new Date(), this.cart.items[i].product.productId.toString())});
+      }
+    }
+    return
   }
 }
