@@ -1,1 +1,5 @@
-<p>tags works!</p>
+<div class="tagWrapper">        
+    <a *ngFor="let tag of tags" routerLink="/tag/{{tag.tagName}}">
+        {{tag.tagName}}
+        </a>
+</div>

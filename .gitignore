@@ -1,4 +1,6 @@
 #Obsidian setting files
+.obsidian/*
+*.obsidian
 .obsidian/
 
 vscode/*

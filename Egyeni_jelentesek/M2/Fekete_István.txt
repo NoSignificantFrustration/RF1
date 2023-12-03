@@ -1,0 +1,16 @@
+Vállalásaim a mérföldkőben:
+
+Képernyő tervek jóváhagyása
+Package diagram
+Termék hozzáadáshoz tartozó Sequance diagram
+
+
+Issue:
+
+#25
+
+
+Commits:
+
+5b76cc84
+431e7b98

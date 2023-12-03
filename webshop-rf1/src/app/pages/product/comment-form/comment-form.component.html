@@ -1,0 +1,16 @@
+<form id="comment-form" [formGroup]="commentForm" (ngSubmit)="onSubmit()">
+    <div id="comment-div">
+        <label for="comment">Komment</label><br>
+        <input type="text" id="comment" formControlName="comment" maxlength="255"><br>
+    </div>
+    <div id="rating-div">
+        <input type="text" id="rating" formControlName="rating" maxlength="1"><br>
+        <label for="oo5">/5</label><br>
+    </div>
+    <div id="submit">
+        <button class="button" type="submit">Add</button>
+    </div>
+</form>
+<p class="error" *ngIf="notLoggedIn">Értékelés felvételéhez be kell jelentkezni</p>
+<p class="error" *ngIf="ratingInvalid">Írj be egy 1 - 5 számot</p>
+<p class="error" *ngIf="commentTooShort">Írj egy rövid kommentet</p>

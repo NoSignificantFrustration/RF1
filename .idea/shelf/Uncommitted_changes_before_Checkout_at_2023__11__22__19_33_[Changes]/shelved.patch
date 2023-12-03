@@ -1,0 +1,103 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"65be065a-b483-4a9b-aee5-a4a35dd4eda9\" name=\"Changes\" comment=\"Purchases tábla feltöltve\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/webshop-rf1/Backup/Ratings_backup.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/webshop-rf1/Backup/Ratings_backup.json\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"angular\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2WM77ObqPhRlft3rHbxYX1L7I9N\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Csenge/Downloads/racetrack-10-30/game_engine&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;ts.external.directory.path&quot;: &quot;C:\\\\Program Files\\\\JetBrains\\\\IntelliJ IDEA 2022.3.3\\\\plugins\\\\javascript-impl\\\\jsLanguageServicesImpl\\\\external&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\uni\\2023_ib153i-11_b\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"2023_ib153i-11_b\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"2023_ib153i-11_b\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"65be065a-b483-4a9b-aee5-a4a35dd4eda9\" name=\"Changes\" comment=\"\" />\r\n      <created>1696530430937</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1696530430937</updated>\r\n      <workItem from=\"1696530432619\" duration=\"1120000\" />\r\n      <workItem from=\"1696532988572\" duration=\"1045000\" />\r\n      <workItem from=\"1696961798168\" duration=\"882000\" />\r\n      <workItem from=\"1697041067339\" duration=\"113000\" />\r\n      <workItem from=\"1697041192202\" duration=\"1521000\" />\r\n      <workItem from=\"1699732621923\" duration=\"6263000\" />\r\n      <workItem from=\"1699816822721\" duration=\"3509000\" />\r\n      <workItem from=\"1699902046766\" duration=\"8696000\" />\r\n      <workItem from=\"1700085166545\" duration=\"2657000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696530730584</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696530730584</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696533285498</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696533285498</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696533373506</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696533373506</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Projektterv 5. pontjának kidolgozása, 8. issue\">\r\n      <created>1696533671807</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696533671807</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Firebase Heroku helyett\">\r\n      <created>1696961864523</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696961864524</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"egyéni jelentés\">\r\n      <created>1696962679832</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696962679832</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"mergge 14-10\">\r\n      <created>1697045392054</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1697045392054</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"customers tábla backup\">\r\n      <created>1699818220612</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1699818220612</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"products tábla backup\">\r\n      <created>1699909878714</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1699909878714</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"warehouse stock tábla feltöltve\">\r\n      <created>1700085679982</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700085679982</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Cart tábla feltöltve\">\r\n      <created>1700087414835</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700087414835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Purchases tábla feltöltve\">\r\n      <created>1700087659660</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700087659660</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"8.3.7_termeklista\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"8.3.7_termeklista\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Projektterv 5. pontjának kidolgozása, 8. issue\" />\r\n    <MESSAGE value=\"Firebase Heroku helyett\" />\r\n    <MESSAGE value=\"egyéni jelentés\" />\r\n    <MESSAGE value=\"mergge 14-10\" />\r\n    <MESSAGE value=\"customers tábla backup\" />\r\n    <MESSAGE value=\"products tábla backup\" />\r\n    <MESSAGE value=\"warehouse stock tábla feltöltve\" />\r\n    <MESSAGE value=\"Cart tábla feltöltve\" />\r\n    <MESSAGE value=\"Purchases tábla feltöltve\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Purchases tábla feltöltve\" />\r\n  </component>\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,9 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="65be065a-b483-4a9b-aee5-a4a35dd4eda9" name="Changes" comment="Purchases tábla feltöltve">
++    <list default="true" id="65be065a-b483-4a9b-aee5-a4a35dd4eda9" name="Changes" comment="cart kitörölve innen is">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/webshop-rf1/Backup/Ratings_backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/webshop-rf1/Backup/Ratings_backup.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/webshop-rf1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webshop-rf1/package.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/webshop-rf1/src/app/pages/home/tags/tags.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webshop-rf1/src/app/pages/home/tags/tags.component.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -16,7 +17,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="angular" />
++        <entry key="$PROJECT_DIR$" value="8.3.7_termeklista" />
+       </map>
+     </option>
+   </component>
+@@ -28,21 +29,21 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Csenge/Downloads/racetrack-10-30/game_engine&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "C:/Users/Csenge/Downloads/racetrack-10-30/game_engine",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "ts.external.directory.path": "C:\\uni\\2023_ib153i-11_b\\webshop-rf1\\node_modules\\typescript\\lib",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\uni\2023_ib153i-11_b" />
+@@ -80,6 +81,7 @@
+       <workItem from="1699816822721" duration="3509000" />
+       <workItem from="1699902046766" duration="8696000" />
+       <workItem from="1700085166545" duration="2657000" />
++      <workItem from="1700669460402" duration="7526000" />
+     </task>
+     <task id="LOCAL-00001" summary="Projektterv 5. pontjának kidolgozása, 8. issue">
+       <created>1696530730584</created>
+@@ -165,7 +167,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1700087659660</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="cart kitörölve innen is">
++      <created>1700600807444</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1700600807444</updated>
++    </task>
++    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -219,6 +228,7 @@
+     <MESSAGE value="warehouse stock tábla feltöltve" />
+     <MESSAGE value="Cart tábla feltöltve" />
+     <MESSAGE value="Purchases tábla feltöltve" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Purchases tábla feltöltve" />
++    <MESSAGE value="cart kitörölve innen is" />
++    <option name="LAST_COMMIT_MESSAGE" value="cart kitörölve innen is" />
+   </component>
+-</project>
++</project>
+\ No newline at end of file
