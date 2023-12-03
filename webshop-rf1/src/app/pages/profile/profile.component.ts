@@ -85,7 +85,28 @@ export class ProfileComponent {
     console.log(this.isCustomer)
   }
   becomeCustomer():void{
+    this.afAuth.authState.subscribe((user) => {
+      if (user) {
+        const newCustomer: Customer = {
+          customerId: user.uid, 
+          userId: user.uid,
+          customerName: {
+            firstName: this.firstName, 
+            lastName: this.lastName,  
+          },
+          homeAdress: this.homeAddress,  
+          phoneNumber: this.phoneNumber,     
+        };
+        console.log(newCustomer)
 
+        this.customerService.create(newCustomer).then(() => {
+          console.log('Customer created successfully!');
+          this.customer = newCustomer;
+        }).catch((error) => {
+          console.error('Error creating customer:', error);
+        });
+      }
+    });
    
   }
 }
