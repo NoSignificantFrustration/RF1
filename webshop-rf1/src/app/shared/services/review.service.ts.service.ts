@@ -31,11 +31,11 @@ export class ReviewService{
 
 
     deleteReview(reviewId: string){
-        return this.reviewCollection.doc(String(reviewId)).delete();
+        return this.reviewCollection.doc(reviewId).delete();
     }
 
     updateReview(review: Review){
-        return this.reviewCollection.doc(String(review.id)).update({
+        return this.reviewCollection.doc(review.id).update({
             "rating":  review.rating,
             "comment": review.comment
         });
