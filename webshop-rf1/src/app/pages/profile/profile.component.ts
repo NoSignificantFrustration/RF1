@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { Customer } from 'src/app/shared/models/Customer';
 import { Product } from 'src/app/shared/models/Product';
 import { Purchase } from 'src/app/shared/models/Purchase';
 import { PurchasedProduct } from 'src/app/shared/models/purchasedProduct';
 import { AuthService } from 'src/app/shared/services/auth.service';
+import { CustomerService } from 'src/app/shared/services/customer.service';
 import { ProductService } from 'src/app/shared/services/product.service';
 import { PurchaseService } from 'src/app/shared/services/purchase.service';
 import { UserService } from 'src/app/shared/services/user.service';
@@ -18,6 +20,8 @@ export class ProfileComponent {
   products: Product[] = [];
   purchasedProducts: PurchasedProduct[] = [];
   user: firebase.default.User | null = null;
+  isCustomer: boolean = false;
+  customer: Customer | null = null;
 
   firstName: string = '';
   lastName: string = '';
@@ -28,34 +32,60 @@ export class ProfileComponent {
     private purchaseService: PurchaseService,
     private authService: AuthService,
     private afAuth: AngularFireAuth,
-    private productService: ProductService) { }
+    private productService: ProductService,
+    private customerService: CustomerService) { 
+
+    }
 
   ngOnInit(): void {
-    this.afAuth.authState.subscribe(user => {
-      this.user = user;
-    });
-    if (this.user) {
-      // Itt gecire user ID alapjan kérem le a customer ID helyett xd na maaaaajd
-      this.purchaseService.getPurchasesByCustomerId(this.user.uid).subscribe(purchases => this.purchases = purchases);
-    }
-    this.purchases.forEach(purchase => {
-      let productxd: Product | undefined;
+    const user = JSON.parse(localStorage.getItem('user') as string);
+    this.afAuth.authState.subscribe((user) => {
+      if (user) {
+        this.user = user;
+        // Retrieve customer information based on the user's UID
+        this.customerService.getCustomerbyId(this.user.uid).subscribe((customer) => {
+          // Handle the case when customer is undefined
+          if (customer) {
+            this.customer = customer;
+            this.isCustomer = true;
+            console.log(this.customer);
+          } else {
+            console.warn('Customer not found.');
+          }
+        });
+        if(this.customer){
+          // Retrieve purchases for the logged-in user
+        this.purchaseService.getPurchasesByCustomerId(this.customer!.customerId).subscribe((purchases) => {
+          this.purchases = purchases;
 
-      this.productService.getProductById(purchase.productId).subscribe(product => productxd = product)
-      if(productxd){
-        let actualProduct = productxd;
-        this.productService.getProductImageUrl(actualProduct.imageUrl).subscribe(dowloadUrl => actualProduct.imageUrl = dowloadUrl);
-        productxd = actualProduct;
+          // Iterate over purchases and retrieve product information
+          this.purchases.forEach((purchase) => {
+            this.productService.getProductById(purchase.productId).subscribe((product) => {
+              if (product) {
+                // Retrieve product image URL
+                this.productService.getProductImageUrl(product.imageUrl).subscribe((downloadUrl) => {
+                  // Update product information with image URL
+                  product.imageUrl = downloadUrl;
+
+                  // Push the purchased product into the array
+                  this.purchasedProducts.push({
+                    imageUrl: product.imageUrl || '',
+                    productName: product.productName || '',
+                    date: purchase.date
+                  });
+                });
+              }
+            });
+          });
+        });
+        }
+        
       }
-
-      this.purchasedProducts.push({
-        imageUrl: productxd?.imageUrl || "",
-        productName: productxd?.productName || "",
-        date: purchase.date
-      })
-    });
+    });  
+    console.log(this.isCustomer)
   }
   becomeCustomer():void{
-    console.log(this.firstName, this.lastName, this.homeAddress, this.phoneNumber)
+
+   
   }
 }

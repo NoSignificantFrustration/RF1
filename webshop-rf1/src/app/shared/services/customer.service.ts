@@ -23,6 +23,9 @@ export class CustomerService {
       .collection<Customer>(this.collectionName)
       .valueChanges({ idField: 'customerId' });
   }
+  getCustomerbyId(id: string): Observable<Customer | undefined> {
+    return this.afs.doc<Customer>(`Customers/${id}`).valueChanges();
+  }
 
   async deleteCustomerById(customerId: string) {
     return await this.afs.doc(`Customers/${customerId}`).delete();
