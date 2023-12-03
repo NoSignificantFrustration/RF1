@@ -1,10 +1,12 @@
-import { OnInit } from '@angular/core';
+import { Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Component } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { FormBuilder } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Customer } from 'src/app/shared/models/Customer';
 import { Product } from 'src/app/shared/models/Product';
 import { Review } from 'src/app/shared/models/Review';
+import { CustomerService } from 'src/app/shared/services/customer.service';
 import { ProductService } from 'src/app/shared/services/product.service';
 import { ReviewService } from 'src/app/shared/services/review.service.ts.service';
 
@@ -18,7 +20,7 @@ import { ReviewService } from 'src/app/shared/services/review.service.ts.service
 
 
 
-export class CommentFormComponent implements OnInit {
+export class CommentFormComponent implements OnInit, OnChanges {
 
   
   commentForm = this.formBuilder.group({
@@ -28,11 +30,14 @@ export class CommentFormComponent implements OnInit {
 
   user: firebase.default.User | null = null;
   public product:Product | undefined;
+  public customer:Customer | undefined;
+  @Input() review:Review | undefined;
 
    commentTooShort:boolean;
    ratingInvalid:boolean;
    loginInvalid:boolean;
    notLoggedIn:boolean;
+   isCustomer:boolean;
 
 constructor(
   private reviewService: ReviewService,
@@ -40,7 +45,8 @@ constructor(
   private afAuth: AngularFireAuth,
   private router: Router,
   private productService: ProductService, 
-  private route:ActivatedRoute
+  private route:ActivatedRoute,
+  private customerService:CustomerService
 ) {
   this.commentTooShort = false;
   this.ratingInvalid = false;
@@ -48,6 +54,7 @@ constructor(
   
 
   this.notLoggedIn = true
+  this.isCustomer = false;
 
   let id:string = this.route.snapshot.paramMap.get('productId')|| "";
   if(id != ""){
@@ -63,19 +70,54 @@ constructor(
     this.product = undefined;
   }
 
-
+  console.log("Previous review:" + this.review);
+  this.afAuth.authState.subscribe(user => {
+    this.user = user;
+    console.log("User: " + user);
+    this.notLoggedIn = user === null;
+    if (user) {
+      this.customerService.getCustomerbyId(user.uid).subscribe( customer => {
+        this.customer = customer;
+        this.isCustomer = this.customer !== undefined;
+      });
+    }
+  });
+  
+    
   
 }
-  ngOnInit(): void {
-    this.afAuth.authState.subscribe(user => {
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes["review"] ) {
+      console.log("Previous review:" + this.review);
+      this.afAuth.authState.subscribe(user => {
       this.user = user;
       console.log("User: " + user);
       this.notLoggedIn = user === null;
-    });
-    
+      if (user) {
+        this.customerService.getCustomerbyId(user.uid).subscribe( customer => {
+        this.customer = customer;
+        this.isCustomer = this.customer !== undefined;
+      });
+      if (this.review) {
+        this.commentForm.controls.comment.setValue(this.review.comment);
+        this.commentForm.controls.rating.setValue(this.review.rating);
+      }
+    }
+  });
+  
+    if (this.review) {
+      this.commentForm.controls.comment.setValue(this.review.comment);
+      this.commentForm.controls.rating.setValue(this.review.rating);
+    }
+    }
+  }
 
+
+
+  ngOnInit(): void {
     
   }
+
 
 
 
@@ -83,6 +125,8 @@ onSubmit(): void{
   console.log(this.product);
   if(this.notLoggedIn){
     this.router.navigateByUrl("/login");
+  } else if (!this.isCustomer) {
+    this.router.navigateByUrl("/profile");
   }
 
 
@@ -107,14 +151,29 @@ onSubmit(): void{
 
   if(!this.ratingInvalid && !this.commentTooShort && this.product && this.user){
 
-    
-    let review:Review = {} as Review;
-    review.comment = comment;
-    review.customerId = this.user.uid;
-    review.productId = String(this.product.productId);
-    review.rating = num;
+    if (this.review) {
+      this.review.comment = comment;
+      this.review.rating = num;
 
-    this.reviewService.addReview(review);
+      this.reviewService.updateReview(this.review);
+    } else{
+      let review:Review = {} as Review;
+      review.comment = comment;
+      review.customerId = this.user.uid;
+      review.productId = String(this.product.productId);
+      review.rating = num;
+
+     this.reviewService.addReview(review).then(value => value.get().then(value => {
+      this.review = value.data();
+      if (this.review) {
+        this.review.id = value.id;
+      }
+      
+      console.log("Added review: " + this.review?.id);
+    }))
+    }
+
+    
 
     this.commentForm.reset();
     

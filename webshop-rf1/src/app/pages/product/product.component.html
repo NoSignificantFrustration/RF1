@@ -17,7 +17,7 @@
                 <label id="price">{{product?.price}}.00 Ft</label>
             </div>
             <div id="comments">
-                <app-comment-form></app-comment-form>
+                <app-comment-form [review]="previousReview"></app-comment-form>
                 <div class="commentContainer">
                     <app-comment *ngFor="let review of reviews" [comment]="review"></app-comment>
                 </div>
