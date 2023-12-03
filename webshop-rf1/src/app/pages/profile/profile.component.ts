@@ -49,11 +49,19 @@ export class ProfileComponent {
             this.customer = customer;
             this.isCustomer = true;
             console.log(this.customer);
+
+            this.firstName = this.customer.customerName.firstName;
+            this.lastName = this.customer.customerName.lastName;
+            this.homeAddress = this.customer.homeAdress;
+            this.phoneNumber = this.customer.phoneNumber;
           } else {
             console.warn('Customer not found.');
           }
         });
         if(this.customer){
+          // Set customer information fields
+          
+
           // Retrieve purchases for the logged-in user
         this.purchaseService.getPurchasesByCustomerId(this.customer!.customerId).subscribe((purchases) => {
           this.purchases = purchases;
@@ -112,8 +120,21 @@ export class ProfileComponent {
   deleteCustomer(){
     this.customerService.deleteCustomerById(this.customer!.customerId).then(() => {
       console.log('Customer deleted successfully!');
+      this.isCustomer = false;
     }).catch((error) => {
       console.error('Error deleting customer:', error);
     });
+  }
+
+
+  updateCustomer(){
+    if (this.customer) {
+        this.customer.customerName.firstName = this.firstName;
+        this.customer.customerName.lastName = this.lastName;
+        this.customer.homeAdress = this.homeAddress;
+        this.customer.phoneNumber = this.phoneNumber;
+
+        this.customerService.updateCustomer(this.customer);
+    }
   }
 }

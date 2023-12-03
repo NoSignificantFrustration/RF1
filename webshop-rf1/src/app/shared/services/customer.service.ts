@@ -30,4 +30,12 @@ export class CustomerService {
   deleteCustomerById(customerId: string) {
     return this.afs.doc(`Customers/${customerId}`).delete();
   }
+
+  updateCustomer(customer: Customer){
+    return this.CustomerCollection.doc(String(customer.customerId)).update({
+        "customerName":  customer.customerName,
+        "homeAdress": customer.homeAdress,
+        "phoneNumber": customer.phoneNumber
+    });
+}
 }

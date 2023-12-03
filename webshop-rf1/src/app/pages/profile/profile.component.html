@@ -1,6 +1,8 @@
 <div class="wrapper">
-    <div class="customer-form" *ngIf="!isCustomer">
-        <label class="become-customer">Become a customer</label>
+
+    <div class="customer-form">
+        <label class="become-customer" *ngIf="!isCustomer">Become a customer</label>
+        <label class="modify-customer" *ngIf="isCustomer">Update customer information</label>
         <div class="names">
             <div class="form-group">
                 <input type="firstName" [(ngModel)]="firstName" />
@@ -19,7 +21,8 @@
             <input type="phoneNumber" [(ngModel)]="phoneNumber" />
             <label for="phoneNumber">Phone Number</label>
         </div>
-        <button (click)="becomeCustomer()">Become Customer</button>
+        <button (click)="becomeCustomer()" *ngIf="!isCustomer">Become Customer</button>
+        <button (click)="updateCustomer()" *ngIf="isCustomer">Update</button>
     </div>
     <div *ngIf="isCustomer">
         <button (click)="deleteCustomer()"></button>
