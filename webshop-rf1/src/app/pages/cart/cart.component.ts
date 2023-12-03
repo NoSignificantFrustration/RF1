@@ -3,6 +3,8 @@ import {CartService} from "../../shared/services/cart.service";
 import {Cart} from "../../shared/models/Cart";
 import {CartItem} from "../../shared/models/CartItem";
 import {AngularFireAuth} from "@angular/fire/compat/auth";
+import { Customer } from 'src/app/shared/models/Customer';
+import { CustomerService } from 'src/app/shared/services/customer.service';
 
 @Component({
   selector: 'app-cart',
@@ -13,15 +15,27 @@ import {AngularFireAuth} from "@angular/fire/compat/auth";
 export class CartComponent {
   cart!:Cart;
   fuser: firebase.default.User | null = null;
+  customer: Customer | null = null;
+  isCustomer: boolean = false;
 
-  constructor(private cartService: CartService,private afAuth: AngularFireAuth){
+  constructor(private cartService: CartService,private afAuth: AngularFireAuth, private customerService: CustomerService){
     this.setCart();
   }
   ngOnInit(): void {
-    this.afAuth.authState.subscribe(user => {
-      this.fuser = user;
-    });
-  }
+    const user = JSON.parse(localStorage.getItem('user') as string);
+    this.afAuth.authState.subscribe((user) => {
+      if (user) {
+        this.fuser = user;
+        this.customerService.getCustomerbyId(this.fuser.uid).subscribe((customer) => {
+          if (customer) {
+            this.customer = customer;
+            this.isCustomer = true;
+        }
+      });
+    }
+  });
+  console.log(this.customer)
+}
 
 
   removeFromCart(cartItem:CartItem){
@@ -41,7 +55,8 @@ export class CartComponent {
     this.cart = this.cartService.getCart();
   }
   checkout(){
-    if (confirm("Véglegesíted a rendelést") == true) {
+    if(this.isCustomer){
+       if (confirm("Véglegesíted a rendelést") == true) {
       this.cartService.createProduct(this.fuser);
       /*
       this.cartService.removeAllCart();
@@ -50,6 +65,10 @@ export class CartComponent {
        */
     } else {
     }
+    } else{
+      alert("Válj Customerré ahhoz hogy rendelést tudj leadni.")
+    }
+   
     console.log(this.cart); // log the cart object to the console
     console.log(this.cart.items);
     console.log()
