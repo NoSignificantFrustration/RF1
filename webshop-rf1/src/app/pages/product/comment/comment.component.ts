@@ -1,6 +1,8 @@
-import { Component, ElementRef, Input } from '@angular/core';
+import { Component, ElementRef, Input, OnInit } from '@angular/core';
+import { Customer } from 'src/app/shared/models/Customer';
 import { Review } from 'src/app/shared/models/Review';
 import { User } from 'src/app/shared/models/User';
+import { CustomerService } from 'src/app/shared/services/customer.service';
 import { ReviewService } from 'src/app/shared/services/review.service.ts.service';
 import { UserService } from 'src/app/shared/services/user.service';
 
@@ -9,28 +11,49 @@ import { UserService } from 'src/app/shared/services/user.service';
   templateUrl: './comment.component.html',
   styleUrls: ['./comment.component.scss']
 })
-export class CommentComponent {
+export class CommentComponent implements OnInit{
 
   @Input() comment: Review | null = null;
-  public username:string = "Ismeretlen felhasználó";
+  public username:string = "Deleted customer";
   public isAdmin:boolean;
 
   constructor( private userService:UserService,
-    private host: ElementRef<HTMLElement>,
+    private customerService: CustomerService,
     private reviewService:ReviewService
     ){
-    let user:User | undefined = undefined;
-    if(this.comment?.customerId){
-      userService.getUserById(this.comment?.customerId).subscribe(result => user = result)
-      if(user){
-        //this.username = user.username;
-      }
-    }
-
+    
+    
     this.isAdmin = localStorage.getItem('isAdmin') === 'true';
     
     
   }
+
+
+
+  ngOnInit(): void {
+    let user:User | undefined = undefined;
+
+    if(this.comment?.customerId){
+      this.userService.getUserById(this.comment?.customerId).subscribe(result => {
+        user = result;
+        
+        if(user){
+          let customer:Customer | undefined = undefined;
+          this.customerService.getCustomerbyId(user.userId).subscribe( customerEntry => {
+            customer = customerEntry;
+            if (customer) {
+              this.username = `${customer.customerName.firstName}  ${customer.customerName.lastName}`
+              
+            }
+          });
+          
+        } 
+      })
+      
+    }
+  }
+
+  
 
   deleteComment():void{
     if (this.comment) {
