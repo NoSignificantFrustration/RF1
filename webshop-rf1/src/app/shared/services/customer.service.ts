@@ -23,8 +23,19 @@ export class CustomerService {
       .collection<Customer>(this.collectionName)
       .valueChanges({ idField: 'customerId' });
   }
-
-  async deleteCustomerById(customerId: string) {
-    return await this.afs.doc(`Customers/${customerId}`).delete();
+  getCustomerbyId(id: string): Observable<Customer | undefined> {
+    return this.afs.doc<Customer>(`Customers/${id}`).valueChanges();
   }
+
+  deleteCustomerById(customerId: string) {
+    return this.afs.doc(`Customers/${customerId}`).delete();
+  }
+
+  updateCustomer(customer: Customer){
+    return this.CustomerCollection.doc(String(customer.customerId)).update({
+        "customerName":  customer.customerName,
+        "homeAdress": customer.homeAdress,
+        "phoneNumber": customer.phoneNumber
+    });
+}
 }

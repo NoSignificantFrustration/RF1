@@ -1,6 +1,34 @@
 <div class="wrapper">
-    <label>My Purchases:</label>
+
+    <div class="customer-form">
+        <label class="become-customer" *ngIf="!isCustomer">Become a customer</label>
+        <label class="modify-customer" *ngIf="isCustomer">Update customer information</label>
+        <div class="names">
+            <div class="form-group">
+                <input type="firstName" [(ngModel)]="firstName" />
+                <label for="firstName">First Name</label>
+            </div>
+            <div class="form-group">
+                <input type="lastName" [(ngModel)]="lastName" />
+                <label for="lastName">Last Name</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="homeAddress" [(ngModel)]="homeAddress" />
+            <label for="homeAddress">Address</label>
+        </div>
+        <div class="form-group">
+            <input type="phoneNumber" [(ngModel)]="phoneNumber" />
+            <label for="phoneNumber">Phone Number</label>
+        </div>
+        <button (click)="becomeCustomer()" *ngIf="!isCustomer">Become Customer</button>
+        <button (click)="updateCustomer()" *ngIf="isCustomer">Update</button>
+    </div>
+    <div *ngIf="isCustomer">
+        <button (click)="deleteCustomer()"></button>
+    </div>
     <div class="purchases">
+        <label>My Purchases:</label>
         <table>
             <thead>
                 <tr>
@@ -10,7 +38,7 @@
                 </tr>
             </thead>
             <tbody>
-                
+
                 <tr *ngFor="let purchase of purchasedProducts">
                     <td><img [src]="purchase.imageUrl" alt=""></td>
                     <td>{{ purchase.productName }}</td>
