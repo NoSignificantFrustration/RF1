@@ -9,4 +9,12 @@ a{
   color: purple;        
   cursor: pointer; 
 }
-
+a:hover{
+  opacity: 0.9;
+}
+.tagWrapper{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  left: 200;
+}
