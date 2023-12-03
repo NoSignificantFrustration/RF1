@@ -109,4 +109,11 @@ export class ProfileComponent {
     });
    
   }
+  deleteCustomer(){
+    this.customerService.deleteCustomerById(this.customer!.customerId).then(() => {
+      console.log('Customer deleted successfully!');
+    }).catch((error) => {
+      console.error('Error deleting customer:', error);
+    });
+  }
 }

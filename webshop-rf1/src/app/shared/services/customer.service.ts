@@ -27,7 +27,7 @@ export class CustomerService {
     return this.afs.doc<Customer>(`Customers/${id}`).valueChanges();
   }
 
-  async deleteCustomerById(customerId: string) {
-    return await this.afs.doc(`Customers/${customerId}`).delete();
+  deleteCustomerById(customerId: string) {
+    return this.afs.doc(`Customers/${customerId}`).delete();
   }
 }

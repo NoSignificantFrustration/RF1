@@ -21,6 +21,9 @@
         </div>
         <button (click)="becomeCustomer()">Become Customer</button>
     </div>
+    <div *ngIf="isCustomer">
+        <button (click)="deleteCustomer()"></button>
+    </div>
     <div class="purchases">
         <label>My Purchases:</label>
         <table>
