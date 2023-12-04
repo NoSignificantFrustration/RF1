@@ -28,11 +28,11 @@
                 </select>
             </div>
             <div>
-                {{cartItem.product.price}}
+                {{cartItem.product.price}} $
             </div>
             <div>
                 <button class="remove-button" (click)="removeFromCart(cartItem)">
-                  <mat-icon>mat-raised-button</mat-icon> Törlés
+                  Törlés
                 </button>
             </div>
         </li>
@@ -40,9 +40,9 @@
 
     <div class="checkout">
         <div>
-            <div class="product-count">{{cart.totalCount}}</div>
-            <div class="total-price">{{cart.totalPrice}} </div>
-          <div><button class="checkout-button,checkout" (click)="checkout()"><mat-icon>mat-raised-button</mat-icon> Rendelés</button></div>
+            <div class="product-count">{{cart.totalCount}} db</div>
+            <div class="total-price">{{cart.totalPrice}} $</div>
+          <div><button class="checkout-button" (click)="checkout()">Rendelés</button></div>
         </div>
     </div>
 

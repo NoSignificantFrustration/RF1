@@ -97,7 +97,38 @@ ul .remove-button:hover{
     color: black;
 }
 .checkout-button{
-  justify-content: center;
-  padding: 0px;
+    height: 50px;
+    border: 2px solid #04aa49;
+    background-color: #04aa49;
+    padding: 12px;
+    border-radius: 40px;
+    font-size: 13pt;
+    cursor: pointer;
+    margin: 20px;
+    transition: all 0.2s;
+    color: #e4e4e4;
+
+    &:hover {
+      background-color: #e4e4e4;
+      color: black;
+    }
+}
+
+.remove-button{
+  height: 50px;
+  border: 2px solid red;
+  background-color: red;
+  padding: 12px;
+  border-radius: 40px;
+  font-size: 13pt;
+  cursor: pointer;
+  margin: 20px;
+  transition: all 0.2s;
+  color: #e4e4e4;
+
+  &:hover {
+    background-color: #e4e4e4;
+    color: black;
+  }
 }
 

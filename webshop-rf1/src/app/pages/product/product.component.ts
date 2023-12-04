@@ -21,8 +21,8 @@ export class ProductComponent implements OnInit{
   public product:Product | undefined;
 
   constructor (
-    private productService: ProductService, 
-    private route:ActivatedRoute, 
+    private productService: ProductService,
+    private route:ActivatedRoute,
     private afAuth: AngularFireAuth,
     private reviewService:ReviewService){
     let id:string = this.route.snapshot.paramMap.get('productId')|| "";
@@ -44,12 +44,12 @@ export class ProductComponent implements OnInit{
                   this.previousReview = item;
                   console.log("Previous review (product):" + item);
                 }
-                
+
               }
             }
-            
+
           });
-          
+
 
           console.log(reviews);
         });
