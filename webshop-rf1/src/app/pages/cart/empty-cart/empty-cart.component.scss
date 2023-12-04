@@ -1,3 +1,7 @@
+html{
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(255, 254, 254), rgb(94, 94, 94));
+}
 div{
   display: flex;
   align-items: center;
@@ -28,3 +32,4 @@ mat-card{
   margin-top: 1.5rem;
   margin: 1.5rem auto;
 }
+
