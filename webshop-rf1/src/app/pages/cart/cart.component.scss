@@ -136,3 +136,33 @@ ul .remove-button:hover{
   }
 }
 
+select {
+  display: inline;
+  border: 0;
+  width: auto;
+  margin-left: 10px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-bottom: 2px solid black;
+  color: green;
+  transition: all .4s ease-in-out;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  option {
+    font-size: 30px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+
+  option {
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+}
