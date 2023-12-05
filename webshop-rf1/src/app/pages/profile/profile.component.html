@@ -23,9 +23,9 @@
         </div>
         <button (click)="becomeCustomer()" *ngIf="!isCustomer">Become Customer</button>
         <button (click)="updateCustomer()" *ngIf="isCustomer">Update</button>
-    </div>
-    <div *ngIf="isCustomer">
-        <button (click)="deleteCustomer()"></button>
+      <br>
+        <button *ngIf="isCustomer" (click)="deleteCustomer()">Delete yourself from customers</button>
+      <br>
     </div>
     <div class="purchases">
         <label>My Purchases:</label>
