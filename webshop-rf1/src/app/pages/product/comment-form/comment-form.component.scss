@@ -40,12 +40,9 @@ input {
     width: 20px;
     font-size: 20pt;
 }
-#comment-div{
-    
-}
 #submit{
-    width: 15%;
-    aspect-ratio: 1/1;
+    width: 25%;
+    text-align: center;
 }
 button {
     width: 100%;
@@ -67,6 +64,7 @@ button {
     }
 }
 .error{
+    margin-left:  17px;
     height: 10px;
     width: 100%;
     color: #ca2d2d;
