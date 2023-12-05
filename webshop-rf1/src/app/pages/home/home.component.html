@@ -1,6 +1,6 @@
-<html>
 <app-search></app-search>
 <app-tags></app-tags>
+<div class="bg">
 <ul class="card-list">
     <li *ngFor="let product of products" class="card-list-item">
       <a routerLink="/product/{{product.productId}}" class="card-link">
@@ -18,4 +18,4 @@
       </a>
     </li>
   </ul>
-</html>
+</div>
