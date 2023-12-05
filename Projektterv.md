@@ -425,10 +425,10 @@ Részfeladatai a következők:
 Felelős: Kuruczi Nándor
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
-#### 8.4.2 Kimaradt funkciók megvalósítása
+#### 8.4.2 Projektterv, programdokumentációk karbantartása
 Felelős: Kovács-Bodó Csenge
-Tartam: 4 nap
-Erőforrásigény: 3 személynap
+Tartam: 2 nap
+Erőforrásigény: 1 személynap
 #### 8.4.3 Nem elvárásoknak megfelelően működő funkciók javítása
 Felelős: Fekete István
 Tartam: 4 nap
@@ -485,10 +485,7 @@ Erőforrásigény: 1 személynap
 Felelős: Szilágyi Martin György
 Tartam: 3 nap
 Erőforrásigény: 2 személynap 
-#### 8.4.17 Projektterv, programdokumentációk karbantartása
-Felelős: Kovács-Bodó Csenge
-Tartam: 2 nap
-Erőforrásigény: 1 személynap 
+
 
 ## 9. Részletes időbeosztás
 ![Alt text](image.png)
