@@ -80,7 +80,6 @@ A projekt a következő munkaállomásokat fogja használni a munka során:
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során:
 
 - `Google Firebase az alkalmazás üzemeltetésére`
-- `Node.js keretrendszer`
 - `Angular dinamikus tartalom megjelenítés a felhasználói felületen`
 - `IntelliJ IDE fejlesztőkörnyezet`
 - `Git verziókövető (GitLab)`
