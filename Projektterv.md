@@ -174,7 +174,31 @@ A munkát `Kurunczi Nándor` koordinálja.
  - `Időpont: 2023.11.16.`
  - `Hely: Otthon online - Erefegy discord szerver`
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
- - `Érintett témák: Egymás feladatainak átnézés, jóváhagyása, firebase adatbáziskezelés áttekintése`
+ - `Érintett témák: Egymás feladatainak átnézése, jóváhagyása, firebase adatbáziskezelés áttekintése`
+
+`11. megbeszélés:`
+ - `Időpont: 2023.11.21.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Kimaradt funkciók felmérése, szétosztása`
+
+`12. megbeszélés:`
+ - `Időpont: 2023.11.22.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Feladatok haladásának áttekintése, egymásnak segítségnyújtás`
+
+`13. megbeszélés:`
+ - `Időpont: 2023.12.01.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Egymásnak segítségnyújtás, egyéb el nem készült feladatok szétosztása`
+
+`14. megbeszélés:`
+ - `Időpont: 2023.12.02.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: Még több közös munka, segítségnyújtás`
 ### 6.3. Minőségbiztosítás
 
 `A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak. Az alkalmazás elkészült részeinek követelményeknek való megfeleltségének ellenőrzése.`
