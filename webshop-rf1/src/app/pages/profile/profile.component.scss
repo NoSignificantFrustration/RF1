@@ -1,6 +1,6 @@
 .wrapper{
     padding: 5%;
-    height: 90%;
+    height: 110%;
     width: 90%;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgb(255, 254, 254), rgb(94, 94, 94));
@@ -22,6 +22,7 @@
 }
 .names{
     display: flex;
+    margin-top: 10px;
 }
 .form-group{
 
@@ -62,6 +63,7 @@ button {
     cursor: pointer;
     transition: all 0.2s;
     color: #e4e4e4;
+    margin-bottom: 10px;
 
     &:hover{
         background-color: #e4e4e4;
@@ -69,5 +71,9 @@ button {
     }
 }
 .become-customer{
+    font-size: 20pt;
+}
+.modify-customer{
+    margin-top: 10px;
     font-size: 20pt;
 }
