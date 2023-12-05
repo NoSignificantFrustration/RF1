@@ -26,3 +26,14 @@ ___
     ##### A feladat elvégzését alátámasztó commit(ok):
 
      - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/c79193464b24a81bcaec7e71d0e43bb756e6bc68
+
+
+ - 8.4.15 Termék törlés tesztelése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/issues/65
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - https://git-okt.sed.inf.szte.hu/2023_ib153i-11_b/2023_ib153i-11_b/-/commit/c79193464b24a81bcaec7e71d0e43bb756e6bc68

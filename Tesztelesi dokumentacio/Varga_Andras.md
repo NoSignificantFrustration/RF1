@@ -16,9 +16,9 @@ Az alábbi tesztdokumentum a `2023_ib153i-11_b Webshop` projekthez tartozó `8.3
     5. lépés: Nyomjuk meg a `Submit`
 
 
-## 2. Teszesetek (TC)
+## 2. Tesztesetek (TC)
 
-### 2.1. Összeadás funkció tesztesetei
+### 2.1. Termék hozzáadása tesztesetei
 
 #### 2.1.1. TC-01
 - TP: TP-01
@@ -30,7 +30,7 @@ Az alábbi tesztdokumentum a `2023_ib153i-11_b Webshop` projekthez tartozó `8.3
 
 ## 3. Tesztriportok (TR)
 
-### 3.1. Összeadás funkció tesztriportjai
+### 3.1. Termék hozzáadása tesztriportjai
 
 #### 3.1.1. TR-01 (TC-01)
 - TP: TP-01
