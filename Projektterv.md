@@ -43,7 +43,7 @@ A projekt megrendelője Dr. Pflanzner Tamás. A Webshop projektet a projektcsapa
 
 - `Fekete István: nem rendelkezik ipari tapasztalattal`
 - `Kacziba Zsolt: nem rendelkezik ipari tapasztalattal`
-- `Kovács-Bodó Csenge: 2 és fél hónap full stack szoftverfelesztés( spring boot, node.js, angular, tesztelés, postgres adatbáziskezelés)`
+- `Kovács-Bodó Csenge: 5 hónap full stack szoftverfelesztés( spring boot, node.js, angular, tesztelés, postgres adatbáziskezelés)`
 - `Kurunczi Nándor: nem rendelkezik ipari tapasztalattal`
 - `Mackovic Mark: nem rendelkezik ipari tapasztalattal`
 - `Márton István: nem rendelkezik ipari tapasztalattal`
@@ -484,7 +484,7 @@ Erőforrásigény: 1 személynap
 Felelős: Szilágyi Martin György
 Tartam: 3 nap
 Erőforrásigény: 2 személynap 
-#### 8.4.17 Jelszavak kezelése
+#### 8.4.17 Customer delete gomb fix
 Felelős: Kovács-bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
