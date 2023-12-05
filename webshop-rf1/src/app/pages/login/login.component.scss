@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&family=Roboto&display=swap');
 
+
 :host {
     display: flex;
-    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(255, 254, 254), rgb(94, 94, 94));
     align-items: center;
     justify-content: center;
     height: 100vh;

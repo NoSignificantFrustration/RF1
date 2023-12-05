@@ -13,7 +13,7 @@
         <img [src]="cartItem.product.imageUrl" [alt]="cartItem.product.productName">
       </div>
       <div>
-        <a routerLink="{{cartItem.product.productId}}">
+        <a routerLink="{{cartItem.product.productId}}" href="/product/{{cartItem.product.productId}}">
           {{cartItem.product.productName}}
         </a>
 

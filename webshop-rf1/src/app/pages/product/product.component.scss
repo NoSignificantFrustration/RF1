@@ -1,9 +1,11 @@
+
 #host {
     height: calc(100% - 52px);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(255, 254, 254), rgb(94, 94, 94));
 }
 
 #wrapper {
