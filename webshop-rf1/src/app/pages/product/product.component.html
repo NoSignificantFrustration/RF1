@@ -13,7 +13,7 @@
                 <p id="description">{{product?.description}}</p>
             </div>
             <div id="buy-div">
-                <input id="cart-button" type="submit" value="Add to cart" />
+                <input id="cart-button" type="submit" value="Add to cart" (click)="addCart()" /> 
                 <label id="price">{{product?.price}}.00 Ft</label>
             </div>
             <div id="comments">

@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/shared/models/Product';
 import { ProductService } from 'src/app/shared/services/product.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ReviewService } from 'src/app/shared/services/review.service.ts.service';
 import { Review } from 'src/app/shared/models/Review';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { CartService } from 'src/app/shared/services/cart.service';
 
 @Component({
   selector: 'app-product',
@@ -24,7 +25,9 @@ export class ProductComponent implements OnInit{
     private productService: ProductService,
     private route:ActivatedRoute,
     private afAuth: AngularFireAuth,
-    private reviewService:ReviewService){
+    private reviewService:ReviewService,
+    private cartService:CartService,
+    private router: Router){
     let id:string = this.route.snapshot.paramMap.get('productId')|| "";
     if(id != ""){
       this.productService.getProductById(id).subscribe(
@@ -96,6 +99,11 @@ export class ProductComponent implements OnInit{
           // this.productService.createProduct(prod)
     }
     });
+  }
+
+  addCart(){
+    this.cartService.addToCart(this.product);
+    this.router.navigate(['/cart']);
   }
 
 }
