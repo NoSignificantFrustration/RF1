@@ -31,7 +31,7 @@ Az alábbi tesztdokumentum a Webshop projekthez tartozó 8.3.17 Termék: Komment
 - Elvárt kimenet: másik oldalra kerülünk ahol csak az az egy termék látható több adattal.
 
 
-### 2.2. Termék kosárba helyezése
+### 2.2. Komment hozzáadása
 
 #### 2.2.1. TC-01
 - TP: TP-02
