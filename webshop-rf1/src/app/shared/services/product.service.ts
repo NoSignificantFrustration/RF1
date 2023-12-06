@@ -8,7 +8,6 @@ import { Product } from '../models/Product';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-
 @Injectable({
   providedIn: 'root',
 })
@@ -66,7 +65,7 @@ export class ProductService {
       .valueChanges({ idField: 'productId' });
   }
 
-  getAllProductByTag(tag:string):Observable<Product[]> {
+  getAllProductByTag(tag: string): Observable<Product[]> {
     return this.afs
       .collection<Product>('Products')
       .valueChanges({ idField: 'productId' })
@@ -76,13 +75,21 @@ export class ProductService {
             tag === 'All' ? true : product.tags?.includes(tag)
           )
         )
-        );
+      );
   }
-
 
   async deleteProductById(productId: number) {
     return await this.afs.doc(`Products/${productId}`).delete();
   }
 
-  editProductById(productId: number, product: Product) {}
+  updateProduct(product: Product) {
+    return this.productsCollection.doc(String(product.productId)).update({
+      productId: product.productId,
+      productName: product.productName,
+      price: product.price,
+      tags: product.tags,
+      description: product.description,
+      imageUrl: product.imageUrl,
+    });
+  }
 }

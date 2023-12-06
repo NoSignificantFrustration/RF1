@@ -61,10 +61,11 @@ export class NewProductDialogComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onSubmit(): void {
+  onSubmit() {
     const formData = this.productForm.value as Product;
     if (!formData.productName || !formData.price || this.product == null) {
-    } else if (this.product) {
+    } else if (this.product != null) {
+      this.productService.updateProduct(this.product);
     } else {
       this.productService.createProduct(formData);
     }
