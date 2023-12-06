@@ -29,12 +29,14 @@ import { NewProductDialogComponent } from './pages/admin/products/new-product-di
 import { ProductComponent } from './pages/product/product.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { CartComponent } from './pages/cart/cart.component';
-import { HeaderComponent} from './shared/header/header.component';
+import { HeaderComponent } from './shared/header/header.component';
 import { CommentFormComponent } from './pages/product/comment-form/comment-form.component';
 import { CommentComponent } from './pages/product/comment/comment.component';
 import { EmptyCartComponent } from './pages/cart/empty-cart/empty-cart.component';
-
-
+import { MatOption } from '@angular/material/core';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,7 @@ import { EmptyCartComponent } from './pages/cart/empty-cart/empty-cart.component
     CartComponent,
     CommentFormComponent,
     CommentComponent,
-    EmptyCartComponent
+    EmptyCartComponent,
   ],
   imports: [
     BrowserModule,
@@ -72,7 +74,10 @@ import { EmptyCartComponent } from './pages/cart/empty-cart/empty-cart.component
     MatButtonModule,
     ConfirmDialog,
     ReactiveFormsModule,
-
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

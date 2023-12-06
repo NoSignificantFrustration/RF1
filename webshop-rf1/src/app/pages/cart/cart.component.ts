@@ -5,6 +5,9 @@ import {CartItem} from "../../shared/models/CartItem";
 import {AngularFireAuth} from "@angular/fire/compat/auth";
 import { Customer } from 'src/app/shared/models/Customer';
 import { CustomerService } from 'src/app/shared/services/customer.service';
+import {ProductService} from "../../shared/services/product.service";
+import {ActivatedRoute} from "@angular/router";
+import {Product} from "../../shared/models/Product";
 
 @Component({
   selector: 'app-cart',
@@ -17,8 +20,9 @@ export class CartComponent {
   fuser: firebase.default.User | null = null;
   customer: Customer | null = null;
   isCustomer: boolean = false;
+  products:Product[]=[];
 
-  constructor(private cartService: CartService,private afAuth: AngularFireAuth, private customerService: CustomerService){
+  constructor(private cartService: CartService,private afAuth: AngularFireAuth, private customerService: CustomerService, private productService: ProductService, private cartServive: CartService){
     this.setCart();
   }
   ngOnInit(): void {
@@ -34,8 +38,17 @@ export class CartComponent {
       });
     }
   });
-  console.log(this.customer)
-}
+    this.productService.getAllProducts().subscribe(products => {
+      products.forEach(product => {
+        this.productService.getProductImageUrl(product.imageUrl).subscribe(url => {
+          product.imageUrl = url;
+        });
+      });
+      this.products = products;
+});
+    console.log(this.customer)
+    console.log(this.cart);
+  }
 
 
   removeFromCart(cartItem:CartItem){
@@ -61,6 +74,7 @@ export class CartComponent {
       this.cartService.removeAllCart();
       this.setCart()
       alert("Successful order.")
+         console.log("order")
 
     } else {
     }

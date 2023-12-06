@@ -22,10 +22,7 @@ export class CartService {
   constructor(private cookieService: CookieService, private firestore: AngularFirestore) {
   }
 
-  addToCart(product: Product|undefined): void {
-    if(product==undefined){
-      return;
-    }
+  addToCart(product: Product): void {
     let cartItem = this.cart.items.find(item => item.product.productId === product.productId);
     if (cartItem) {
       this.changeQuantity(product.productId, cartItem.quantity + 1);
@@ -35,12 +32,13 @@ export class CartService {
     this.addCookie();
   }
 
-  removeFromCart(productId: number): void {
+  removeFromCart(productId:string): void {
     this.cart.items =
       this.cart.items.filter(item => item.product.productId != productId);
+
   }
 
-  changeQuantity(productId: number, quantity: number) {
+  changeQuantity(productId: String, quantity: number) {
     let cartItem = this.cart.items.find(item => item.product.productId === productId);
     if (!cartItem) return;
     cartItem.quantity = quantity;
@@ -69,15 +67,18 @@ export class CartService {
   }
 
   reloedCookie(items: Product[]) {
-    if (!this.alredyRun) {
+    if ( this.cart.items.length<=0) {
       let id = this.cookieService.get("Id");
+      console.log(id)
       let productId = this.cookieService.get("productId");
+      console.log(productId)
       let quantity = this.cookieService.get("quantity");
+      console.log(quantity);
       let idt = id.split(";");
       let productidt = productId.split(";")
       let quantityt = quantity.split(";")
       for (let i = 0; i < idt.length; i++) {
-        let product = items.find(item => item.productId == Number(productidt[i]));
+        let product = items.find(item => productidt[i] == item.productId);
         let item
         if (product) {
           item = new CartItem(product);
@@ -88,25 +89,35 @@ export class CartService {
       }
       this.alredyRun = true;
     }
+    console.log(items)
+    console.log(this.cart);
   }
 
   removeAllCart() {
-    this.cart.items.length =0;
+    this.cart=new Cart();
     this.cookieService.delete("Id")
-    this.cookieService.delete("ToolId")
+    this.cookieService.delete("productId")
     this.cookieService.delete("quantity")
 
   }
   createPurchase(user:firebase.default.User | null) {
-    if(user==null){
-      return;
+    if(!user){
+      return
     }
+    const productsArray: { productId: string; quantity: number }[] = [];
+
     for (let i = 0; i < this.cart.items.length; i++) {
-      for (let j = 0; j <this.cart.items[i].quantity; j++) {
-        this.firestore.collection<Purchase>('Purchases').add(
-          {...new Purchase(user.uid,new Date(), this.cart.items[i].product.productId.toString())});
-      }
+        productsArray.push({
+          productId: this.cart.items[i].product.productId.toString(),
+          quantity: this.cart.items[i].quantity, // Assuming quantity is always 1, adjust as needed
+        });
     }
-    return
+
+    console.log("purchase")
+    const purchase = new Purchase(user.uid, new Date(), productsArray);
+
+    this.firestore.collection<Purchase>('Purchases').add({ ...purchase });
+
+    return;
   }
 }

@@ -1,12 +1,11 @@
-export class Purchase{
-  constructor(customerId: string, date: Date,productId:string) {
-    this.productId = productId;
+export class Purchase {
+  constructor(customerId: string, date: Date, products: { productId: string; quantity: number }[]) {
+    this.products = products;
     this.customerId = customerId;
     this.date = date;
   }
 
-    productId!:string;
-    customerId!:string;
-    date!:Date;
-
+  products: { productId: string; quantity: number }[] = [];
+  customerId!: string;
+  date!: Date;
 }

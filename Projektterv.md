@@ -10,23 +10,22 @@
 
 ### 2.1. Rendszerspecifikáció
 
-`A webes alkalmazás képes lesz regisztrált felhasználók vásárlásinak lebonyolítására, ezeknek a tranzakcióknak a visszatekintésére később. A vásárlók értékelhetik a termékeket kommentekben és egy 5 pontos értékelő rendszerben is, mely értékelés látható lesz a termék oldalán minden későbbi vásárló számára. Felhansználók kereshetnek termékeket tag-ek alapján, a keresőt használva, vagy szimplán a kezdőoldalt böngészve. Eladó jogosultságú felhasználók tudnak hirdetéseket létrehozni saját termékeiknek, megadhatják mennyi termék van készleten, és elláthatják termékeiket tag-ekkel. Eladók a saját hirdetéseiket bármikor szerkezthetik és törölhetik, illetve a termékére adott értékeléseket moderálhatják. A adminisztrátor jogosultsággal bármilyen a weboldalon szereplő termék hirdetést ki lehet törölni, illetve az összes kommentet lehet moderálni, és az árukészleteket is lehet kezelni.`
+`A webes alkalmazás képes lesz regisztrált felhasználók vásárlásinak lebonyolítására, ezeknek a tranzakcióknak a visszatekintésére később. A vásárlók értékelhetik a termékeket kommentekben és egy 5 pontos értékelő rendszerben is, mely értékelés látható lesz a termék oldalán minden későbbi vásárló számára. Felhansználók kereshetnek termékeket tag-ek alapján, a keresőt használva, vagy szimplán a kezdőoldalt böngészve.A adminisztrátor jogosultsággal bármilyen a weboldalon szereplő termék hirdetést ki lehet törölni, illetve az összes kommentet lehet moderálni, és az árukészleteket is lehet kezelni.`
 
 ### 2.2. Funkcionális követelmények
 
- - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
- - `Felhasználók kezelése (Regisztráció/Belépés)`
- - `Fizetési funkciók. (CRUD)`
- - `Előző vásárlások megtekintése` 
- - `Termékek értékelése (Comment+Rating) (CRUD)`
- - `Termékek értékelésének kezelése (CRUD)`
- - `Kosár funkció`
- - `Tagek alapú keresés`
- - `Termék Név/Leírás/Tag alapú keresés (Kereső sáv)`
- - `Felhasználói adatok frissítése`
- - `Admin: Árukészletek kezelése (CRUD)`
- - `Admin: Tagek kezelése (CRUD)`
- - `Admin: Felhasználók kezelése (CRUD)`
+ - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `: A bejelentkezett felhasználók, a        vásárlók és az adminok más-más funkciókat érnek el.
+ - `Felhasználók kezelése (Regisztráció/Belépés)`: A  program a felhasználói adatokat továbbítja a Firestore felé, ahol eltároljuk. A regisztrált adatokkal be tudunk jelentkezni a fiókunkba.
+ - `Rendelés leadása. (CRUD)`: Egy vásárló a kosarában lévő termékeket meg tudja rendelni, és a korábbi rendelése listája megtekinthető a profil oldalon.
+ - `Termékek értékelése (Comment+Rating) (CRUD)`: A regisztrált vásárlók visszajelzést tudnak hagyni a termékekről.
+ - `Termékek értékelésének kezelése (CRUD)`: Az adminok moderálni tudják a beérkezett visszajelzéseket.
+ - `Kosár funkció`: a kosár tartalmát cookie-ként tároljuk el és a kosár oldalon listázzuk a tartalmát.
+ - `Tagek alapú keresés`: A főoldalon márkák és terméktípusok szerint szűrhetjük a termékeket.
+ - `Termék Név/Leírás/Tag alapú keresés (Kereső sáv)`: A kereső fül használatával rugalmasan böngészhetünk a termékek között.
+ - `Felhasználói adatok frissítése`: A regisztrált felhasználók módosítani tudják a felhasználói adataikat.
+ - `Admin: Árukészletek kezelése (CRUD)`: Az adminok létre tudnak hozni új termékeket, módosítani és törölni őket.
+ - `Admin: Tagek kezelése (CRUD)`: Az adminok új tageket hozhatnak létre.
+ - `Admin: Felhasználók kezelése (CRUD)`: Az adminok törölhetnek felhasználókat a rendszerből.
 
 ### 2.3. Nem funkcionális követelmények
 
@@ -199,6 +198,13 @@ A munkát `Kurunczi Nándor` koordinálja.
  - `Hely: Otthon online - Erefegy discord szerver`
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
  - `Érintett témák: Még több közös munka, segítségnyújtás`
+
+ `15. megbeszélés:`
+ - `Időpont: 2023.12.06.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: hibák kijavítása, segítségnyújtás, projekt véglegesítése`
+
 ### 6.3. Minőségbiztosítás
 
 `A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak. Az alkalmazás elkészült részeinek követelményeknek való megfeleltségének ellenőrzése.`
@@ -457,10 +463,10 @@ Felelős: Fekete István
 Tartam: 4 nap
 Erőforrásigény: 3 személynap
 #### 8.4.4 Regisztráció tesztelése
-Felelős: Mackovic Márk
+Felelős: Fekete István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.5 Login tesztelése
+#### 8.4.5 Login tesztelése 
 Felelős: Kuruczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
@@ -472,23 +478,22 @@ Erőforrásigény: 1 személynap
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.8 Felhasználó adatainak szerkesztésének tesztelése
+#### 8.4.8 Felhasználó adatainak szerkesztésének tesztelése *
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
-#### 8.4.9 Admin: Felhasználó szerepkörének módosításának tesztelése
+#### 8.4.9 Admin: tagek kezelése *
 Felelős: Kovács-Bodó Csenge
-Tartam: 1 nap
+Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.10 Admin: Felhasználó törlésének tesztelése
+#### 8.4.10 Admin: Felhasználó törlésének tesztelése *
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.11 Komment létrehozásának tesztelése
-Felelős: Kacziba Zsolt
+#### 8.4.11 Komment létrehozásának tesztelése *
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.12 Komment törlésének tesztelése
+#### 8.4.12 Komment törlésének tesztelése *
 Felelős: Mackovic Márk
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
@@ -504,11 +509,11 @@ Erőforrásigény: 1 személynap
 Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.16 Adatbázis tesztelése
+#### 8.4.16 Adatbázis tesztelése *
 Felelős: Szilágyi Martin György
 Tartam: 3 nap
 Erőforrásigény: 2 személynap 
-#### 8.4.17 Customer delete gomb fix
+#### 8.4.17 Customer delete gomb fix, login oldal kijavítása
 Felelős: Kovács-bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 

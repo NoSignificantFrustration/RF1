@@ -1,0 +1,35 @@
+# Tesztjegyzőkönyv-`Termék hozzáadása`
+
+Az alábbi tesztdokumentum a `2023_ib153i-11_b Webshop` projekthez tartozó 8.4.13 Termék hozzáadás tesztelése funkcióhoz készült. Felelőse: `Fekete István` 
+
+## 1. Teszteljárások (TP)
+
+### 1.1. Termék hozzáadás funkció tesztelése 
+- Azonosító: TP-01
+- Tesztesetek: TC-01
+- Leírás: Termék hozzáadása funkció tesztelése
+    0. lépés: Nyissuk meg az oldalt, lépjünk be admin felhasználóként, navigáljunk az admin oldalra
+    1. lépés: Válasszuk ki az "Add new product" gombot és kattintsunk rá
+    2. lépés: Megnyílik egy felugró ablak, írjuk be az adatokat a termékről a megfelelő szövegdobozba és nyomjuk meg a `Submit` gombot
+    3. lépés: Ellenőrizzük a hozzáadás eredményét
+
+
+## 2. Tesztesetek (TC)
+
+### 2.1. Termék hozzáadás funkció tesztesetei
+
+#### 2.1.1. TC-01
+- TP: TP-01
+- Művelet: Nyomjuk meg az "Add new product" gombot 
+- Művelet: A felugró ablakban nyomjuk meg a `Submit` gombot
+- Elvárt eredmény: A termék hozzáadásra kerül
+
+## 3. Tesztriportok (TR)
+
+### 3.1. Termék Hozzáadás tesztriportjai
+
+#### 3.1.1. TR-01 (TC-01)
+- TP: TP-01
+    1. lépés: Megnyomtam az "Add new product" gombot
+    2. lépés: Kitöltöttem az adatokat megfelelően
+    3. lépés: A felugró ablak `Submit` gombját megnyomtam, a termék sikeresen hozzáadásra került
