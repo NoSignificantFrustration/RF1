@@ -198,6 +198,13 @@ A munkát `Kurunczi Nándor` koordinálja.
  - `Hely: Otthon online - Erefegy discord szerver`
  - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
  - `Érintett témák: Még több közös munka, segítségnyújtás`
+
+ `15. megbeszélés:`
+ - `Időpont: 2023.12.06.`
+ - `Hely: Otthon online - Erefegy discord szerver`
+ - `Résztvevők: Fekete István, Kacziba Zsolt, Kovács-Bodó Csenge, Kurunczi Nándor, Mackovic Márk, Márton István, Szilágyi Martin György, Varga András Bendegúz`
+ - `Érintett témák: hibák kijavítása, segítségnyújtás, projekt véglegesítése`
+
 ### 6.3. Minőségbiztosítás
 
 `A projekt komponensenkénti megtervezése specifikáció szerint, majd az így elkészült tervek és diagramok több ember általi átnézése. Elkészült kódrészletek és komponens prototípusok több ember általi átnézése olyan csapattagok által, akik a tesztelni kívánt részen nem dolgoztak. Az alkalmazás elkészült részeinek követelményeknek való megfeleltségének ellenőrzése.`
