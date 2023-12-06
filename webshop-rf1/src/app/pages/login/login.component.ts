@@ -38,24 +38,27 @@ export class LoginComponent {
               localStorage.setItem('isAdmin', 'true');
             } else {
               localStorage.removeItem('isAdmin');
+
             }
+            this.authService.isUserLoggedIn().subscribe(user => {
+              console.log(user);
+              this.loggedInUser = user;
+              localStorage.setItem('user', JSON.stringify(this.loggedInUser))
+              this.router.navigateByUrl('/');
+
+            }, error => {
+              localStorage.setItem('user', JSON.stringify('null'))
+              console.error(error);
+            })
           });
         }
       } catch (error) {
         // Handle login errors
         console.error('Unknown error:', error);
         this.errorMessage = 'An unknown error occurred.';
+        this.router.navigateByUrl('/login');
+        alert("Bad credentials!")
       }
-      this.authService.isUserLoggedIn().subscribe(user => {
-      console.log(user);
-      this.loggedInUser = user;
-      localStorage.setItem('user', JSON.stringify(this.loggedInUser))
-      this.router.navigateByUrl('/');
-
-    }, error => {
-      localStorage.setItem('user', JSON.stringify('null'))
-      console.error(error);
-    })
     }
   }
 
