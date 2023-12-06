@@ -5,15 +5,19 @@
             <thead>
                 <tr>
                     <th>Product Name</th>
+                    <th>Picture</th>
                     <th>Price</th>
+                    <th>Amount</th>
                     <th>Date</th>
                 </tr>
             </thead>
             <tbody>
 
-                <tr *ngFor="let purchase of purchasedProducts">
-                    <td><img [src]="purchase.imageUrl" alt=""></td>
+                <tr class="row" *ngFor="let purchase of purchasedProducts">
                     <td>{{ purchase.productName }}</td>
+                    <td><img [src]="purchase.imageUrl" alt=""></td>
+                    <td>{{ purchase.price}}</td>
+                    <td>{{ purchase.amount}}</td>
                     <td>{{ purchase.date}}</td>
                 </tr>
             </tbody>

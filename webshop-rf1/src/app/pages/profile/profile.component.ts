@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import * as firebase from 'firebase/compat';
 import { Customer } from 'src/app/shared/models/Customer';
 import { Product } from 'src/app/shared/models/Product';
 import { Purchase } from 'src/app/shared/models/Purchase';
@@ -33,9 +34,9 @@ export class ProfileComponent {
     private authService: AuthService,
     private afAuth: AngularFireAuth,
     private productService: ProductService,
-    private customerService: CustomerService) { 
+    private customerService: CustomerService) {
 
-    }
+  }
 
   ngOnInit(): void {
     const user = JSON.parse(localStorage.getItem('user') as string);
@@ -57,52 +58,68 @@ export class ProfileComponent {
           } else {
             console.warn('Customer not found.');
           }
-        });
-        if(!this.customer){
-          // Set customer information fields
-          
-        console.log("Dasdasdasdsa")
-          // Retrieve purchases for the logged-in user
-        this.purchaseService.getPurchasesByCustomerId(this.customer!.customerId).subscribe((purchases) => {
-          this.purchases = purchases;
+          if (this.isCustomer) {
+            // Set customer information fields
 
-          // Iterate over purchases and retrieve product information
-          this.purchases.forEach((purchase) => {
-/*             this.productService.getProductById(purchase.productId).subscribe((product) => {
-              if (product) {
-                // Retrieve product image URL
-                this.productService.getProductImageUrl(product.imageUrl).subscribe((downloadUrl) => {
-                  // Update product information with image URL
-                  product.imageUrl = downloadUrl;
+            // Retrieve purchases for the logged-in user
+            this.purchaseService.getPurchasesByCustomerId(this.customer!.customerId).subscribe((purchases) => {
+              this.purchases = purchases;
 
-                  // Push the purchased product into the array
-                  this.purchasedProducts.push({
-                    imageUrl: product.imageUrl || '',
-                    productName: product.productName || '',
-                    date: purchase.date
-                  });
+              // Iterate over purchases and retrieve product information
+              this.purchases.forEach((purchase) => {
+                purchase.products.forEach((product) => {
+
+                  this.productService.getProductById(product.productId).subscribe((productum) => {
+                    if (productum) {
+                      // Retrieve product image URL
+                      this.productService.getProductImageUrl(productum.imageUrl).subscribe((downloadUrl) => {
+                        // Update product information with image URL
+                        productum.imageUrl = downloadUrl;
+
+                        const options: Intl.DateTimeFormatOptions = {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric',
+                          hour: 'numeric',
+                          minute: 'numeric',
+                        };
+
+                        let day:Date = (purchase.date as any).toDate();
+                        // Push the purchased product into the array
+                        this.purchasedProducts.push({
+                          imageUrl: productum.imageUrl || '',
+                          productName: productum.productName || '',
+                          date: `${day.getFullYear()} - ${day.getMonth()} - ${day.getDay()}`,
+                          amount: product.quantity,
+                          price: productum.price
+                        });
+                      });
+                    }
+                    else console.warn("No product found wiht ID: " + product.productId);
+                  })
                 });
-              }
-            }); */
-          });
+              });
+            });
+          }
         });
-        }
-        
+
+
       }
-    });  
+    });
+    console.log(this.purchasedProducts);
   }
-  becomeCustomer():void{
+  becomeCustomer(): void {
     this.afAuth.authState.subscribe((user) => {
       if (user) {
         const newCustomer: Customer = {
-          customerId: user.uid, 
+          customerId: user.uid,
           userId: user.uid,
           customerName: {
-            firstName: this.firstName, 
-            lastName: this.lastName,  
+            firstName: this.firstName,
+            lastName: this.lastName,
           },
-          homeAdress: this.homeAddress,  
-          phoneNumber: this.phoneNumber,     
+          homeAdress: this.homeAddress,
+          phoneNumber: this.phoneNumber,
         };
         console.log(newCustomer)
 
@@ -114,9 +131,9 @@ export class ProfileComponent {
         });
       }
     });
-   
+
   }
-  deleteCustomer(){
+  deleteCustomer() {
     this.customerService.deleteCustomerById(this.customer!.customerId).then(() => {
       console.log('Customer deleted successfully!');
       this.isCustomer = false;
@@ -126,14 +143,14 @@ export class ProfileComponent {
   }
 
 
-  updateCustomer(){
+  updateCustomer() {
     if (this.customer) {
-        this.customer.customerName.firstName = this.firstName;
-        this.customer.customerName.lastName = this.lastName;
-        this.customer.homeAdress = this.homeAddress;
-        this.customer.phoneNumber = this.phoneNumber;
+      this.customer.customerName.firstName = this.firstName;
+      this.customer.customerName.lastName = this.lastName;
+      this.customer.homeAdress = this.homeAddress;
+      this.customer.phoneNumber = this.phoneNumber;
 
-        this.customerService.updateCustomer(this.customer);
+      this.customerService.updateCustomer(this.customer);
     }
   }
 }
