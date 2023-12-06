@@ -1,5 +1,7 @@
 export class PurchasedProduct{
     productName!:string;
     imageUrl!:string;
-    date!:Date;
+    date!:string;
+    amount!:number;
+    price!:number;
 }
