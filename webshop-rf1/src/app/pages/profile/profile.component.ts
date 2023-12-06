@@ -89,7 +89,7 @@ export class ProfileComponent {
                         this.purchasedProducts.push({
                           imageUrl: productum.imageUrl || '',
                           productName: productum.productName || '',
-                          date: `${day.getFullYear()} - ${day.getMonth()} - ${day.getDay()}`,
+                          date: `${day.getFullYear()} - ${day.getMonth() + 1} - ${day.getDate()}`,
                           amount: product.quantity,
                           price: productum.price
                         });
