@@ -508,7 +508,7 @@ Erőforrásigény: 1 személynap
 Felelős: Szilágyi Martin György
 Tartam: 3 nap
 Erőforrásigény: 2 személynap 
-#### 8.4.17 Customer delete gomb fix
+#### 8.4.17 Customer delete gomb fix, login oldal kijavítása
 Felelős: Kovács-bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
