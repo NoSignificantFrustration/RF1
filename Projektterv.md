@@ -14,14 +14,14 @@
 
 ### 2.2. Funkcionális követelmények
 
- - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `: a bejelentkezett felhasználók, a        vásárlók és az adminok más-más funkciókat érnek el.
- - `Felhasználók kezelése (Regisztráció/Belépés)`: A a program a felhasználói adatokat továbbítja aFirestpore felé, ahol eltároljuk. A regisztrált adatokkal be tudunk jelentkezni a fiókunkba.
+ - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `: A bejelentkezett felhasználók, a        vásárlók és az adminok más-más funkciókat érnek el.
+ - `Felhasználók kezelése (Regisztráció/Belépés)`: A  program a felhasználói adatokat továbbítja a Firestore felé, ahol eltároljuk. A regisztrált adatokkal be tudunk jelentkezni a fiókunkba.
  - `Rendelés leadása. (CRUD)`: Egy vásárló a kosarában lévő termékeket meg tudja rendelni, és a korábbi rendelése listája megtekinthető a profil oldalon.
  - `Termékek értékelése (Comment+Rating) (CRUD)`: A regisztrált vásárlók visszajelzést tudnak hagyni a termékekről.
- - `Termékek értékelésének kezelése (CRUD)`: AZ adminok moderálni tudják a beérkezett visszajelzéseket
+ - `Termékek értékelésének kezelése (CRUD)`: Az adminok moderálni tudják a beérkezett visszajelzéseket.
  - `Kosár funkció`: a kosár tartalmát cookie-ként tároljuk el és a kosár oldalon listázzuk a tartalmát.
  - `Tagek alapú keresés`: A főoldalon márkák és terméktípusok szerint szűrhetjük a termékeket.
- - `Termék Név/Leírás/Tag alapú keresés (Kereső sáv)`: A kereső fül használatával rugalmasan bönglszhetünk a termékek között.
+ - `Termék Név/Leírás/Tag alapú keresés (Kereső sáv)`: A kereső fül használatával rugalmasan böngészhetünk a termékek között.
  - `Felhasználói adatok frissítése`: A regisztrált felhasználók módosítani tudják a felhasználói adataikat.
  - `Admin: Árukészletek kezelése (CRUD)`: Az adminok létre tudnak hozni új termékeket, módosítani és törölni őket.
  - `Admin: Tagek kezelése (CRUD)`: Az adminok új tageket hozhatnak létre.
