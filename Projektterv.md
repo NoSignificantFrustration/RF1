@@ -517,6 +517,10 @@ Erőforrásigény: 2 személynap
 Felelős: Kovács-bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
+#### 8.4.18 Depley tesztelése
+Felelős: Kovács-bodó Csenge
+Tartam: 2 nap
+Erőforrásigény: 1 személynap 
 
 ## 9. Részletes időbeosztás
 ![Alt text](image.png)
