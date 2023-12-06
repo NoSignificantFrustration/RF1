@@ -18,9 +18,7 @@
       <td>{{ customer.phoneNumber }}</td>
       <td>{{ customer.homeAdress }}</td>
       <td>
-        <mat-icon (click)="onDelete(customer.customerId)"
-          >delete_forever</mat-icon
-        >
+        <mat-icon (click)="openDialog(customer)">delete_forever</mat-icon>
       </td>
     </tr>
   </tbody>
