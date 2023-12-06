@@ -10,7 +10,7 @@
 
 ### 2.1. Rendszerspecifikáció
 
-`A webes alkalmazás képes lesz regisztrált felhasználók vásárlásinak lebonyolítására, ezeknek a tranzakcióknak a visszatekintésére később. A vásárlók értékelhetik a termékeket kommentekben és egy 5 pontos értékelő rendszerben is, mely értékelés látható lesz a termék oldalán minden későbbi vásárló számára. Felhansználók kereshetnek termékeket tag-ek alapján, a keresőt használva, vagy szimplán a kezdőoldalt böngészve. Eladó jogosultságú felhasználók tudnak hirdetéseket létrehozni saját termékeiknek, megadhatják mennyi termék van készleten, és elláthatják termékeiket tag-ekkel. Eladók a saját hirdetéseiket bármikor szerkezthetik és törölhetik, illetve a termékére adott értékeléseket moderálhatják. A adminisztrátor jogosultsággal bármilyen a weboldalon szereplő termék hirdetést ki lehet törölni, illetve az összes kommentet lehet moderálni, és az árukészleteket is lehet kezelni.`
+`A webes alkalmazás képes lesz regisztrált felhasználók vásárlásinak lebonyolítására, ezeknek a tranzakcióknak a visszatekintésére később. A vásárlók értékelhetik a termékeket kommentekben és egy 5 pontos értékelő rendszerben is, mely értékelés látható lesz a termék oldalán minden későbbi vásárló számára. Felhansználók kereshetnek termékeket tag-ek alapján, a keresőt használva, vagy szimplán a kezdőoldalt böngészve.A adminisztrátor jogosultsággal bármilyen a weboldalon szereplő termék hirdetést ki lehet törölni, illetve az összes kommentet lehet moderálni, és az árukészleteket is lehet kezelni.`
 
 ### 2.2. Funkcionális követelmények
 
