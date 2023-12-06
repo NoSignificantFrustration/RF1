@@ -63,11 +63,14 @@ export class NewProductDialogComponent implements OnInit {
 
   onSubmit() {
     const formData = this.productForm.value as Product;
-    if (!formData.productName || !formData.price || this.product == null) {
-    } else if (this.product != null) {
-      this.productService.updateProduct(this.product);
-    } else {
+    console.log(this.productForm.errors);
+    if (this.product == null) {
+      console.log('hree');
       this.productService.createProduct(formData);
+      this.dialog.closeAll();
+    } else {
+      this.productService.updateProduct(formData);
+      this.dialog.closeAll();
     }
   }
 }

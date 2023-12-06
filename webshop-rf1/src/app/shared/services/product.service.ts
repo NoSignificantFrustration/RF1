@@ -83,13 +83,17 @@ export class ProductService {
   }
 
   updateProduct(product: Product) {
-    return this.productsCollection.doc(String(product.productId)).update({
-      productId: product.productId,
-      productName: product.productName,
-      price: product.price,
-      tags: product.tags,
-      description: product.description,
-      imageUrl: product.imageUrl,
-    });
+    console.log(product);
+    return this.afs
+      .collection<Product>('Products')
+      .doc(product.productId)
+      .update({
+        productId: product.productId,
+        productName: product.productName,
+        price: product.price,
+        tags: product.tags,
+        description: product.description,
+        imageUrl: product.imageUrl,
+      });
   }
 }
