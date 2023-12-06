@@ -1,5 +1,5 @@
 export class Product{
-    productId!:number;
+    productId!:string;
     productName!:string;
     price!:number;
     tags?:string[];
