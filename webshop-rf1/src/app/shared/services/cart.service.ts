@@ -97,7 +97,7 @@ export class CartService {
     this.cookieService.delete("quantity")
 
   }
-  createProduct(user:firebase.default.User | null) {
+  createPurchase(user:firebase.default.User | null) {
     if(user==null){
       return;
     }

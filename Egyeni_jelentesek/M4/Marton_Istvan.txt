@@ -1,0 +1,25 @@
+Vállalásaim a mérföldkőben:
+
+Tag keresés
+Customer backend CRD
+8.4.6 Kosárba helyezés tesztelése
+8.4.7 Megrendelés tesztelése
+
+
+A feladathoz tartozó issue(k):
+
+#57
+#52
+#58
+
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+00115f8e
+705bd039
+2bc6a947
+a834d155
+7dc0a6e0
+58a9dbfe
+20764525

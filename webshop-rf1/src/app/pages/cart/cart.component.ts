@@ -56,15 +56,16 @@ export class CartComponent {
   }
   checkout(){
     if(this.isCustomer){
-       if (confirm("Véglegesíted a rendelést") == true) {
-      this.cartService.createProduct(this.fuser);
+       if (confirm("Do you want to finalize the order?") == true) {
+      this.cartService.createPurchase(this.fuser);
       this.cartService.removeAllCart();
       this.setCart()
+      alert("Successful order.")
 
     } else {
     }
     } else{
-      alert("Válj Customerré ahhoz hogy rendelést tudj leadni.")
+      alert("Become a Customer to be able to place an order")
     }
 
     console.log(this.cart); // log the cart object to the console
