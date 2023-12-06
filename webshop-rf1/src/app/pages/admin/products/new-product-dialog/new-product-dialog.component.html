@@ -5,7 +5,7 @@
   </h2>
 
   <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
-    <mat-form-field [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
       <mat-label>Product Name</mat-label>
       <input
         matInput
@@ -16,7 +16,7 @@
       />
     </mat-form-field>
 
-    <mat-form-field [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
       <mat-label>Price</mat-label>
       <input
         matInput
@@ -27,7 +27,7 @@
       />
     </mat-form-field>
 
-    <mat-form-field [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
       <mat-label>Description</mat-label>
       <textarea
         matInput
@@ -42,7 +42,6 @@
     <mat-form-field>
       <select
         matNativeControl
-        required
         id="selectTags"
         name="selectTag"
         formControlName="tags"
@@ -53,8 +52,6 @@
         </option>
       </select>
     </mat-form-field>
-
-    <div></div>
 
     <div class="btn-container">
       <button mat-button mat-dialog-close class="add-btn" type="button">
