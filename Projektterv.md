@@ -466,7 +466,7 @@ Erőforrásigény: 3 személynap
 Felelős: Fekete István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.5 Login tesztelése *
+#### 8.4.5 Login tesztelése 
 Felelős: Kuruczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
@@ -482,9 +482,9 @@ Erőforrásigény: 1 személynap
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
-#### 8.4.9 Admin: Felhasználó szerepkörének módosításának tesztelése *
+#### 8.4.9 Admin: tagek kezelése *
 Felelős: Kovács-Bodó Csenge
-Tartam: 1 nap
+Tartam: 2 nap
 Erőforrásigény: 1 személynap
 #### 8.4.10 Admin: Felhasználó törlésének tesztelése *
 Felelős: Szilágyi Martin György
