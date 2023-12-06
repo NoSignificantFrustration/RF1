@@ -58,17 +58,17 @@ export class ProfileComponent {
             console.warn('Customer not found.');
           }
         });
-        if(this.customer){
+        if(!this.customer){
           // Set customer information fields
           
-
+        console.log("Dasdasdasdsa")
           // Retrieve purchases for the logged-in user
         this.purchaseService.getPurchasesByCustomerId(this.customer!.customerId).subscribe((purchases) => {
           this.purchases = purchases;
 
           // Iterate over purchases and retrieve product information
           this.purchases.forEach((purchase) => {
-            this.productService.getProductById(purchase.productId).subscribe((product) => {
+/*             this.productService.getProductById(purchase.productId).subscribe((product) => {
               if (product) {
                 // Retrieve product image URL
                 this.productService.getProductImageUrl(product.imageUrl).subscribe((downloadUrl) => {
@@ -83,14 +83,13 @@ export class ProfileComponent {
                   });
                 });
               }
-            });
+            }); */
           });
         });
         }
         
       }
     });  
-    console.log(this.isCustomer)
   }
   becomeCustomer():void{
     this.afAuth.authState.subscribe((user) => {

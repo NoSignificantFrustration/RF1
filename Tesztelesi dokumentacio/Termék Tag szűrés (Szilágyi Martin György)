@@ -1,0 +1,61 @@
+
+Az alábbi tesztdokumentum a Webshop projekthez 8.3.8 Főoldal Tag keresés. Felelőse: Szilágyi Martin György.
+
+1. Teszteljárások (TP)
+1.1 Főoldal megjelenítése
+
+1.lépés: Nyissuk meg a megfelelő weblapunkat
+2.lépés: Keressük meg a kivánt terméket
+
+1.2 Tag alapú szűrés
+
+0.lépés: A főoldalon vagyunk már
+1.lépés: Kattintsunk az egyik tagre
+2.lépés: Ha sikerült akkor a tag alapján szűrve vannak a termékek.
+
+
+2. Teszesetek (TC)
+
+2.1. Főoldal megjelenítése
+
+2.1.1. TC-01
+
+TP: TP-01
+Leírás: Ha a főoldalon szűrtebben akkarunk termékekt látni akkor megkell nyitni a homepaget.
+Bemenet: kattintás
+Művelet: nyissuk meg a az oldalt
+Elvárt kimenet: A homepagere jutunk gondnélkül.
+
+
+2.2. Tag alapú szűrés
+
+2.2.1. TC-01
+
+TP: TP-02
+Leírás: A kivánt tag alapján szeretnénk szűrni az oldalt
+Bemenet: kattintás
+Művelet: nyomjunk rá a kivánt tagre.
+Elvárt kimenet: Megkapjuk a taggel rendelkező termékeket.
+
+3. Tesztriportok (TR)
+
+3.1. Főoldal megjelenítése
+
+3.1.1. TR-01 (TC-01)
+
+TP: TP-01
+
+1.lépés: megnyitottam a deployolt weboldalt.
+2.lépés: Megnyílik a homepage gondnélkül.
+
+
+
+
+3.2. Tag alapú szűrés
+
+3.2.1. TR-01 (TC-01)
+
+TP: TP-02
+
+1.lépés: A homepagen rányomok a Sony tagre.
+2.lépés: Csak a Sony taggel rendelkező termékek látszódnak.

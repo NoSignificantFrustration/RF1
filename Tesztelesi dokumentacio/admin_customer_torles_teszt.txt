@@ -1,0 +1,52 @@
+Az alábbi tesztdokumentum a Webshop projekthez tartozó 8.3.20 Admin: Táblák backend (Customer törlés) funkcióihoz készült. Felelőse: Mackovic Mark
+
+1. Teszteljárások (TP)
+
+1.1. Customer törlésének tesztelése
+
+Azonosító: TP-01
+Tesztesetek: TC-01
+Leírás: Customer törlésének tesztelése
+0. lépés: Nyissuk meg az alkalmazást és kattinsunk a "profil" fülre az oldalon
+1. lépés: Lépjünk a "login" oldalra
+2. lépés: Jelentkezzünk be az admin adatival
+3. lépés: Lépjünk a "kezelő" oldalra
+4. lépés: Görgessünk a "Customers" táblához
+5. lépés: Kattintsunk a "delete" ikonra "Gipsz Jakab" vásárló sorában
+
+
+
+2. Teszesetek (TC)
+
+2.1. Customer törlésének tesztesetei
+
+2.1.1. TC-01
+
+TP: TP-01
+Leírás: Customer törlésének tesztelése
+Bemenet: Kattintás a "delete" ikonra a "Gipsz Jakab" felhasználó sorában
+Művelet: Kattintsunk a "delete" ikonra
+Elvárt kimenet: Gipsz Jakab vásárló törölve lett
+
+3. Tesztriportok (TR)
+
+3.1. Customer törlésének tesztelése
+
+3.1.1. TR-01 (TC-01)
+
+TP: TP-01
+- lépés: megnyitottuk az alkalmazást és a "profil" oldalra léptünk
+- lépés: a "login" oldalra léptünk
+- lépés: bejelentkezünk az admin adataival
+- lépés: átléptünk a "kezelő" oldalra
+- lépés: legörgettünk a "Customers" táblához
+- lépés: ráattintsunk a "delete" ikonra "Gipsz Jakab" vásárló sorában
+Eredmény: Gipsz Jakab vásárló törölve a rendszerből
+
+
+
+
+
+
+
+
