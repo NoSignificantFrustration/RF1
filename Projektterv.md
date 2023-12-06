@@ -517,7 +517,7 @@ Erőforrásigény: 2 személynap
 Felelős: Kovács-bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
-#### 8.4.18 Depley tesztelése
+#### 8.4.18 Deploy tesztelése
 Felelős: Kovács-bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
