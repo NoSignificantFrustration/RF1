@@ -463,10 +463,10 @@ Felelős: Fekete István
 Tartam: 4 nap
 Erőforrásigény: 3 személynap
 #### 8.4.4 Regisztráció tesztelése
-Felelős: Mackovic Márk
+Felelős: Fekete István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.5 Login tesztelése
+#### 8.4.5 Login tesztelése *
 Felelős: Kuruczi Nándor
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
@@ -478,23 +478,22 @@ Erőforrásigény: 1 személynap
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.8 Felhasználó adatainak szerkesztésének tesztelése
+#### 8.4.8 Felhasználó adatainak szerkesztésének tesztelése *
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
-#### 8.4.9 Admin: Felhasználó szerepkörének módosításának tesztelése
+#### 8.4.9 Admin: Felhasználó szerepkörének módosításának tesztelése *
 Felelős: Kovács-Bodó Csenge
 Tartam: 1 nap
 Erőforrásigény: 1 személynap
-#### 8.4.10 Admin: Felhasználó törlésének tesztelése
+#### 8.4.10 Admin: Felhasználó törlésének tesztelése *
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.11 Komment létrehozásának tesztelése
-Felelős: Kacziba Zsolt
+#### 8.4.11 Komment létrehozásának tesztelése *
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.12 Komment törlésének tesztelése
+#### 8.4.12 Komment törlésének tesztelése *
 Felelős: Mackovic Márk
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
@@ -510,7 +509,7 @@ Erőforrásigény: 1 személynap
 Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.16 Adatbázis tesztelése
+#### 8.4.16 Adatbázis tesztelése *
 Felelős: Szilágyi Martin György
 Tartam: 3 nap
 Erőforrásigény: 2 személynap 
