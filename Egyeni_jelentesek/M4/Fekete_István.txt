@@ -1,0 +1,20 @@
+Vállalásaim a mérföldkőben:
+
+CSS hibák javítása
+8.4.13 Termék hozzáadás tesztelése
+
+A feladathoz tartozó issue(k):
+
+#67
+#68
+
+
+A feladat elvégzését alátámasztó commit(ok):
+
+bad97feb
+8971c011
+7d42cc1e
+d575a3e7
+0a837426
+
++egyéni jelentés commit-ja
