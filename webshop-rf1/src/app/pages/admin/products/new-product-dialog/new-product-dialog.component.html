@@ -1,40 +1,69 @@
-<div [ngSwitch]="edit">
-  <div *ngSwitchCase="'new'" class="form-container">
-    <h2>New Product</h2>
+<div class="form-container">
+  <h2 *ngIf="edit == 'new'">New Product</h2>
+  <h2 *ngIf="edit == 'edit'">
+    Edit the following product: <strong>{{ product?.productName }}</strong>
+  </h2>
 
-    <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
-      <div class="input-container">
-        <label for="productName">Product Name:</label>
-        <input type="text" id="productName" formControlName="productName" />
-      </div>
+  <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <mat-label>Product Name</mat-label>
+      <input
+        matInput
+        type="text"
+        id="productName"
+        formControlName="productName"
+        placeholder="Xiaomi Mi 9"
+      />
+    </mat-form-field>
 
-      <div class="input-container">
-        <label for="price">Price:</label>
-        <input type="number" id="price" formControlName="price" />
-      </div>
+    <mat-form-field>
+      <mat-label>Price</mat-label>
+      <input
+        matInput
+        type="number"
+        id="price"
+        formControlName="price"
+        placeholder="1500"
+      />
+    </mat-form-field>
 
-      <div class="input-container">
-        <label for="description">Description:</label>
-        <textarea id="description" formControlName="description"></textarea>
-      </div>
+    <mat-form-field>
+      <mat-label>Description</mat-label>
+      <textarea
+        matInput
+        type="text"
+        id="description"
+        formControlName="description"
+        placeholder="This product is....."
+      ></textarea>
+    </mat-form-field>
 
-      <div class="input-container">
-        <label for="imageUrl">Image URL:</label>
-        <input type="text" id="imageUrl" formControlName="imageUrl" />
-      </div>
+    <mat-label>Description</mat-label>
+    <mat-form-field>
+      <select
+        matNativeControl
+        id="selectTags"
+        name="selectTag"
+        formControlName="tags"
+        multiple
+      >
+        <option *ngFor="let tag of tags" [ngValue]="tag.tagName">
+          {{ tag.tagName }}
+        </option>
+      </select>
+    </mat-form-field>
 
-      <div class="btn-container">
-        <button mat-button mat-dialog-close class="add-btn" type="button">
-          Cancel
-        </button>
-        <button
-          style="background-color: rgb(231, 78, 78)"
-          class="add-btn"
-          type="submit"
-        >
-          Submit
-        </button>
-      </div>
-    </form>
-  </div>
+    <div class="btn-container">
+      <button mat-button mat-dialog-close class="add-btn" type="button">
+        Cancel
+      </button>
+      <button
+        style="background-color: rgb(231, 78, 78)"
+        class="add-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
 </div>

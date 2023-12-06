@@ -6,8 +6,9 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let category of categories">
-      <td>{{ category }}</td>
+    <tr *ngFor="let tag of tags">
+      <td>{{ tag.tagName }}</td>
+      <td><mat-icon (click)="deleteTag(tag)">delete_forever</mat-icon></td>
     </tr>
   </tbody>
 </table>

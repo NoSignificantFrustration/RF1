@@ -1,26 +1,32 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/shared/models/Product';
+import { Tags } from 'src/app/shared/models/Tags';
 import { ProductService } from 'src/app/shared/services/product.service';
+import { TagsService } from 'src/app/shared/services/tags.service';
 
 @Component({
   selector: 'app-categories',
   templateUrl: './categories.component.html',
-  styleUrls: ['./categories.component.scss']
+  styleUrls: ['./categories.component.scss'],
 })
-export class CategoriesComponent implements OnInit{
+export class CategoriesComponent implements OnInit {
   products: Product[] = [];
-  categories: Set<string> = new Set();
-  constructor (private productService: ProductService){}
+  tags: Tags[] = [];
+  //categories: Set<string> = new Set();
+
+  constructor(
+    private productService: ProductService,
+    private tagsService: TagsService
+  ) {}
 
   ngOnInit(): void {
-    this.productService.getAllProducts().subscribe(products => {
-      this.products = products;
+    this.tagsService.getAllTags().subscribe((tags) => {
+      this.tags = tags;
+    });
+  }
 
-      products.forEach(element => {
-        element.tags?.forEach(tag => {
-          this.categories.add(tag);
-        });
-      });
-  })}
-
+  deleteTag(tag: Tags) {
+    //this.tagsService.deleteTagById(tag.tagId);
+    //real id alapjánt tud csak törölni!
+  }
 }

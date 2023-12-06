@@ -15,14 +15,19 @@ export class NewProductDialogComponent implements OnInit {
   tags: Tags[] = [];
   product: Product | null = null;
 
-  productForm: FormGroup = this.fb.group({
-    productId: [''],
-    productName: ['', Validators.required],
-    price: [null, Validators.required],
-    tags: [[]],
-    description: [''],
-    imageUrl: ['products_image/zflip5.jpg', Validators.required],
-  });
+  productForm: FormGroup = this.fb.group(
+    {
+      productId: [''],
+      productName: ['', Validators.required],
+      price: [null, Validators.required],
+      tags: [[]],
+      description: [''],
+      imageUrl: ['products_image/zflip5.jpg', Validators.required],
+    },
+    { updateOn: 'submit' }
+  );
+
+  ngOnInit(): void {}
 
   constructor(
     private fb: FormBuilder,
@@ -59,15 +64,17 @@ export class NewProductDialogComponent implements OnInit {
     }
   }
 
-  ngOnInit(): void {}
-
   onSubmit() {
     const formData = this.productForm.value as Product;
-    if (!formData.productName || !formData.price || this.product == null) {
-    } else if (this.product != null) {
-      this.productService.updateProduct(this.product);
-    } else {
-      this.productService.createProduct(formData);
+    if (this.productForm.status == 'VALID') {
+      console.log(this.productForm);
+      if (this.product == null) {
+        this.productService.createProduct(formData);
+        this.dialog.closeAll();
+      } else {
+        this.productService.updateProduct(formData);
+        this.dialog.closeAll();
+      }
     }
   }
 }
