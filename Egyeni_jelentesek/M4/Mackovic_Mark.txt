@@ -1,0 +1,17 @@
+Vállalásaim a mérföldkőben:
+
+Tesztelés kommentekhez
+Egyéb funkciók megvalósítása az admin oldalon
+
+A feladathoz tartozó issue(k):
+
+#70
+#72
+A feladat elvégzését alátámasztó commit(ok):
+
+732953c7
+d5e5e7c0
+0ecbc47d
+f27a8232
+81ee8d5a
+Egyéni jelentés
