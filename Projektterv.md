@@ -432,7 +432,7 @@ Felelős: Mackovic Márk
 Tartam: 5 nap
 Erőforrásigény: 5 személynap
 #### 8.3.20 Admin: Táblák backend (CRUD)
-Felelős: Kovács-Bodó Csenge
+Felelős: Mackovic Mark
 Tartam: 4 nap
 Erőforrásigény: 4 személynap
 #### 8.3.21 Deploy
@@ -478,22 +478,22 @@ Erőforrásigény: 1 személynap
 Felelős: Márton István
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.8 Felhasználó adatainak szerkesztésének tesztelése *
+#### 8.4.8 Felhasználó adatainak szerkesztésének tesztelése 
 Felelős: Kacziba Zsolt
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
-#### 8.4.9 Admin: tagek kezelése *
+#### 8.4.9 Felhasználó törlésének tesztelése 
 Felelős: Kovács-Bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.10 Admin: Felhasználó törlésének tesztelése *
+#### 8.4.10 Admin: Felhasználó törlésének tesztelése 
 Felelős: Szilágyi Martin György
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.11 Komment létrehozásának tesztelése *
+#### 8.4.11 Komment létrehozásának tesztelése 
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.12 Komment törlésének tesztelése *
+#### 8.4.12 Komment törlésének tesztelése 
 Felelős: Mackovic Márk
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
@@ -509,11 +509,11 @@ Erőforrásigény: 1 személynap
 Felelős: Varga András Bendegúz
 Tartam: 2 nap
 Erőforrásigény: 1 személynap
-#### 8.4.16 Adatbázis tesztelése *
+#### 8.4.16 Adatbázis tesztelése 
 Felelős: Szilágyi Martin György
 Tartam: 3 nap
 Erőforrásigény: 2 személynap 
-#### 8.4.17 Customer delete gomb fix, login oldal kijavítása
+#### 8.4.17 Customer delete gomb fix, login oldal kijavítása, admin backend fix
 Felelős: Kovács-bodó Csenge
 Tartam: 2 nap
 Erőforrásigény: 1 személynap 
