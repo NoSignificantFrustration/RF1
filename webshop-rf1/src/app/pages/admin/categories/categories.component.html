@@ -2,15 +2,12 @@
 <table>
   <thead>
     <tr>
-      <th>Category</th>
-      <th>Modify</th>
+      <th style="text-align: center">Category</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let category of categories">
       <td>{{ category }}</td>
-      <td><mat-icon>delete_forever</mat-icon></td>
     </tr>
   </tbody>
 </table>
-<button type="button" class="add-btn">Add new category</button>
