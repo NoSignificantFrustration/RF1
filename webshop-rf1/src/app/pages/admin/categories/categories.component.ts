@@ -24,4 +24,9 @@ export class CategoriesComponent implements OnInit {
       this.tags = tags;
     });
   }
+
+  deleteTag(tag: Tags) {
+    //this.tagsService.deleteTagById(tag.tagId);
+    //real id alapjánt tud csak törölni!
+  }
 }
