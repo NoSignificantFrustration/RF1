@@ -8,6 +8,9 @@ import {
 import { Product } from 'src/app/shared/models/Product';
 import { ProductService } from 'src/app/shared/services/product.service';
 import { NewProductDialogComponent } from './new-product-dialog/new-product-dialog.component';
+import { TagsService } from 'src/app/shared/services/tags.service';
+import { TagsComponent } from '../../home/tags/tags.component';
+import { Tags } from 'src/app/shared/models/Tags';
 
 @Component({
   selector: 'app-products',
@@ -16,14 +19,19 @@ import { NewProductDialogComponent } from './new-product-dialog/new-product-dial
 })
 export class ProductsComponent implements OnInit {
   products: Product[] = [];
+  tags: Tags[] = [];
   constructor(
     private productService: ProductService,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    public tagService: TagsService
   ) {}
 
   ngOnInit(): void {
     this.productService.getAllProducts().subscribe((products) => {
       this.products = products;
+    });
+    this.tagService.getAllTags().subscribe((tags) => {
+      this.tags = tags;
     });
 
     const prod: Product = {
@@ -37,9 +45,13 @@ export class ProductsComponent implements OnInit {
     //this.productService.createProduct(prod);
   }
 
-  openNewProductDialog(initialedit: string) {
+  openNewProductDialog(initialedit: string, product?: Product) {
     const dialogRef = this.dialog.open(NewProductDialogComponent, {
-      data: initialedit,
+      data: {
+        initialedit,
+        tags: this.tags,
+        product,
+      },
     });
   }
 
