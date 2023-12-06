@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import * as firebase from 'firebase/compat';
 import { Customer } from 'src/app/shared/models/Customer';
 import { Product } from 'src/app/shared/models/Product';
 import { Purchase } from 'src/app/shared/models/Purchase';
@@ -63,7 +64,6 @@ export class ProfileComponent {
             // Retrieve purchases for the logged-in user
             this.purchaseService.getPurchasesByCustomerId(this.customer!.customerId).subscribe((purchases) => {
               this.purchases = purchases;
-              console.log(purchases);
 
               // Iterate over purchases and retrieve product information
               this.purchases.forEach((purchase) => {
@@ -84,11 +84,12 @@ export class ProfileComponent {
                           minute: 'numeric',
                         };
 
+                        let day:Date = (purchase.date as any).toDate();
                         // Push the purchased product into the array
                         this.purchasedProducts.push({
                           imageUrl: productum.imageUrl || '',
                           productName: productum.productName || '',
-                          date: purchase.date.toString(),
+                          date: `${day.getFullYear()} - ${day.getMonth()} - ${day.getDay()}`,
                           amount: product.quantity,
                           price: productum.price
                         });
