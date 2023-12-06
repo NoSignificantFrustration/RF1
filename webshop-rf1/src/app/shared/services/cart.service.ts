@@ -35,6 +35,7 @@ export class CartService {
   removeFromCart(productId:string): void {
     this.cart.items =
       this.cart.items.filter(item => item.product.productId != productId);
+
   }
 
   changeQuantity(productId: String, quantity: number) {
@@ -93,9 +94,9 @@ export class CartService {
   }
 
   removeAllCart() {
-    this.cart.items.length =0;
+    this.cart=new Cart();
     this.cookieService.delete("Id")
-    this.cookieService.delete("ToolId")
+    this.cookieService.delete("productId")
     this.cookieService.delete("quantity")
 
   }
@@ -106,18 +107,17 @@ export class CartService {
     const productsArray: { productId: string; quantity: number }[] = [];
 
     for (let i = 0; i < this.cart.items.length; i++) {
-      for (let j = 0; j < this.cart.items[i].quantity; j++) {
         productsArray.push({
           productId: this.cart.items[i].product.productId.toString(),
-          quantity: 1, // Assuming quantity is always 1, adjust as needed
+          quantity: this.cart.items[i].quantity, // Assuming quantity is always 1, adjust as needed
         });
-      }
     }
-  
+
+    console.log("purchase")
     const purchase = new Purchase(user.uid, new Date(), productsArray);
-  
+
     this.firestore.collection<Purchase>('Purchases').add({ ...purchase });
-  
+
     return;
   }
 }

@@ -45,7 +45,6 @@ export class CartComponent {
         });
       });
       this.products = products;
-      this.cartServive.reloedCookie(this.products);
 });
     console.log(this.customer)
     console.log(this.cart);
@@ -66,7 +65,6 @@ export class CartComponent {
   }
 
   setCart(){
-    this.cartServive.reloedCookie(this.products);
     this.cart = this.cartService.getCart();
   }
   checkout(){
@@ -76,6 +74,7 @@ export class CartComponent {
       this.cartService.removeAllCart();
       this.setCart()
       alert("Successful order.")
+         console.log("order")
 
     } else {
     }
