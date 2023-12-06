@@ -78,7 +78,7 @@ export class ProductService {
       );
   }
 
-  async deleteProductById(productId: number) {
+  async deleteProductById(productId: String) {
     return await this.afs.doc(`Products/${productId}`).delete();
   }
 

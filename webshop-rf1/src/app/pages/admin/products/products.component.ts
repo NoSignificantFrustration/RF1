@@ -35,7 +35,7 @@ export class ProductsComponent implements OnInit {
     });
 
     const prod: Product = {
-      productId: 15,
+      productId: "15",
       productName: 'dummy',
       price: 200,
       tags: ['Mobile', 'Apple', '128 Gb'],
@@ -67,7 +67,7 @@ export class ProductsComponent implements OnInit {
     });
   }
 
-  onDelete(productId: number): void {
+  onDelete(productId: String): void {
     this.productService.deleteProductById(productId);
   }
 }

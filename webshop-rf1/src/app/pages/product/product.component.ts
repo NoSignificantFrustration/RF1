@@ -86,7 +86,7 @@ export class ProductComponent implements OnInit{
             this.products = products;
           });
 
-
+/*
           const prod: Product= {
               productId: 1,
               productName: 'Iphone 15',
@@ -96,13 +96,20 @@ export class ProductComponent implements OnInit{
               imageUrl: 'products_image/iphone_15.jpg'
 
           }
+
+ */
           // this.productService.createProduct(prod)
     }
     });
   }
 
   addCart(){
-    this.cartService.addToCart(this.product);
+    for (let i = 0; i < this.products.length; i++) {
+      if(this.products[i].productId==this.product?.productId){
+        this.cartService.addToCart(this.product);
+        break;
+      }
+    }
     this.router.navigate(['/cart']);
   }
 
