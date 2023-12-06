@@ -100,15 +100,24 @@ export class CartService {
 
   }
   createPurchase(user:firebase.default.User | null) {
-    if(user==null){
-      return;
+    if(!user){
+      return
     }
+    const productsArray: { productId: string; quantity: number }[] = [];
+
     for (let i = 0; i < this.cart.items.length; i++) {
-      for (let j = 0; j <this.cart.items[i].quantity; j++) {
-        this.firestore.collection<Purchase>('Purchases').add(
-          {...new Purchase(user.uid,new Date(), this.cart.items[i].product.productId.toString())});
+      for (let j = 0; j < this.cart.items[i].quantity; j++) {
+        productsArray.push({
+          productId: this.cart.items[i].product.productId.toString(),
+          quantity: 1, // Assuming quantity is always 1, adjust as needed
+        });
       }
     }
-    return
+  
+    const purchase = new Purchase(user.uid, new Date(), productsArray);
+  
+    this.firestore.collection<Purchase>('Purchases').add({ ...purchase });
+  
+    return;
   }
 }
