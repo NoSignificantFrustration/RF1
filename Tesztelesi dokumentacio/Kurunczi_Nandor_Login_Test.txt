@@ -1,0 +1,83 @@
+## 1. Teszteljárások (TP)
+
+### 1.1. Login tesztelése
+- Azonosító: TP-01
+- Tesztesetek: TC-01 - TC-05
+- Leírás: Login funkció tesztelése
+    0. lépés: Nyissuk meg az alkalmazást, és lépjünk a regisztációs oldalra
+    1. lépés: Az `Email` szövegbeviteli mezőbe írjunk be a `Email1` emailcímet
+    2. lépés: Az `Password` szövegbeviteli mezőbe írjunk be a `Password1` jelszót
+    3. lépés: Nyomjuk meg az `Login` gombot 
+    4. lépés: Ellenőrizzük az eredményt. Elvárt eredmény: Belépés / Hiba
+
+## 2. Teszesetek (TC)
+
+#### 2.1. TC-01
+- TP: TP-01
+- Leírás: Login funkció tesztelése 
+- Bemenet: `Email1` = Üres mező, `Password1` = Helyes Jelszó
+- Művelet: nyomjuk meg az `Login` gombot 
+- Elvárt kimenet: Hiba kiírása
+
+#### 2.2. TC-02
+- TP: TP-01
+- Leírás: Login funkció tesztelése 
+- Bemenet: `Email1` = nem regisztrált email cím, `Password1` = Helyes Jelszó
+- Művelet: nyomjuk meg az `Login` gombot 
+- Elvárt kimenet: Hiba kiírása
+
+#### 2.3. TC-03
+- TP: TP-01
+- Leírás: Login funkció tesztelése 
+- Bemenet: `Email1` = Helyes email, `Password1` = rossz jelszó
+- Művelet: nyomjuk meg az `Login` gombot 
+- Elvárt kimenet: Hiba kiírása
+
+#### 2.4. TC-04
+- TP: TP-01
+- Leírás: Login funkció tesztelése 
+- Bemenet: `Email1` = Helyes email, `Password1` = üres mező
+- Művelet: nyomjuk meg az `Login` gombot 
+- Elvárt kimenet: Hiba kiírása
+
+#### 2.5. TC-05
+- TP: TP-01
+- Leírás: Login funkció tesztelése 
+- Bemenet: `Email1` = Helyes email, `Password1` = Helyes
+- Művelet: nyomjuk meg az `Login` gombot 
+- Elvárt kimenet: Hiba kiírása
+
+## 3. Tesztriportok (TR)
+
+#### 3.1. TR-01 (TC-01)
+
+- TP: TP-01
+    1. lépés: Email mezőt uresen hagytam
+    2. lépés: Helyes jelszótt beírtam 
+    3. lépés: a Böngésző hibát ír ki
+    4. lépés: helyes eredményt kaptam (HIBA)
+
+- TP: TP-02
+    1. lépés: nem regisztrált email-t beírtam
+    2. lépés: Helyes jelszótt beírtam 
+    3. lépés: a Böngésző hibát ír ki
+    4. lépés: helyes eredményt kaptam (HIBA)
+
+- TP: TP-03
+    1. lépés: Helyes email-t beírtam
+    2. lépés: rossz jelszót beírtam 
+    3. lépés: a Böngésző hibát ír ki
+    4. lépés: helyes eredményt kaptam (HIBA)
+
+- TP: TP-04
+    1. lépés: Helyes email-t beírtam
+    2. lépés: jelszó mezőt uresen hagytam
+    3. lépés: a Böngésző hibát ír ki
+    4. lépés: helyes eredményt kaptam (HIBA)
+
+- TP: TP-05
+    1. lépés: Helyes email-t beírtam
+    2. lépés: helyes jelszót beirtam
+    3. lépés: a Böngésző beléptet az oldalra és be vagyok jelentkezve
+    4. lépés: helyes eredményt kaptam (Belépés)
+    
