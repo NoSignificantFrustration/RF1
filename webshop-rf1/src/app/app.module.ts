@@ -37,6 +37,7 @@ import { MatOption } from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { NewTagDialogComponent } from './pages/admin/categories/new-tag-dialog/new-tag-dialog.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     CommentFormComponent,
     CommentComponent,
     EmptyCartComponent,
+    NewTagDialogComponent,
   ],
   imports: [
     BrowserModule,

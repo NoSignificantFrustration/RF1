@@ -1,0 +1,30 @@
+<div class="form-container">
+  <h2>Add new tag</h2>
+  <form [formGroup]="tagForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <mat-label class="label">Tag Name</mat-label>
+      <input
+        matInput
+        spellcheck="false"
+        autocomplete="off"
+        type="text"
+        id="tagName"
+        formControlName="tagName"
+        placeholder="Brand,type..."
+      />
+    </mat-form-field>
+
+    <div class="btn-container">
+      <button mat-button mat-dialog-close class="add-btn" type="button">
+        Cancel
+      </button>
+      <button
+        style="background-color: rgb(231, 78, 78)"
+        class="add-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>

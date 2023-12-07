@@ -35,4 +35,8 @@ export class TagsService {
   deleteTagById(tagId: string) {
     return this.afs.doc(`Tags/${tagId}`).delete();
   }
+
+  createTag(tag: Tags) {
+    return this.afs.collection<Tags>('Tags').add(tag);
+  }
 }

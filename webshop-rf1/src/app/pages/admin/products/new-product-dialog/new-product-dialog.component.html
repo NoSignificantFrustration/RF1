@@ -5,41 +5,52 @@
   </h2>
 
   <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
-    <mat-form-field>
-      <mat-label>Product Name</mat-label>
+    <mat-form-field class="label" hintLabel="Max 50 caracters">
+      <mat-label class="label">Product Name</mat-label>
       <input
+        spellcheck="false"
+        autocomplete="off"
         matInput
         type="text"
         id="productName"
         formControlName="productName"
         placeholder="Xiaomi Mi 9"
+        #name
       />
+      <mat-hint align="end">{{ name.value.length }}/50</mat-hint>
     </mat-form-field>
 
-    <mat-form-field>
-      <mat-label>Price</mat-label>
+    <mat-form-field floatLabel="always">
+      <mat-label class="label">Price</mat-label>
       <input
+        spellcheck="false"
+        autocomplete="off"
         matInput
         type="number"
         id="price"
         formControlName="price"
         placeholder="1500"
       />
+      <span matTextPrefix>$&nbsp;</span>
     </mat-form-field>
 
-    <mat-form-field>
-      <mat-label>Description</mat-label>
+    <mat-form-field class="label" hintLabel="Max 300 caracters">
+      <mat-label class="label">Description</mat-label>
       <textarea
+        spellcheck="false"
+        autocomplete="off"
         matInput
         type="text"
         id="description"
         formControlName="description"
         placeholder="This product is....."
+        #desc
       ></textarea>
+      <mat-hint align="end">{{ desc.value.length }}/300</mat-hint>
     </mat-form-field>
 
-    <mat-label>Description</mat-label>
     <mat-form-field>
+      <mat-label class="label">Tags</mat-label>
       <select
         matNativeControl
         id="selectTags"

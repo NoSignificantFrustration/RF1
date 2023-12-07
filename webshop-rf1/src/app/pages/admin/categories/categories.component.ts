@@ -3,6 +3,8 @@ import { Product } from 'src/app/shared/models/Product';
 import { Tags } from 'src/app/shared/models/Tags';
 import { ProductService } from 'src/app/shared/services/product.service';
 import { TagsService } from 'src/app/shared/services/tags.service';
+import { NewTagDialogComponent } from './new-tag-dialog/new-tag-dialog.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-categories',
@@ -16,7 +18,8 @@ export class CategoriesComponent implements OnInit {
 
   constructor(
     private productService: ProductService,
-    private tagsService: TagsService
+    private tagsService: TagsService,
+    public dialog: MatDialog
   ) {}
 
   ngOnInit(): void {
@@ -28,5 +31,10 @@ export class CategoriesComponent implements OnInit {
   deleteTag(tag: Tags) {
     //this.tagsService.deleteTagById(tag.tagId);
     //real id alapjánt tud csak törölni!
+  }
+
+  openNewTagDialog() {
+    console.log('here');
+    const dialogRef = this.dialog.open(NewTagDialogComponent);
   }
 }

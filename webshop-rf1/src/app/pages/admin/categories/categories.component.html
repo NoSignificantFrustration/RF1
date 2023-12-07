@@ -2,13 +2,15 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Category</th>
+      <th>Category</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let tag of tags">
       <td>{{ tag.tagName }}</td>
-      <td><mat-icon (click)="deleteTag(tag)">delete_forever</mat-icon></td>
     </tr>
   </tbody>
 </table>
+<button (click)="openNewTagDialog()" type="button" class="add-btn">
+  Add new Tag
+</button>
