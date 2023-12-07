@@ -1,0 +1,7 @@
+Mérföldkőre feladataim:
+Tagek kinézetének javítása css-el
+Termék oldal kinézetének javítása css-el
+Termék oldalon a komment komponensek kinézetének javítása css-el
+Profil oldal Customer regisztrációs form Frontend megcsinálása
+Adatbázis módosítás utáni kompatibilitás biztosítása a Profile/Vásárlások kilistázása felületen
+Regisztráció tesztelése
