@@ -1,0 +1,5 @@
+Mérföldkőre feladatom:
+Login / Regisztració oldal frontend megcsinálása
+Angular html + css
+Profil oldal megvásárolt termékek listázása egy táblázatba
+Header megjavítása mert kicsit mókásan lett css-ezve
